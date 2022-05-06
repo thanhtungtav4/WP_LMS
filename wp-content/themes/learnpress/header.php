@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-	<?php wp_head(); ?>  
+	<?php wp_head(); ?>
 </head>
   <body>
     <div class="container">
@@ -37,7 +37,7 @@
               <li class="nav-menu_item"><a href="#">Blog</a></li>
               <li class="nav-menu_item"><a href="#">Ebook</a></li>
               <li class="nav-menu_item"><a href="#">Video</a></li>
-              <li class="nav-menu_item"><a href="#"> 
+              <li class="nav-menu_item"><a href="/gio-hang">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="32" height="32" fill="url(#pattern0)"></rect>
                     <defs>

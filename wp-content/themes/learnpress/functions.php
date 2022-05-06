@@ -176,3 +176,12 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function wc_remove_checkout_fields( $fields ) {
+	unset( $fields['billing']['billing_state'] );
+	unset( $fields['billing']['billing_address_1'] );
+	unset( $fields['billing']['billing_postcode'] );
+	unset( $fields['billing']['billing_country'] );
+	unset( $fields['billing']['billing_company'] );
+	return $fields;
+}
+	add_filter( 'woocommerce_checkout_fields', 'wc_remove_checkout_fields' );

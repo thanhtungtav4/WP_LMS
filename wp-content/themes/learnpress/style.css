@@ -1,0 +1,15 @@
+:root {
+  --tutor-color-primary: #34A606;
+}
+.tutor-wrap{
+  margin: 3rem auto;
+}
+.tutor-fs-7 {
+  font-size: 1.3rem;
+}
+.tutor-fs-6{
+  font-size: 1.2rem;
+}
+#tutor-single-entry-content .tutor-single-page-top-bar{
+  display: none !important;
+}
