@@ -13,3 +13,40 @@
 #tutor-single-entry-content .tutor-single-page-top-bar{
   display: none !important;
 }
+.m-cart{
+  position: relative;
+}
+.c-header .m-cart a{
+  color: #34A606;
+}
+.widget_shopping_cart_content{
+  position: absolute;
+  top: 17px;
+  width: 300px;
+  right: 0;
+  padding: 15px;
+  background-color: #eff1f7;
+  z-index: 10;
+  color: #34A606;
+}
+.woocommerce-mini-cart__empty-message{
+  color: var(--tutor-color-primary);
+}
+.size-woocommerce_thumbnail{
+  width: 70px;
+  height: auto;
+  font-size: 1.3rem;
+}
+.woocommerce-mini-cart__buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.c-header .woocommerce-mini-cart__buttons a{
+  background-color: #34A606;
+  color: #ffff;
+  padding: 5px 10px 5px;
+  font-size: 1.5rem;
+}
+.woocommerce-mini-cart__total{
+  margin: 2rem 0;
+}

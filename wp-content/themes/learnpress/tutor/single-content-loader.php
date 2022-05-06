@@ -57,12 +57,12 @@ get_tutor_header();
 
             <div class="tutor-course-single-sidebar-wraper tutor-mobile-sidebar">
                 <?php tutor_course_single_sidebar(true, 'mobile'); ?>
-            </div> 
+            </div>
         </div>
     </div>
 
     <!-- Course Progressbar on sm/mobile  -->
-    <?php 
+    <?php
         // Get the ID of this content and the corresponding course
         $course_content_id = get_the_ID();
         $course_id         = tutor_utils()->get_course_id_by_subcontent( $course_content_id );
@@ -86,7 +86,7 @@ get_tutor_header();
                     </div>
                 </div>
             </div>
-            
+
             <?php if(!$is_completed_lesson): ?>
                 <div class="tutor-spotlight-mobile-progress-right tutor-col-6">
                     <?php tutor_lesson_mark_complete_html(); ?>
