@@ -1,2 +1,15 @@
 2022-05-06T03:23:26+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\header.php on line 107
 
+2022-05-06T15:01:38+00:00 CRITICAL require_once(): Failed opening required '../template-parts/courses-owl.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/learnpress/tutor/archive-course.php on line 21
+
+2022-05-06T15:02:24+00:00 CRITICAL require_once(): Failed opening required '../template-parts/courses-owl.php' (include_path='.:/usr/local/lib/php') in /var/www/html/wp-content/themes/learnpress/tutor/archive-course.php on line 21
+
+2022-05-06T15:04:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_template_part(), 0 passed in /var/www/html/wp-content/themes/learnpress/tutor/archive-course.php on line 21 and at least 1 expected in /var/www/html/wp-includes/general-template.php:167
+Stack trace:
+#0 /var/www/html/wp-content/themes/learnpress/tutor/archive-course.php(21): get_template_part()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/general-template.php on line 167
+

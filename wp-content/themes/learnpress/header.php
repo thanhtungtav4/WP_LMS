@@ -37,7 +37,7 @@
               <li class="nav-menu_item"><a href="#">Blog</a></li>
               <li class="nav-menu_item"><a href="#">Ebook</a></li>
               <li class="nav-menu_item"><a href="#">Video</a></li>
-              <li class="nav-menu_item">
+              <li class="nav-menu_item nav-menu_item__card">
                 <div onclick="toggleCart()">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <rect width="32" height="32" fill="url(#pattern0)"></rect>
@@ -48,6 +48,7 @@
                       <image id="image0_300_358" width="32" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgEAQAAACJ4248AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAAAGAAAABgAPBrQs8AAAAHdElNRQfmBBoOCyL65/YhAAACk0lEQVRYw92XT0syURTGnzsJhjaC/dkkraIi/AASFbToA1RSRJCfIF22aOOuL1Gr2kSLgqCVEC6MbFUbK4gYaKsQpEVg3qfFdXxTZ5yxnBfe94D45+hzfue55x4Q+NeC0u+nTKUo83nKSkU98nkymaT0+70tzkiEvL2lXcibGzIS8a7zRvHnZzIep9R1Sl0nl5bIh4cGhBdOUKZSf4oPDra7Ew6rHEm5teWB/dfXCiAet4dcXVUAV1ceAJTLSlzX7QFCIQX5+upW12cv5vMB0SgwMqI+GRhQz7EYpZOsrlMuLqrXxSJQKAjt89N9t3Jykry7Y8+iUKCcmLCqJaztzuWA2VnAMMCnp1+cHCDGxoCpKSCXE2J+3kX3oRBZq6kzDwR+VRwA2d+vtGo1ylCoNa+1Ew8PA5oGFItCvL83CUlzDjoVDAS+gwvx8QGUSoCmQQwNOQPQLFKpNCcyGcAwyHDYvngwCDw+gpeXzZm6FtsbsHDADqBaVe4kEvb9r68Do6MQ1WozWV1LuAEwKdkKsL+vntNpcnq6vfvxcWB3V73Z23PrgIWNKyvq6pycNH8uBHl+bi4aMp2mnJsjZ2bInR3y5UXlLi7Ivr7m356eqtzysjOATCTUlw8O2uECAcrjY/v7fnZmtSnJw0O1RTc3W3Ptm9B2BgB1K9bWyIUFcGMDIhoFhADv74GjI6FlMtZt2c+AxSq2m4HvINkskM062tmwoFKBgMtbgGBQVXl7c13AKUwtUdfuCED7I/hx8Cd7gD0EEN3sAXMGhAcOoBuAXh6B6Abgv56Bro7AixlwN4T1u9pLB1Aud+FAqaRoY7Ge1W9o1bU7utX4A+JFJJPOANQ0cnubNIzeFTYMpalpjgB/O74AAf/YS50OSo4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDQtMjZUMTQ6MTE6MzQrMDA6MDBFM0ddAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA0LTI2VDE0OjExOjM0KzAwOjAwNG7/4QAAAABJRU5ErkJggg=="></image>
                     </defs>
                   </svg>
+                  <span class="m-cart_num" id="m-cart_num"> <?php $cart_count = WC()->cart->get_cart_contents_count(); echo sprintf ( _n( '%d', '%d', $cart_count ), $cart_count ); ?></span>
                   <div class="m-cart">
                     <div class="widget_shopping_cart_content">
                       <?php woocommerce_mini_cart();?>
