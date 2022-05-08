@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 	<?php wp_head(); ?>
 </head>
-  <body>
+  <body  <?php body_class(); ?>>
     <div class="container">
       <header class="c-header" id="header">
         <div class="l-container">

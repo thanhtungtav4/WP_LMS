@@ -190,3 +190,5 @@ function refresh_cart_count( $fragments ){
     return $fragments;
 }
 //auto update cart number item by ajax
+
+	
