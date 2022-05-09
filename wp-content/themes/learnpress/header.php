@@ -20,9 +20,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-	<?php wp_head(); ?>
+	  <?php wp_head(); ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/style.css">
 </head>
   <body  <?php body_class(); ?>>
     <div class="container">
