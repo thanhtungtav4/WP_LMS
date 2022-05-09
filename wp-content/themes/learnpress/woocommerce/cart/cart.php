@@ -134,8 +134,8 @@ do_action( 'woocommerce_before_cart' ); ?>
 			<div class="woocommerce-cart-box">
 				Tổng cộng(<?php echo WC()->cart->get_cart_contents_count(); ?> nội dung)
 				<br>
-				<br>
 				<?php wc_cart_totals_order_total_html(); ?>
+				<br>
 				<br>
 				<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 			</div>
