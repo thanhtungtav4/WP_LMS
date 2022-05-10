@@ -1,0 +1,35 @@
+.woocommerce{
+    &-cart{
+        .entry-title{
+            color: $color-main;
+            font-size: 2rem;
+            margin: 2rem 0;
+            position: relative;
+            padding-left: 30px;
+            &::before{
+                content: '';
+                background-image: url(../images/bag_green.svg);
+                width: 25px;
+                height: 25px;
+                background-size: 25px;
+                display: inline-block;
+                position: absolute;
+                left: 0;
+            }
+        } 
+        &-form{
+            .shop_table{
+                border: unset;
+                td{
+                    border-top: 2px solid $color-main;
+                    .product-thumbnail{
+                        img{
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}

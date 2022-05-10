@@ -1,0 +1,246 @@
+/*------------------------------------------------------------
+	List
+------------------------------------------------------------*/
+.c-step{
+	background-color: $color-main;
+	padding: 90px 0 100px;
+	width: 100%;
+	@include sp{
+		padding: 50px 0;
+	}
+	&_inner{
+		text-align: center;
+		h3{
+			@include ttl3;
+		}
+		p{
+			margin-top: 26px;
+			color: white
+		}
+		ul{
+			margin-top: 41px;
+			@include flex-center;
+			li{
+			  width: calc(33.3% - 180px);
+			  margin: 20px 90px;
+			  @include sp{
+				  width: 100%;
+				  margin: 10px 100px;
+			  }
+			  img{
+				  border-radius: 7px;
+				  min-width: 240px;
+				  background-color: white;
+				  min-height: 180px;
+			  }
+			}
+		}
+	}
+}
+.c-brand{
+	width: 100%;
+	padding: 130px 0 130px;
+	@include sp{
+		padding: 50px 0;
+	}
+	.text{
+		font-weight: 700;
+		font-size: 7rem;
+		text-align: center;
+		line-height: 1.2;
+		@include sp{
+			font-size: 4rem;
+		}
+	}
+	.step1{
+		color: #E69B2A;
+	}
+	.step2{
+		color: #3ebc11;
+	}
+	.step3{
+		color: #377bb9;
+	}
+}
+.c-learn{
+	margin: 80px 0;
+	@include sp{
+		margin: 30px 0;
+	}
+	&_inner{
+		text-align: center;
+		h3{
+			@include ttl3;
+			color: $color-main;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		ul {
+			@include flex-center;
+			li{
+				width: calc(33.3% - 80px);
+				margin: 20px 40px;
+				background: #FFFFFF;
+				box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+				border-radius: 20px;
+				@include sp{
+					width: calc(100% - 20px);
+					margin: 20px 10px;
+				}
+				h4{
+					margin: 15px 0 5px;
+					font-size: 1.6rem;
+					font-weight: 700;
+				}
+				p{
+					text-align: justify;
+					font-weight: 400;
+					font-size: 1.4rem;
+				}
+				a{
+					background-color: $color-main;
+					color: white;
+					padding: 5px 25px;
+					display: block;
+					width: fit-content;
+					text-align: center;
+					margin: 0 auto;
+					margin-top: 10px;
+					border-radius: 30px;
+					text-decoration: none;
+					position: relative;
+					transition: 0.3s ease-in-out;
+					&::after {
+						width: 12px;
+						height: 12px;
+						position: absolute;
+						content: url(./../../assets/images/icon01.png);
+						top: 8px;
+						right: 10px;
+					}
+					&:hover{
+						background: linear-gradient(269.85deg, #34A606 0.91%, rgba(52, 166, 6, 0.873744) 13.3%, rgba(52, 166, 6, 0.873744) 21.04%, rgba(52, 166, 6, 0.873744) 28.78%, rgba(52, 166, 6, 0.846641) 34.97%, rgba(52, 166, 6, 0.812761) 42.71%, rgba(52, 166, 6, 0.79603) 51.49%, rgba(52, 166, 6, 0.77733) 61.29%, rgba(52, 166, 6, 0.667143) 71.1%, rgba(74, 170, 7, 0.647137) 79.48%, rgba(82, 171, 8, 0.639579) 83.48%, rgba(90, 172, 8, 0.632125) 87.56%, rgba(99, 174, 9, 0.624464) 90.2%, rgba(124, 178, 10, 0.601622) 93.76%, rgba(148, 182, 11, 0.58) 97.09%, rgba(148, 182, 11, 0.58) 98.62%);
+					}
+				}
+			}
+		}
+	}
+	&_img {
+		img{
+			border-radius: 8px;
+		}
+	}
+	&_content{
+		padding: 0 15px 15px;
+	}
+}
+.c-ebook{
+	padding: 30px 0 80px;
+	background-color: $color-main;
+	width: 100%;
+	margin: 3rem 0;
+	@include sp{
+		padding: 20px 0 50px;
+	}
+	&_inner{
+		@include flex-center;
+	}
+	.content{
+		color: white;
+		width: 50%;
+		padding: 0 15px;
+		@include sp{
+			width: 100%;
+			order: 2;
+		}
+		h3{
+			@include ttl3;
+			text-align: center;
+		}
+		p{
+			margin-top: 30px;
+			text-align: justify;
+			font-size: 1.8rem;
+			line-height: 1.2;
+			font-weight: 500;
+		}
+		a{
+			display: block;
+			border-radius: 20px;
+			background-color: white;
+			color: $color-main;
+			padding: 15px 100px;
+			width: fit-content;
+			text-align: center;
+			margin: 0 auto;
+			text-transform: uppercase;
+			font-size: 2rem;
+			font-weight: 700;
+			text-decoration: none;
+			margin-top: 5rem;
+			transition: 0.3s ease-in-out;
+			&:hover{
+				transform: translateY(-8px);
+			}
+			@include sp{
+				font-size: 2rem;
+				padding: 12px 50px;
+			}
+		}
+	}
+	.image{
+		width: 50%;
+		max-width: 434px;
+		max-height: 430px;
+		padding: 0 15px;
+		img{
+			transform: scale(0.8);
+		}
+		@include sp{
+			width: 100%;
+			order: 1;
+			img{
+				transform: scale(0.6);
+			}
+		}
+		@include flex-center;
+		
+	}
+}
+.c-advise{
+	padding: 73px 0 100px;
+	background-color: $color-main;
+	width: 100%;
+	@include sp{
+		padding: 50px 0;
+	}
+	&_inner{
+		text-align: center;
+		h3{
+			@include ttl3;
+		}
+		a{
+			display: block;
+			border-radius: 20px;
+			background-color: white;
+			color: $color-main;
+			padding: 15px 100px;
+			width: fit-content;
+			text-align: center;
+			margin: 0 auto;
+			text-transform: uppercase;
+			font-size: 2rem;
+			font-weight: 700;
+			text-decoration: none;
+			margin-top: 3.5rem;
+			transition: 0.3s ease-in-out;
+			&:hover{
+				transform: translateY(-8px);
+			}
+			@include sp{
+				font-size: 2rem;
+				padding: 12px 50px;
+			}
+		}
+	}
+}
