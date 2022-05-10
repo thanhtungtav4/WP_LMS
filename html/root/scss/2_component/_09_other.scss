@@ -72,15 +72,28 @@
 .woocommerce {
 	.woocommerce-cart-form {
 		.shop_table {
-			td {
-				border: 0;
-				border-top: 2px solid #34A606;
-				border-radius: 0;
-			}
 			border: 0;
 			border-top: 2px solid #34A606;
 			border-radius: 0;
 			width: 70%;
+			@include sp{
+				width: 100%;
+			}
+			td {
+				border: 0;
+				border-top: 2px solid #34A606;
+				border-radius: 0;
+				&::before{
+					@include sp{
+						content: '';
+					}
+				}
+				@include sp{
+					text-align: left;
+					padding: 9px 0;
+					border-top: 0;
+				}
+			}
 			thead {
 				tr {
 					th {
@@ -103,6 +116,9 @@
 	a.button.alt {
 		background-color: #34a606;
 		display: block;
+		max-width: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
 	}
 }
 .product-content {
@@ -110,10 +126,19 @@
 	align-items: flex-start;
 	.num {
 		padding: 0 40px;
+		@include sp{
+			padding: 0 10px;
+		}
 	}
 	.product-name {
 		padding-left: 20px;
 		font-size: 1.7rem;
+		@include sp{
+			padding-left: 10px;
+			width: calc(100% - 100px);
+			text-align: left;
+			font-size: 1.4rem;
+		}
 		a{
 			text-decoration: none;
 			color: black;
@@ -129,7 +154,13 @@
 			.image {
 				img {
 					width: 120px;
+					@include sp{
+						width: 70px;
+					}
 				}
+			}
+			@include sp{
+				@include flex;
 			}
 		}
 	}
@@ -140,19 +171,21 @@
 }
 .woocommerce{
 	&-flex {
-		display: flex;
+		@include flex;
 		width: 100%;
-		flex-wrap: wrap;
 	}
 	&-cart{
 		&-flex {
 			width: calc(30% - 40px);
 			margin: 0 20px 4rem;
+			@include sp{
+				width: 100%;
+			}
 		}
 		&-box {
 			width: 100%;
 			text-align: center;
-			padding: 4rem 2rem;
+			padding: 4rem 3.4rem;
 			background: #FFFFFF;
 			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			border-radius: 20px;

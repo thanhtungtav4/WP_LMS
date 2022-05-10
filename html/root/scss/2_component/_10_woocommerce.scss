@@ -16,7 +16,7 @@
                 position: absolute;
                 left: 0;
             }
-        } 
+        }
         &-form{
             .shop_table{
                 border: unset;
@@ -31,5 +31,34 @@
             }
         }
     }
-   
+
 }
+.coupon{
+    text-align: left;
+   > label{
+        text-align: left;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+      &_box{
+        position: relative;
+      }
+  }
+
+.woocommerce button.button{
+    border: 1px solid #34A606;
+    border-radius: 20px;
+    background-color: #34A606;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: 15px 20px;
+    font-size: 1.6rem;
+    position: absolute;
+    left: calc(100% - 102px);
+}
+  #coupon_code{
+    border: 1px solid #34A606;
+    border-radius: 20px;
+    padding: 15px 20px;
+    width: calc(100% - 102px);
+  }

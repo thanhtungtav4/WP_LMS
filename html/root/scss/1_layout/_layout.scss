@@ -12,4 +12,7 @@
 }
 article{
 	margin: 5rem auto;
+	@include sp{
+		margin: 2rem auto;
+	}
 }
