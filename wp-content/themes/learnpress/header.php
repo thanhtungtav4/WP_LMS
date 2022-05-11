@@ -8,8 +8,11 @@
  *
  * @package learnpress
  */
-
+$user_id                   = get_current_user_id();
+$user                      = get_user_by('ID', $user_id);
+$txtLogin ="Đăng nhập";
 ?>
+
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   <head>
@@ -37,6 +40,16 @@
               <li class="nav-menu_item"><a href="#">Blog</a></li>
               <li class="nav-menu_item"><a href="#">Ebook</a></li>
               <li class="nav-menu_item"><a href="#">Video</a></li>
+              <li class="nav-menu_item"><a href="/dashboard-page/">
+              <?php
+                if($user){
+                  echo $user->display_name;
+                }
+                else{
+                  echo $txtLogin;
+                }
+              ?>
+              </a></li>
               <li class="nav-menu_item nav-menu_item__card">
                 <div onclick="toggleCart()">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
