@@ -34,7 +34,61 @@
             }
         }
     }
-
+    form {
+        .checkout_coupon, .login{
+            background: #FFFFFF;
+            border: 2px solid $color-main;
+            border-radius: 20px;
+            > p{
+                margin: 1rem 0;
+            }
+        }
+        .form-row input.input-text, .form-row textarea {
+            box-sizing: border-box;
+            width: 100%;
+            margin: 0;
+            outline: 0;
+            line-height: normal;
+            background: #FFFFFF;
+            border: 1px solid $color-main;
+            border-radius: 20px;
+            padding: 9px 15px;
+        }
+        .woocommerce-billing-fields__field-wrapper{
+            .form-row-first{
+                width: 100%;
+            }
+        }
+        .col-1, .col-2{
+            background: #FFFFFF;
+            border: 1px solid $color-main;
+            border-radius: 20px;
+            padding: 0 20px 20px;
+            margin-top: 2rem;
+        }
+        h3{
+            border-bottom: 1px solid $color-main;
+            width: calc(100% + 40px);
+            margin: 10px -20px;
+            padding: 10px 20px 15px;
+        }
+        .col-2 .shop_table.woocommerce-checkout-review-order-table{
+            border: 0;
+        }
+        .col-2 .shop_table{
+            td, th {
+                border-top: 1px solid $color-main;
+            }
+        }
+        button.button.alt{
+            background-color: $color-main;
+        }
+    }
+    .checkout_coupon.woocommerce-form-coupon{
+        .form-row.form-row-last{
+            float: initial;
+        }
+    }
 }
 .coupon{
     text-align: left;
@@ -59,7 +113,7 @@
     position: absolute;
     left: calc(100% - 102px);
 }
-  #coupon_code{
+.woocommerce-cart-box #coupon_code{
     border: 1px solid #34A606;
     border-radius: 20px;
     padding: 15px 20px;

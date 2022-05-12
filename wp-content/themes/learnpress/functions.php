@@ -192,7 +192,9 @@ function refresh_cart_count( $fragments ){
 //auto update cart number item by ajax
 
 add_filter( 'woocommerce_checkout_fields' , 'custom_remove_woo_checkout_fields' );
+// ! auto update cart number item by ajax
 
+// ! custom_remove_woo_checkout_fields
 function custom_remove_woo_checkout_fields( $fields ) {
 
     // remove billing fields
@@ -224,3 +226,19 @@ function custom_remove_woo_checkout_fields( $fields ) {
 
     return $fields;
 }
+// ! custom_remove_woo_checkout_fields
+
+// control order status if vnpay succes pay
+add_action( 'woocommerce_thankyou', 'bbloomer_thankyou_change_order_status' );
+function bbloomer_thankyou_change_order_status( $order_id ){
+   if( ! $order_id ) return;
+   $order = wc_get_order( $order_id );
+	 $is_payment = $order->get_payment_method();
+	 if($is_payment == 'vnpay'){
+			$order->update_status( 'wc-completed' );
+	 	}
+	 else{
+		$order->update_status( 'wc-processing' );
+	 }
+}
+// !control order status if vnpay succes pay

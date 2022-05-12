@@ -1,0 +1,54 @@
+2022-05-12T06:04:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function paypal_payment_complete_order_status(), 2 passed in D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:228
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(309): paypal_payment_complete_order_status('processing', 613)
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(189): WP_Hook->apply_filters('processing', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(292): apply_filters('woocommerce_pay...', 'processing', 613, Object(WC_Order))
+#3 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(269): WC_Order->maybe_set_date_paid()
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->set_status('on-hold', '', false)
+#5 D:\xampp\htdocs\WP_LMS\wp-content\plugins\vnpay-pay-woocommerce\src\gateways\international\vnpayGa in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 228
+
+2022-05-12T06:05:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function paypal_payment_complete_order_status(), 2 passed in D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:228
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(309): paypal_payment_complete_order_status('processing', 613)
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(189): WP_Hook->apply_filters('processing', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(292): apply_filters('woocommerce_pay...', 'processing', 613, Object(WC_Order))
+#3 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(269): WC_Order->maybe_set_date_paid()
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->set_status('on-hold', '', false)
+#5 D:\xampp\htdocs\WP_LMS\wp-content\plugins\vnpay-pay-woocommerce\src\gateways\international\vnpayGa in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 228
+
+2022-05-12T06:05:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function paypal_payment_complete_order_status(), 2 passed in D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:228
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(309): paypal_payment_complete_order_status('processing', 613)
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(189): WP_Hook->apply_filters('processing', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(292): apply_filters('woocommerce_pay...', 'processing', 613, Object(WC_Order))
+#3 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(269): WC_Order->maybe_set_date_paid()
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->set_status('on-hold', '', false)
+#5 D:\xampp\htdocs\WP_LMS\wp-content\plugins\vnpay-pay-woocommerce\src\gateways\international\vnpayGa in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 228
+
+2022-05-12T06:08:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function paypal_payment_complete_order_status(), 2 passed in D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:228
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(309): paypal_payment_complete_order_status('completed', 622)
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(189): WP_Hook->apply_filters('completed', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(292): apply_filters('woocommerce_pay...', 'completed', 622, Object(WC_Order))
+#3 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(269): WC_Order->maybe_set_date_paid()
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->set_status('on-hold', '', false)
+#5 D:\xampp\htdocs\WP_LMS\wp-content\plugins\vnpay-pay-woocommerce\src\gateways\international\vnpayGatew in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 228
+
+2022-05-12T06:08:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function paypal_payment_complete_order_status(), 2 passed in D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:228
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(309): paypal_payment_complete_order_status('completed', 622)
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(189): WP_Hook->apply_filters('completed', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(292): apply_filters('woocommerce_pay...', 'completed', 622, Object(WC_Order))
+#3 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(269): WC_Order->maybe_set_date_paid()
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->set_status('on-hold', '', false)
+#5 D:\xampp\htdocs\WP_LMS\wp-content\plugins\vnpay-pay-woocommerce\src\gateways\international\vnpayGatew in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 228
+
+2022-05-12T06:08:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function paypal_payment_complete_order_status(), 2 passed in D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php on line 309 and exactly 3 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:228
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(309): paypal_payment_complete_order_status('completed', 622)
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(189): WP_Hook->apply_filters('completed', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(292): apply_filters('woocommerce_pay...', 'completed', 622, Object(WC_Order))
+#3 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(269): WC_Order->maybe_set_date_paid()
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\woocommerce\includes\class-wc-order.php(333): WC_Order->set_status('on-hold', '', false)
+#5 D:\xampp\htdocs\WP_LMS\wp-content\plugins\vnpay-pay-woocommerce\src\gateways\international\vnpayGatew in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 228
+
