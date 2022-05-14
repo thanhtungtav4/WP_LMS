@@ -1171,7 +1171,9 @@ class Utils {
 					post_date_gmt,
 					post_title
 			FROM 	{$wpdb->posts}
-			WHERE 	post_type = %s
+			WHERE 	post_author>0 
+					AND post_parent>0
+					AND post_type = %s
 					AND post_parent = %d
 					AND post_author = %d
 					AND post_status = %s;
@@ -1651,13 +1653,14 @@ class Utils {
 	}
 
 	public function get_optimized_duration( $duration ) {
+		tutor_log( 'sss: ' . $duration );
 		/*
 		 if(is_string($duration)){
 			strpos($duration, '00:')===0 ? $duration=substr($duration, 3) : 0; // Remove Empty hour
 			strpos($duration, '00:')===0 ? $duration=substr($duration, 3) : 0; // Remove empty minute
 		} */
 
-		return $duration;
+		return $this->course_content_time_format( $duration );
 	}
 
 	/**
@@ -2342,7 +2345,7 @@ class Utils {
 
 		if ( $this->is_course_purchasable( $course_id ) ) {
 			/**
-			 * We need to verify this enrollment, we will change the status later after payment confirmation
+			 * We need to verify this enrolment, we will change the status later after payment confirmation
 			 */
 			$enrolment_status = 'pending';
 		}
@@ -2362,10 +2365,10 @@ class Utils {
 		$isEnrolled = wp_insert_post( $enroll_data );
 		if ( $isEnrolled ) {
 
-			// Run this hook for both of pending and completed enrollment
+			// Run this hook for both of pending and completed enrolment
 			do_action( 'tutor_after_enroll', $course_id, $isEnrolled );
 
-			// Run this hook for completed enrollment regardless of payment provider and free/paid mode
+			// Run this hook for completed enrolment regardless of payment provider and free/paid mode
 			if ( $enroll_data['post_status'] == 'completed' ) {
 				do_action( 'tutor_after_enrolled', $course_id, $user_id, $isEnrolled );
 			}
@@ -2459,7 +2462,7 @@ class Utils {
 	/**
 	 * @param $order_id
 	 *
-	 * Complete course enrollment and do some task
+	 * Complete course enrolment and do some task
 	 *
 	 * @since v.1.0.0
 	 */
@@ -3082,7 +3085,7 @@ class Utils {
 	 * @param $instructor_id
 	 *
 	 * Get total Students by instructor
-	 * 1 enrollment = 1 student, so total enrolled for a equivalent total students (Tricks)
+	 * 1 enrolment = 1 student, so total enrolled for a equivalent total students (Tricks)
 	 *
 	 * @return int
 	 *
@@ -7579,22 +7582,27 @@ class Utils {
 		$settings_url          = tutor_utils()->tutor_dashboard_url( 'settings' );
 		$withdraw_settings_url = tutor_utils()->tutor_dashboard_url( 'settings/withdraw-settings' );
 
-		// List constantly required fields
 		$required_fields = array(
-			'_tutor_profile_photo' => sprintf( __( 'Set Your %1$sProfile Photo%2$s', 'tutor' ), '<a class="tutor-btn tutor-btn-ghost tutor-has-underline" href="' . $settings_url . '">', '</a>' ),
-			'_tutor_profile_bio'   => sprintf( __( 'Set Your %1$sBio%2$s', 'tutor' ), '<a class="tutor-btn tutor-btn-ghost tutor-has-underline" href="' . $settings_url . '">', '</a>' ),
+			'_tutor_profile_photo' => __( 'Set Your Profile Photo', 'tutor' ),
+			'_tutor_profile_bio'   => __( 'Set Your Bio', 'tutor' ),
 		);
 
 		// Add payment method as a required on if current user is an approved instructor
 		if ( 'approved' == $instructor_status ) {
-			$required_fields['_tutor_withdraw_method_data'] = sprintf( __( 'Set %1$sWithdraw Method%2$s', 'tutor' ), '<a class="tutor-btn tutor-btn-ghost tutor-has-underline" href="' . $withdraw_settings_url . '">', '</a>' );
+			$required_fields['_tutor_withdraw_method_data'] = __( 'Set Withdraw Method', 'tutor' );
 		}
 
-		// Now assign identifer whether set or not
+		// url where user should redirect for profile completion.
+		$profile_completion_urls = array(
+			'_tutor_profile_photo' 			=> $settings_url,
+			'_tutor_profile_bio'   			=> $settings_url,
+			'_tutor_withdraw_method_data' 	=> $withdraw_settings_url,
+		);
 		foreach ( $required_fields as $key => $field ) {
 			$required_fields[ $key ] = array(
-				'label_html' => $field,
-				'is_set'     => get_user_meta( $user_id, $key, true ) ? true : false,
+				'text' 		=> $field,
+				'is_set'    => get_user_meta( $user_id, $key, true ) ? true : false,
+				'url'		=> $profile_completion_urls[ $key ],
 			);
 		}
 
@@ -7645,14 +7653,23 @@ class Utils {
 		return false;
 	}
 
-	public function get_students_data_by_course_id( $course_id = 0, $field_name = '' ) {
+	/**
+	 * Get students list based on course id
+	 *
+	 * @param integer $course_id
+	 * @param string $field_name
+	 * @param boolean $all  if all is false it will return only $field_name column
+	 *
+	 * @return array  of objects for student list or array
+	 */
+	public function get_students_data_by_course_id( $course_id = 0, $field_name = '', $all = false ) {
 
 		global $wpdb;
 		$course_id = $this->get_post_id( $course_id );
 
 		$student_data = $wpdb->get_results(
 			$wpdb->prepare(
-				"SELECT student.{$field_name}
+				"SELECT student.{$field_name}, student.display_name as display_name, student.user_login as username, student.user_email
 			FROM   	{$wpdb->posts} enrol
 					INNER JOIN {$wpdb->users} student
 						    ON enrol.post_author = student.id
@@ -7665,7 +7682,9 @@ class Utils {
 				'completed'
 			)
 		);
-
+		if ( $all ) {
+			return $student_data;
+		}
 		return array_column( $student_data, $field_name );
 	}
 
@@ -9714,5 +9733,86 @@ class Utils {
 		}
 
 		return $course_meta;
+	}
+
+	/**
+	 * Get local time from unix/gmt date
+	 *
+	 * @param string $time
+	 * @param string $date_format
+	 * @return string
+	 */
+	public function get_local_time_from_unix( $time, $date_format = null ) {
+		$output_format = $date_format ? $date_format : get_option( 'date_format' ). ', ' . get_option( 'time_format' );
+		return get_date_from_gmt( $time, $output_format );
+	}
+
+	/**
+	 * Execute bulk action for enrolment list ex: complete | cancel
+	 *
+	 * @param string $status hold status for updating.
+	 * @param array $enrollment_ids ids that need to update.
+	 * @return bool
+	 * @since v2.0.3
+	 */
+	public function update_enrollments(string $status, array $enrollment_ids ): bool {
+		global $wpdb;
+		$enrollment_ids_in = implode(',', $enrollment_ids);
+		$status     = 'complete' === $status ? 'completed' : $status;
+		$post_table = $wpdb->posts;
+		$update     = $wpdb->query(
+			$wpdb->prepare(
+				" UPDATE {$post_table}
+				SET post_status = %s
+				WHERE ID IN ($enrollment_ids_in)
+			",
+				$status
+			)
+		);
+
+		// Clear course progress if cancelled
+		if($status=='cancelled' || $status=='cancel') {
+			foreach($enrollment_ids as $id) {
+				$course_id = get_post_field( 'post_parent', $id );
+				$student_id = get_post_field( 'post_author', $id );
+
+				if($course_id && $student_id) {
+					tutor_utils()->delete_course_progress($course_id, $student_id);
+				}
+			}
+		}
+
+		// Run action hook
+		foreach($enrollment_ids as $id) {
+			do_action( 'tutor_enrollment/after/' . $status, $id );
+		}
+
+		return true;
+	}
+
+	/**
+	 * Format course content time duration
+	 * For ex: lesson video play time, quiz time, assignment time etc.
+	 *
+	 * @param string $time_duration
+	 *
+	 * @return string
+	 */
+	public function course_content_time_format( string $time_duration ): string {
+		tutor_log( 'time: ' . $time_duration );
+		$new_formatted_time 	= '';
+		$time_duration_array 	= explode( ':', $time_duration );
+		if ( is_array( $time_duration_array ) && count( $time_duration_array ) ) {
+			$count_fraction = count( $time_duration_array );
+			$first_fraction = (int) $time_duration_array[0];
+			if ( 3 === $count_fraction && $first_fraction < 1 ) {
+				unset( $time_duration_array[0] );
+			}
+			foreach( $time_duration_array as $key => $value ) {
+				// If exists hour fraction but not 00 then skip it.
+				$new_formatted_time .= sprintf("%02d", $value) . ':';
+			}
+		}
+		return rtrim( $new_formatted_time, ':' );
 	}
 }

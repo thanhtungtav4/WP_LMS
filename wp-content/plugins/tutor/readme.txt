@@ -5,7 +5,7 @@ Tags: lms, course, elearning, education, learning management system
 Requires at least: 5.3
 Tested up to: 5.9
 Requires PHP: 7.0
-Stable tag: 2.0.2
+Stable tag: 2.0.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -224,6 +224,51 @@ Looking for the best LMS for WordPress? Get Tutor and start your e-learning webs
 31. Mobile Responsive: Highly responsive UI designed for quality user experience
 
 == Changelog ==
+
+= 2.0.4 - May 13, 2022
+
+New: Email Notification to students when a new Lesson is Created if enabled
+New: Email Notification to students when a new Quiz is Created if enabled
+New: Email Notification to students when a new Assignment is Created if enabled
+New: Admin can show Course Description in Full or in Collapsed View on the Course Details page
+New: Quiz Retry Mode revamped to allow instructors to specify Attempts Allowed
+New: The student's Active Topic now remains uncollapsed while the rest remain collapsed
+New: In "Strict Mode" a student needs to pass all lessons/quizzes/assignments to complete the Course
+Update: A Better Time Format for Lesson and Quiz is introduced
+Fix: Email Scheduler Cron was not working properly
+Fix: Certificate List in the Course Builder displays the height of the Certificates incorrectly
+Fix: Tutor Pro displayed an incorrect Alert Message when the Tutor Free plugin is inactive
+Fix: Student’s Registration Time was displaying the incorrect date on the Students List Page in the Admin panel
+Fix: Design issue of Email to students on Quiz Completed and incorrect link to Quiz Result
+Fix: Link to Course Progress Page button was incorrect on a Student’s Completed Courses page
+
+= 2.0.3 - May 12, 2022
+
+New: The Course Title is added on the Q&A details page
+New: Course Filter is added to the Mobile View of the Course List page
+Update: Improved RTL Support
+Update: Tutor LMS is now compatible with the latest WooCommerce Subscriptions plugin
+Fix: Password Reset mail was not being sent
+Fix: "Earning Graph" under "Overview" and "Earning" was showing different statistics
+Fix: Multiple duplicates of "Auto Draft" were being generated on publishing a course
+Fix: "Announcement" Tab was publicly accessible from the Course Details page
+Fix: "Resources" Tab was accessible publicly from the Course Details page
+Fix: "Q&A" Tab was accessible publicly from the Course Details page
+Fix: "Course List" and "Course Details" page was showing the "Start Learning" button to guests
+Fix: "Multiple Answer" type answers were being saved without selecting Correct Answer
+Fix: In the case of "Multiple Answer" type answers, the Image Option was not working
+Fix: Course Topics were not being deletable
+Fix: "In Progress Courses" was not visible to students on the Dashboard
+Fix: "Fees" were not being deducted from Total Amount before sharing Profit between Admin and Instructors
+Fix: YouTube "Share" and "Copy" buttons were clickable in Tutor Player
+Fix: Instructor specific Commission Rate was not being shown for Instructors on the Instructor List page
+Fix: The "Next" and "Preview" buttons were not working for guests
+Fix: Student's Registration Time was not showing as per the defined Time Zone
+Fix: PHP Notices were appearing while installing the Tutor LMS Certificate Builder plugin
+Fix: On course update, emails were being sent to Instructors even if it is disabled from the Settings
+Fix: Title and Labels of Registration Link and Pagination Settings are changed
+Fix: Fixed known bugs related to Email like Blank Subject, Nonworking Shortcode, Wrong Email Body, etc.
+Fix: Login Modal was not appearing for Guest users upon clicking Follow
 
 = 2.0.2 - April 28, 2022
 

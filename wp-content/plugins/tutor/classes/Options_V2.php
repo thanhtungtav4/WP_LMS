@@ -447,7 +447,7 @@ class Options_V2
 								'type'    => 'number',
 								'label'   => __('Pagination', 'tutor'),
 								'default' => '20',
-								'desc'    => __('Number of items you would like displayed "per page" in the pagination', 'tutor'),
+								'desc'    => __('Set the number of rows to be displayed per page', 'tutor'),
 							),
 						),
 					),
@@ -511,6 +511,13 @@ class Options_V2
 								'default'     => 'off',
 								'label_title' => __('', 'tutor'),
 								'desc'        => __('Allow instructors and admins to view the course content without enrolling', 'tutor'),
+							),
+							array(
+								'key'         => 'course_content_summary',
+								'type'        => 'toggle_switch',
+								'label'       => __( 'Content Summary', 'tutor' ),
+								'default'     => 'on',
+								'desc'        => __( 'Enabling this feature will show a course content summary on the Course Details page.', 'tutor' ),
 							),
 							array(
 								'key'         => 'wc_automatic_order_complete_redirect_to_courses',
@@ -829,9 +836,9 @@ class Options_V2
 							array(
 								'key'     => 'courses_per_page',
 								'type'    => 'number',
-								'label'   => __('Pagination', 'tutor'),
+								'label'   => __('Courses Per Page', 'tutor'),
 								'default' => '12',
-								'desc'    => __('Set the number of courses you want to display per page.', 'tutor'),
+								'desc'    => __('Set the number of courses to display per page on the Course List page.', 'tutor'),
 							),
 							array(
 								'key'     => 'supported_course_filters',

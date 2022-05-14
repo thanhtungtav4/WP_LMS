@@ -33,7 +33,7 @@ do_action('tutor_course/single/before/wrap');
                             <div id="tutor-course-details-tab-<?php echo $key; ?>" class="tutor-tab-item<?php echo $key == 'info' ? ' is-active' : ''; ?>">
                                 <?php
                                     do_action( 'tutor_course/single/tab/'.$key.'/before' );
-
+                                    
                                     $method = $subpage['method'];
                                     if ( is_string($method) ) {
                                         $method();
