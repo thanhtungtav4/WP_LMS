@@ -17,7 +17,8 @@ if ( isset( $_GET['course_filter'] ) ) {
 	$filter = (new \Tutor\Course_Filter(false))->load_listing( $_GET, true );
 	query_posts( $filter );
 }
-
+//Load
+get_template_part( 'template-parts/courses', 'owl' );
 // Load the 
 tutor_load_template('archive-course-init', array_merge($_GET, array(
 	'course_filter' => (bool) tutor_utils()->get_option('course_archive_filter', false),
