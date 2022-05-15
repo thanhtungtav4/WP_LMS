@@ -18,7 +18,7 @@ function style() {
     .pipe(sourcemaps.write({includeContent: false}))
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(sourcemaps.write('.'))
-    //.pipe(gulp.dest('root/assets/css'))
+    .pipe(gulp.dest('root/assets/css'))
     .pipe(gulp.dest('../wp-content/themes/learnpress/assets/css'))
     .pipe(browserSync.stream());
 }
