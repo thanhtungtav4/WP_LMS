@@ -461,7 +461,7 @@
 	}
 }
 .c-ad{
-	margin: 3rem 0 2rem;
+	margin: 3rem 0 4rem;
 	border-radius: 20px;
 	background-color: $color-main;
 	&_inner{
@@ -476,5 +476,73 @@
 	}
 	&_img{
 		width: 272px;
+		@include sp{
+			width: 200px;
+		}
+	}
+	&_content{
+		width: calc(100% - 272px);
+		@include sp{
+			width: 100%;
+		}
+		h3{
+			color: white;
+			font-size: 4rem;
+			text-align: center;
+			margin-bottom: 5rem;
+			@include sp{
+				font-size: 2.5rem;
+				margin-top: 2rem
+			}
+		}
+	}
+	&_area{
+		@include flex-center;
+	}
+	&_btn{
+		margin: 0 60px;
+		@include sp{
+			margin: 1rem 0;
+		}
+		a{
+			background-color: white;
+			color: $color-main;
+			display: block;
+			width: 350px;
+			max-width: 100%;
+			text-align: center;
+			padding: 1rem 2rem;
+			text-decoration: none;
+			border-radius: 20px;
+			font-size: 2.8rem;
+			position: relative;
+			@include sp{
+				width: 200px;
+			}
+			&::before{
+				position: absolute;
+				content: '';
+				background-size: 32px;
+				width: 32px;
+				height: 32px;
+
+			}
+			&.shop{
+				&::before{
+				background-image: url(../../assets/images/bag_green.svg);
+				left: calc(100% / 2 - 88px);
+			 }
+			}
+			&.play{
+				&::before{
+					background-image: url(../../assets/images/play.svg);
+					left: calc(100% / 2 - 80px);
+					background-size: 28px;
+					width: 28px;
+					height: 28px;
+					top: 16px;
+				 }
+			}
+		}
 	}
 }
