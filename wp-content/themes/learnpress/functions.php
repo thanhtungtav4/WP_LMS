@@ -279,3 +279,14 @@ function cptui_register_my_cpts() {
 }
 
 add_action( 'init', 'cptui_register_my_cpts' );
+#Disable Self Pingbacks in WordPress Using Plugins
+function no_self_ping( &$links ) {
+	$home = get_option( 'home' );
+	foreach ( $links as $l => $link )
+			if ( 0 === strpos( $link, $home ) )
+					unset($links[$l]);
+}
+
+add_action( 'pre_ping', 'no_self_ping' );
+add_filter('xmlrpc_enabled', '__return_false');
+#!Disable Self Pingbacks in WordPress Using Plugins
