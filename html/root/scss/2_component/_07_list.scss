@@ -80,6 +80,7 @@
 			@include flex-jbetween;
 			flex-wrap: wrap;
 			margin: 0 -80px;
+			max-width: 1200px;
 			@include sp{
 				margin: 0;
 			}
