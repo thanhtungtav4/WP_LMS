@@ -8,7 +8,13 @@
 }
 .l-container, article{
 	width: 100%;
-	padding: 0 5%;
+	margin: 0 auto;
+	@include min(768px){
+		max-width: 1200px;
+	}
+	@include sp{
+		padding: 0 5%;
+	}
 }
 article{
 	margin: 5rem auto;
