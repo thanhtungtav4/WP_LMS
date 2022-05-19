@@ -239,7 +239,7 @@ $page_tab = isset( $_GET['page_tab'] ) ? esc_attr( $_GET['page_tab'] ) : ( isset
 				<?php get_tutor_posts_attachments(); ?>
 			</div>
 		</div>
-		
+
 		<?php if ( $is_comment_enabled ) : ?>
 		<div id="tutor-course-spotlight-comments" class="tutor-tab-item<?php echo 'comments' == $page_tab ? ' is-active' : ''; ?>">
 			<div class="tutor-container">

@@ -72,6 +72,10 @@
 			color: #ffff;
 			padding: 5px 10px 5px;
 			font-size: 1.4rem;
+			border-radius: 10px;
+			&:hover{
+				color: white;
+			}
 		}
 	}
 	.woocommerce-mini-cart__total {
@@ -121,7 +125,6 @@
 			}
 			td {
 				border: 0;
-				border-top: 2px solid #34A606;
 				border-radius: 0;
 				&::before{
 					@include sp{
@@ -182,7 +185,7 @@
 }
 .product-content {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	.num {
 		padding: 0 40px;
 		@include sp{

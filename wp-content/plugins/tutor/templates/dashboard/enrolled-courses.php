@@ -80,13 +80,13 @@ $paginated_courses_list =  $full_courses_list_array[$active_tab];
 
 				<div class="tutor-card-body">
 					<?php tutor_load_template( 'loop.rating' ); ?>
-					
+
 					<div class="tutor-course-name tutor-fs-6 tutor-fw-bold tutor-mb-32">
 						<a href="<?php echo get_the_permalink(); ?>">
 							<?php the_title(); ?>
 						</a>
 					</div>
-					
+
 					<div class="tutor-mt-auto">
 						<?php tutor_load_template( 'loop.enrolled-course-progress' ); ?>
 					</div>
@@ -101,7 +101,7 @@ $paginated_courses_list =  $full_courses_list_array[$active_tab];
 			wp_reset_postdata();
 			?>
 		</div>
-		
+
 		<div class="tutor-mt-20">
 			<?php
 			if ($paginated_courses_list->found_posts > $per_page) :
