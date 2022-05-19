@@ -5418,22 +5418,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Feed_PlacesLocationFeedData_OAuthInfo.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\DynamicSearchAdsSearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DynamicSearchAdsSearchTermView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemTarget' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedItemTarget.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\MediaFile' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MediaFile.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_NetworkSettings' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_NetworkSettings.php'
@@ -5522,29 +5506,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Feed_PlacesLocationFeedData.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerConversionGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerConversionGoal.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\MediaAudio' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MediaAudio.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\RemarketingAction' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/RemarketingAction.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\DataPartnerLinkIdentifier' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DataPartnerLinkIdentifier.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionValueRule.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\Feed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Feed.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\CallReportingSetting' => array(
 		'version' => '12.1.0.0',
@@ -5570,10 +5538,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupAdAssetPolicySummary.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerFeed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerFeed.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\GoogleAdsLinkIdentifier' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/GoogleAdsLinkIdentifier.php'
@@ -5589,10 +5553,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule_ValueRuleDeviceCondition' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionValueRule_ValueRuleDeviceCondition.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerManagerLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerManagerLink.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemAttributeValue' => array(
 		'version' => '12.1.0.0',
@@ -5614,10 +5574,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Ad.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\GoogleAdsField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/GoogleAdsField.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ListingGroupFilterDimension_ProductChannel' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ListingGroupFilterDimension_ProductChannel.php'
@@ -5625,10 +5581,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ListingGroupFilterDimension' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ListingGroupFilterDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ChangeEvent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ChangeEvent.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccessibleBiddingStrategy_TargetRoas' => array(
 		'version' => '12.1.0.0',
@@ -5658,10 +5610,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignAudienceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignAudienceView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemPlaceholderPolicyInfo' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedItemPlaceholderPolicyInfo.php'
@@ -5669,14 +5617,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_EnhancedCpcOptInRecommendation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_EnhancedCpcOptInRecommendation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerLabel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\HotelPerformanceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/HotelPerformanceView.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule\\ValueRuleDeviceCondition' => array(
 		'version' => '12.1.0.0',
@@ -5694,10 +5634,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionValueRule/ValueRuleAudienceCondition.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ManagedPlacementView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ManagedPlacementView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroup' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetGroup.php'
@@ -5706,33 +5642,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_OptimizationGoalSetting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedItemSet.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_TargetCpaOptInRecommendation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_TargetCpaOptInRecommendation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterionLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterionLabel.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule_ValueRuleAction' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionValueRule_ValueRuleAction.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignBidModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignBidModifier.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\SmartCampaignSetting_PhoneNumber' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SmartCampaignSetting_PhoneNumber.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetSetAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetSetAsset.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ListingGroupFilterDimension_ProductType' => array(
 		'version' => '12.1.0.0',
@@ -5750,10 +5670,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AttributeFieldMapping.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignAssetSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignAssetSet.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_KeywordRecommendation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_KeywordRecommendation.php'
@@ -5762,25 +5678,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomInterestMember.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CarrierConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CarrierConstant.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\SmartCampaignSetting\\PhoneNumber' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SmartCampaignSetting/PhoneNumber.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdScheduleView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdScheduleView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ListingGroupFilterDimension_ProductBrand' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ListingGroupFilterDimension_ProductBrand.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\SmartCampaignSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SmartCampaignSetting.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_RecommendationMetrics' => array(
 		'version' => '12.1.0.0',
@@ -5798,18 +5702,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccountLink.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupLabel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\LifeEvent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/LifeEvent.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\Label' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Label.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\BatchJob_BatchJobMetadata' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BatchJob_BatchJobMetadata.php'
@@ -5826,22 +5718,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MediaImage.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccountBudgetProposal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccountBudgetProposal.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignDraft' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignDraft.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignAsset.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\DetailPlacementView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DetailPlacementView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_KeywordMatchTypeRecommendation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_KeywordMatchTypeRecommendation.php'
@@ -5854,29 +5730,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterion.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedMapping' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedMapping.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanCampaign' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordPlanCampaign.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccountBudget' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccountBudget.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\MobileAppCategoryConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MobileAppCategoryConstant.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccessibleBiddingStrategy_TargetSpend' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy_TargetSpend.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\LocationView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/LocationView.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccountBudget_PendingAccountBudgetProposal' => array(
 		'version' => '12.1.0.0',
@@ -5898,17 +5758,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MediaBundle.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupBidModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupBidModifier.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignBudget' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignBudget.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupExtensionSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupExtensionSetting.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_CallExtensionRecommendation' => array(
 		'version' => '12.1.0.0',
@@ -5918,10 +5770,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ListingGroupFilterDimension_ProductCustomAttribute.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\HotelReconciliation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/HotelReconciliation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_MaximizeClicksOptInRecommendation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_MaximizeClicksOptInRecommendation.php'
@@ -5929,10 +5777,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_RecommendationImpact' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_RecommendationImpact.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanForecastPeriod' => array(
 		'version' => '12.1.0.0',
@@ -5942,26 +5786,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_CampaignBudgetRecommendation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\HotelGroupView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/HotelGroupView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ParentalStatusView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ParentalStatusView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\MobileDeviceConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MobileDeviceConstant.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanCampaignKeyword' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordPlanCampaignKeyword.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\DetailedDemographic' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DetailedDemographic.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\MerchantCenterLink' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/MerchantCenterLink.php'
@@ -5969,14 +5793,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetSet_MerchantCenterFeed' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetSet_MerchantCenterFeed.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignExperiment' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignExperiment.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\GroupPlacementView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/GroupPlacementView.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionAction_AttributionModelSettings' => array(
 		'version' => '12.1.0.0',
@@ -5986,33 +5802,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy_MaximizeConversions.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignSharedSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignSharedSet.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanAdGroupKeyword' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordPlanAdGroupKeyword.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ProductBiddingCategoryConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ProductBiddingCategoryConstant.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroupProductGroupView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetGroupProductGroupView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingSeasonalityAdjustment' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BiddingSeasonalityAdjustment.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetSet\\MerchantCenterFeed' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetSet/MerchantCenterFeed.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordView.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\GeoTargetConstant' => array(
 		'version' => '12.1.0.0',
@@ -6022,49 +5814,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Customer.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ExpandedLandingPageView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ExpandedLandingPageView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\SearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SearchTermView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\DisplayKeywordView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DisplayKeywordView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_TrackingSetting' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_TrackingSetting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignSimulation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomAudience' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomAudience.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\GenderView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/GenderView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignCriterionSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignCriterionSimulation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroup' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroup.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedPlaceholderView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedPlaceholderView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\DomainCategory' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DomainCategory.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterion\\PositionEstimates' => array(
 		'version' => '12.1.0.0',
@@ -6078,18 +5834,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/OfflineUserDataJobMetadata.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ShoppingPerformanceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ShoppingPerformanceView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerNegativeCriterion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerNegativeCriterion.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroupAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetGroupAsset.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\BatchJob\\BatchJobMetadata' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BatchJob/BatchJobMetadata.php'
@@ -6098,41 +5842,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy_TargetImpressionShare.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerAsset.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignConversionGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignConversionGoal.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\SharedSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SharedSet.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerUserAccess' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerUserAccess.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\LandingPageView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/LandingPageView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdParameter' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdParameter.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\OperatingSystemVersionConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/OperatingSystemVersionConstant.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\SmartCampaignSearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SmartCampaignSearchTermView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\Invoice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Invoice.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Feed_AffiliateLocationFeedData' => array(
 		'version' => '12.1.0.0',
@@ -6141,10 +5853,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ListingGroupFilterDimension_ProductBiddingCategory' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ListingGroupFilterDimension_ProductBiddingCategory.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerClientLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerClientLink.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_TargetRoasOptInRecommendation' => array(
 		'version' => '12.1.0.0',
@@ -6182,21 +5890,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionAction.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerExtensionSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerExtensionSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerCustomizer.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule_ValueRuleGeoLocationCondition' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionValueRule_ValueRuleGeoLocationCondition.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupSimulation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Feed\\AffiliateLocationFeedData' => array(
 		'version' => '12.1.0.0',
@@ -6210,22 +5906,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Feed/PlacesLocationFeedData/OAuthInfo.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupFeed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupFeed.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterionCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterionCustomizer.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAudienceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupAudienceView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomizerAttribute' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomizerAttribute.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_VanityPharma' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_VanityPharma.php'
@@ -6233,18 +5913,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccessibleBiddingStrategy_TargetCpa' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy_TargetCpa.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\Video' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Video.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingStrategySimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BiddingStrategySimulation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignFeed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignFeed.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign\\HotelSettingInfo' => array(
 		'version' => '12.1.0.0',
@@ -6290,65 +5958,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign/ShoppingSetting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ChangeStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ChangeStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CurrencyConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CurrencyConstant.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\PaymentsAccount' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/PaymentsAccount.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItem' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedItem.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAdLabel' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupAdLabel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CallView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CallView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\BatchJob' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BatchJob.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetFieldTypeView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetFieldTypeView.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetPolicySummary' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetPolicySummary.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordThemeConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordThemeConstant.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_AppCampaignSetting' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_AppCampaignSetting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionGoalCampaignConfig' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionGoalCampaignConfig.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\LanguageConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/LanguageConstant.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ChangeEvent\\ChangedResource' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ChangeEvent/ChangedResource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AssetSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AssetSet.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccessibleBiddingStrategy_MaximizeConversionValue' => array(
 		'version' => '12.1.0.0',
@@ -6378,30 +6002,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy/MaximizeConversions.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ExtensionFeedItem' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ExtensionFeedItem.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\DistanceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/DistanceView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\UserLocationView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/UserLocationView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ClickView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ClickView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlan' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordPlan.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\SharedCriterion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/SharedCriterion.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionAction\\ThirdPartyAppAnalyticsSettings' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionAction/ThirdPartyAppAnalyticsSettings.php'
@@ -6418,14 +6018,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionAction/ValueSettings.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingDataExclusion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BiddingDataExclusion.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ProductGroupView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ProductGroupView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_GeoTargetTypeSetting' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_GeoTargetTypeSetting.php'
@@ -6434,109 +6026,29 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BillingSetup.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomInterest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomInterest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\RemarketingSetting' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/RemarketingSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\IncomeRangeView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/IncomeRangeView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignCustomizer.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AccessibleBiddingStrategy' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAd' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupAd.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomConversionGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomConversionGoal.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_HotelSettingInfo' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_HotelSettingInfo.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignExtensionSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignExtensionSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\PaidOrganicSearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/PaidOrganicSearchTermView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\TopicConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/TopicConstant.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanGeoTarget' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordPlanGeoTarget.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ThirdPartyAppAnalyticsLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ThirdPartyAppAnalyticsLink.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Campaign_LocalCampaignSetting' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Campaign_LocalCampaignSetting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAdAssetView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupAdAssetView.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\BillingSetup_PaymentsAccountInfo' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BillingSetup_PaymentsAccountInfo.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemSetLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/FeedItemSetLink.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CombinedAudience' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CombinedAudience.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\TopicView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/TopicView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignLabel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanAdGroup' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/KeywordPlanAdGroup.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\WebpageView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/WebpageView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupCustomizer.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerUserAccessInvitation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CustomerUserAccessInvitation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRuleSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionValueRuleSet.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\GeographicView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/GeographicView.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_CalloutExtensionRecommendation' => array(
 		'version' => '12.1.0.0',
@@ -6546,41 +6058,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionTrackingSetting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AgeRangeView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AgeRangeView.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterionSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterionSimulation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/AdGroupAsset.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_TargetCpaOptInRecommendation_TargetCpaOptInRecommendationOption' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_TargetCpaOptInRecommendation_TargetCpaOptInRecommendationOption.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingStrategy' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/BiddingStrategy.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ThirdPartyAppAnalyticsLinkIdentifier' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ThirdPartyAppAnalyticsLinkIdentifier.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\OfflineUserDataJob' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/OfflineUserDataJob.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignCriterion' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/CampaignCriterion.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionCustomVariable' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/ConversionCustomVariable.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule_ValueRuleAudienceCondition' => array(
 		'version' => '12.1.0.0',
@@ -6606,377 +6094,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Invoice/AccountBudgetSummary.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\UserInterest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/UserInterest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation_SearchPartnersOptInRecommendation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Recommendation_SearchPartnersOptInRecommendation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\UserList' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/UserList.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Resources\\Asset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Resources/Asset.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProximityRadiusUnitsEnum_ProximityRadiusUnits' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProximityRadiusUnitsEnum_ProximityRadiusUnits.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAdjustmentTypeEnum\\ConversionAdjustmentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionAdjustmentTypeEnum/ConversionAdjustmentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListClosingReasonEnum_UserListClosingReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListClosingReasonEnum_UserListClosingReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetTypeEnum_AssetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetTypeEnum_AssetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SlotEnum_Slot' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SlotEnum_Slot.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanForecastIntervalEnum\\KeywordPlanForecastInterval' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanForecastIntervalEnum/KeywordPlanForecastInterval.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetTypeEnum\\FeedItemTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetTypeEnum/FeedItemTargetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalStatusEnum\\AccountBudgetProposalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalStatusEnum/AccountBudgetProposalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationTypeEnum_SimulationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SimulationTypeEnum_SimulationType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MinuteOfHourEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MinuteOfHourEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CombinedAudienceStatusEnum_CombinedAudienceStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CombinedAudienceStatusEnum_CombinedAudienceStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionContextTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionContextTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleDeviceTypeEnum_ValueRuleDeviceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleDeviceTypeEnum_ValueRuleDeviceType.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignCriterionStatusEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignCriterionStatusEnum.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusOperationEnum\\ChangeStatusOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeStatusOperationEnum/ChangeStatusOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeClientTypeEnum_ChangeClientType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeClientTypeEnum_ChangeClientType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListLogicalRuleOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListLogicalRuleOperatorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetPerformanceLabelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetPerformanceLabelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanAggregateMetricTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanAggregateMetricTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanConceptGroupTypeEnum\\KeywordPlanConceptGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanConceptGroupTypeEnum/KeywordPlanConceptGroupType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PlaceholderTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PlaceholderTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCrmDataSourceTypeEnum_UserListCrmDataSourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListCrmDataSourceTypeEnum_UserListCrmDataSourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\RecommendationTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/RecommendationTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelRateTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelRateTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AttributionModelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AttributionModelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListTypeEnum_UserListType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListTypeEnum_UserListType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetFieldTypeEnum_AssetFieldType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetFieldTypeEnum_AssetFieldType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductCustomAttributeIndexEnum\\ProductCustomAttributeIndex' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductCustomAttributeIndexEnum/ProductCustomAttributeIndex.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCombinedRuleOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListCombinedRuleOperatorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceStatusEnum\\CustomAudienceStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceStatusEnum/CustomAudienceStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OptimizationGoalTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OptimizationGoalTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingCriterionTypeEnum\\FeedMappingCriterionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedMappingCriterionTypeEnum/FeedMappingCriterionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusResourceTypeEnum_ChangeStatusResourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeStatusResourceTypeEnum_ChangeStatusResourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldCategoryEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldCategoryEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedStatusEnum_FeedStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedStatusEnum_FeedStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemValidationStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemValidationStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPriceBucketEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelPriceBucketEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ImagePlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ImagePlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GenderTypeEnum\\GenderType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GenderTypeEnum/GenderType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountLinkStatusEnum\\AccountLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountLinkStatusEnum/AccountLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAgeRangeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanAgeRangeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OperatingSystemVersionOperatorTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OperatingSystemVersionOperatorTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCrmDataSourceTypeEnum\\UserListCrmDataSourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListCrmDataSourceTypeEnum/UserListCrmDataSourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdStatusEnum\\AdGroupAdStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupAdStatusEnum/AdGroupAdStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BidModifierSourceEnum_BidModifierSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BidModifierSourceEnum_BidModifierSource.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignStatusEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignStatusEnum.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStatusEnum\\FeedItemSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStatusEnum/FeedItemSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAttributionEventTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionAttributionEventTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MessagePlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MessagePlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingStatusEnum_FeedMappingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedMappingStatusEnum_FeedMappingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperatorEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCategoryEnum\\ConversionActionCategory' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionCategoryEnum/ConversionActionCategory.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallTrackingDisplayLocationEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallTrackingDisplayLocationEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetStatusEnum_BudgetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetStatusEnum_BudgetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobStatusEnum_OfflineUserDataJobStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobStatusEnum_OfflineUserDataJobStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationExtensionTargetingCriterionFieldEnum\\LocationExtensionTargetingCriterionField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationExtensionTargetingCriterionFieldEnum/LocationExtensionTargetingCriterionField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetCpaOptInRecommendationGoalEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetCpaOptInRecommendationGoalEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapLevelEnum_FrequencyCapLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapLevelEnum_FrequencyCapLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapTimeUnitEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapTimeUnitEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanCompetitionLevelEnum\\KeywordPlanCompetitionLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanCompetitionLevelEnum/KeywordPlanCompetitionLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ImagePlaceholderFieldEnum\\ImagePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ImagePlaceholderFieldEnum/ImagePlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\JobPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/JobPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdCustomizerPlaceholderFieldEnum\\AdCustomizerPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdCustomizerPlaceholderFieldEnum/AdCustomizerPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestStatusEnum_CustomInterestStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestStatusEnum_CustomInterestStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermTargetingStatusEnum_SearchTermTargetingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchTermTargetingStatusEnum_SearchTermTargetingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedAttributeTypeEnum\\FeedAttributeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedAttributeTypeEnum/FeedAttributeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanNetworkEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanNetworkEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DayOfWeekEnum_DayOfWeek' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DayOfWeekEnum_DayOfWeek.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCountingTypeEnum_ConversionActionCountingType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionCountingTypeEnum_ConversionActionCountingType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobTypeEnum\\OfflineUserDataJobType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobTypeEnum/OfflineUserDataJobType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaDisplayUrlModeEnum\\VanityPharmaDisplayUrlMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VanityPharmaDisplayUrlModeEnum/VanityPharmaDisplayUrlMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetTypeEnum_FeedItemTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetTypeEnum_FeedItemTargetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelSubTypeEnum\\AdvertisingChannelSubType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelSubTypeEnum/AdvertisingChannelSubType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListClosingReasonEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListClosingReasonEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DsaPageFeedCriterionFieldEnum\\DsaPageFeedCriterionField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DsaPageFeedCriterionFieldEnum/DsaPageFeedCriterionField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanKeywordAnnotationEnum_KeywordPlanKeywordAnnotation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanKeywordAnnotationEnum_KeywordPlanKeywordAnnotation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceStatusEnum_CustomAudienceStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceStatusEnum_CustomAudienceStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LabelStatusEnum_LabelStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LabelStatusEnum_LabelStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdServingOptimizationStatusEnum\\AdServingOptimizationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdServingOptimizationStatusEnum/AdServingOptimizationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdStrengthEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdStrengthEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusResourceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeStatusResourceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetPeriodEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetPeriodEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListNumberRuleItemOperatorEnum_UserListNumberRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListNumberRuleItemOperatorEnum_UserListNumberRuleItemOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleGeoLocationMatchTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleGeoLocationMatchTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionTypeEnum_PriceExtensionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionTypeEnum_PriceExtensionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOriginEnum_ConversionOrigin' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionOriginEnum_ConversionOrigin.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PricePlaceholderFieldEnum_PricePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PricePlaceholderFieldEnum_PricePlaceholderField.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionStatusEnum\\ConversionActionStatus' => array(
 		'version' => '12.1.0.0',
@@ -6986,173 +6118,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TrackingCodeTypeEnum/TrackingCodeType.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListMembershipStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListMembershipStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SharedSetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\QualityScoreBucketEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/QualityScoreBucketEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityDisapprovalReasonEnum\\FeedItemQualityDisapprovalReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityDisapprovalReasonEnum/FeedItemQualityDisapprovalReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAttributionEventTypeEnum\\ConversionAttributionEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionAttributionEventTypeEnum/ConversionAttributionEventType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallConversionReportingStateEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallConversionReportingStateEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListSizeRangeEnum_UserListSizeRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListSizeRangeEnum_UserListSizeRange.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationFeedRelationshipTypeEnum_AffiliateLocationFeedRelationshipType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationFeedRelationshipTypeEnum_AffiliateLocationFeedRelationshipType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleOperationEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleOperationEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceUnitEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceUnitEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEntryTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEntryTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserIdentifierSourceEnum_UserIdentifierSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserIdentifierSourceEnum_UserIdentifierSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaDisplayUrlModeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VanityPharmaDisplayUrlModeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionSystemServingStatusEnum_CriterionSystemServingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionSystemServingStatusEnum_CriterionSystemServingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallPlaceholderFieldEnum\\CallPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallPlaceholderFieldEnum/CallPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyReviewStatusEnum\\PolicyReviewStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyReviewStatusEnum/PolicyReviewStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOriginEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionOriginEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRulePrimaryDimensionEnum_ConversionValueRulePrimaryDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRulePrimaryDimensionEnum_ConversionValueRulePrimaryDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SitelinkPlaceholderFieldEnum\\SitelinkPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SitelinkPlaceholderFieldEnum/SitelinkPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityApprovalStatusEnum_FeedItemQualityApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityApprovalStatusEnum_FeedItemQualityApprovalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductConditionEnum\\ListingGroupFilterProductCondition' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductConditionEnum/ListingGroupFilterProductCondition.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupTypeEnum_ListingGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupTypeEnum_ListingGroupType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdNetworkTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdNetworkTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MonthOfYearEnum\\MonthOfYear' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MonthOfYearEnum/MonthOfYear.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDnsErrorTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDnsErrorTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductCustomAttributeIndexEnum_ProductCustomAttributeIndex' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductCustomAttributeIndexEnum_ProductCustomAttributeIndex.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdStatusEnum_AdGroupAdStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupAdStatusEnum_AdGroupAdStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionApprovalStatusEnum\\AdGroupCriterionApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionApprovalStatusEnum/AdGroupCriterionApprovalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyApprovalStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyApprovalStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationSourceTypeEnum_LocationSourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationSourceTypeEnum_LocationSourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldDataTypeEnum\\GoogleAdsFieldDataType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldDataTypeEnum/GoogleAdsFieldDataType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListSizeRangeEnum\\UserListSizeRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListSizeRangeEnum/UserListSizeRange.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedLinkStatusEnum\\FeedLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedLinkStatusEnum/FeedLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationExtensionTargetingCriterionFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationExtensionTargetingCriterionFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetTypeEnum\\SharedSetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SharedSetTypeEnum/SharedSetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListDateRuleItemOperatorEnum\\UserListDateRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListDateRuleItemOperatorEnum/UserListDateRuleItemOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterCustomAttributeIndexEnum_ListingGroupFilterCustomAttributeIndex' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterCustomAttributeIndexEnum_ListingGroupFilterCustomAttributeIndex.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\TrackingCodePageFormatEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TrackingCodePageFormatEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListAccessStatusEnum\\UserListAccessStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListAccessStatusEnum/UserListAccessStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeEventResourceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeEventResourceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MobileDeviceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MobileDeviceTypeEnum.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterTypeEnum' => array(
 		'version' => '12.1.0.0',
@@ -7162,261 +6130,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionTypeEnum_ConversionActionType.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPlaceholderFieldEnum_HotelPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelPlaceholderFieldEnum_HotelPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductCustomAttributeIndexEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductCustomAttributeIndexEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BrandSafetySuitabilityEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BrandSafetySuitabilityEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanKeywordAnnotationEnum\\KeywordPlanKeywordAnnotation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanKeywordAnnotationEnum/KeywordPlanKeywordAnnotation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedOriginEnum_FeedOrigin' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedOriginEnum_FeedOrigin.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterBiddingCategoryLevelEnum\\ListingGroupFilterBiddingCategoryLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterBiddingCategoryLevelEnum/ListingGroupFilterBiddingCategoryLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterCustomAttributeIndexEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterCustomAttributeIndexEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingRestrictionEnum\\GeoTargetingRestriction' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetingRestrictionEnum/GeoTargetingRestriction.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExtensionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductConditionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductConditionEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionDiscountModifierEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionDiscountModifierEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\StructuredSnippetPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/StructuredSnippetPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperandEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperandEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PlacementTypeEnum\\PlacementType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PlacementTypeEnum/PlacementType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyStatusEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignStatusEnum\\CampaignStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignStatusEnum/CampaignStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetStatusEnum\\AccountBudgetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetStatusEnum/AccountBudgetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BatchJobStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BatchJobStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppUrlOperatingSystemTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppUrlOperatingSystemTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MimeTypeEnum\\MimeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MimeTypeEnum/MimeType.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionStatusEnum_ConversionActionStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionStatusEnum_ConversionActionStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerMatchUploadKeyTypeEnum\\CustomerMatchUploadKeyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomerMatchUploadKeyTypeEnum/CustomerMatchUploadKeyType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResponseContentTypeEnum\\ResponseContentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResponseContentTypeEnum/ResponseContentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ClickTypeEnum_ClickType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ClickTypeEnum_ClickType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperatorEnum_WebpageConditionOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperatorEnum_WebpageConditionOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingSourceEnum_BiddingSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingSourceEnum_BiddingSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoalConfigLevelEnum_GoalConfigLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoalConfigLevelEnum_GoalConfigLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OperatingSystemVersionOperatorTypeEnum\\OperatingSystemVersionOperatorType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OperatingSystemVersionOperatorTypeEnum/OperatingSystemVersionOperatorType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BidModifierSourceEnum\\BidModifierSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BidModifierSourceEnum/BidModifierSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExternalConversionSourceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExternalConversionSourceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignAppStoreEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppCampaignAppStoreEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanConceptGroupTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanConceptGroupTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallTypeEnum\\CallType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallTypeEnum/CallType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDeviceEnum_PolicyTopicEvidenceDestinationNotWorkingDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDeviceEnum_PolicyTopicEvidenceDestinationNotWorkingDevice.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetImpressionShareLocationEnum\\TargetImpressionShareLocation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetImpressionShareLocationEnum/TargetImpressionShareLocation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventStatusEnum\\SeasonalityEventStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventStatusEnum/SeasonalityEventStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\IncomeRangeTypeEnum_IncomeRangeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/IncomeRangeTypeEnum_IncomeRangeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetingTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ManagerLinkStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ManagerLinkStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetAttachmentTypeEnum\\ValueRuleSetAttachmentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetAttachmentTypeEnum/ValueRuleSetAttachmentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusOperationEnum_ChangeStatusOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeStatusOperationEnum_ChangeStatusOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdDestinationTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdDestinationTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LinkedAccountTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LinkedAccountTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermTargetingStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchTermTargetingStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryStatusEnum_ProductBiddingCategoryStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryStatusEnum_ProductBiddingCategoryStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationModificationMethodEnum_SimulationModificationMethod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SimulationModificationMethodEnum_SimulationModificationMethod.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallConversionReportingStateEnum_CallConversionReportingState' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallConversionReportingStateEnum_CallConversionReportingState.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerValueStatusEnum\\CustomizerValueStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerValueStatusEnum/CustomizerValueStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceLimitTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResourceLimitTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ManagerLinkStatusEnum_ManagerLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ManagerLinkStatusEnum_ManagerLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InvoiceTypeEnum_InvoiceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InvoiceTypeEnum_InvoiceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetConstantStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetConstantStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionTypeEnum\\PriceExtensionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionTypeEnum/PriceExtensionType.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\BillingSetupStatusEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BillingSetupStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperandEnum_WebpageConditionOperand' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperandEnum_WebpageConditionOperand.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdDestinationTypeEnum_AdDestinationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdDestinationTypeEnum_AdDestinationType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordMatchTypeEnum\\KeywordMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordMatchTypeEnum/KeywordMatchType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallTrackingDisplayLocationEnum_CallTrackingDisplayLocation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallTrackingDisplayLocationEnum_CallTrackingDisplayLocation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerValueStatusEnum_CustomizerValueStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerValueStatusEnum_CustomizerValueStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAdLengthEnum\\ReachPlanAdLength' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanAdLengthEnum/ReachPlanAdLength.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerPayPerConversionEligibilityFailureReasonEnum\\CustomerPayPerConversionEligibilityFailureReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomerPayPerConversionEligibilityFailureReasonEnum/CustomerPayPerConversionEligibilityFailureReason.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetGroupStatusEnum\\AssetGroupStatus' => array(
 		'version' => '12.1.0.0',
@@ -7426,557 +6150,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterVerticalEnum/ListingGroupFilterVertical.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ServedAssetFieldTypeEnum_ServedAssetFieldType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ServedAssetFieldTypeEnum_ServedAssetFieldType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaTextEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VanityPharmaTextEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelSubTypeEnum_AdvertisingChannelSubType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelSubTypeEnum_AdvertisingChannelSubType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetStatusEnum\\BudgetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetStatusEnum/BudgetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceMemberTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceMemberTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationModificationMethodEnum\\SimulationModificationMethod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SimulationModificationMethodEnum/SimulationModificationMethod.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoalConfigLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoalConfigLevelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleVoiceCallStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleVoiceCallStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PaymentModeEnum\\PaymentMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PaymentModeEnum/PaymentMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListSizeRangeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListSizeRangeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventScopeEnum\\SeasonalityEventScope' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventScopeEnum/SeasonalityEventScope.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyReviewStatusEnum_PolicyReviewStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyReviewStatusEnum_PolicyReviewStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetDimensionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetDimensionEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\RealEstatePlaceholderFieldEnum\\RealEstatePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/RealEstatePlaceholderFieldEnum/RealEstatePlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeTypeEnum\\CustomizerAttributeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeTypeEnum/CustomizerAttributeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelExclusivityEnum_ProductChannelExclusivity' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductChannelExclusivityEnum_ProductChannelExclusivity.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayUploadProductTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DisplayUploadProductTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationPlaceholderFieldEnum\\LocationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationPlaceholderFieldEnum/LocationPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListNumberRuleItemOperatorEnum\\UserListNumberRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListNumberRuleItemOperatorEnum/UserListNumberRuleItemOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestMemberTypeEnum_CustomInterestMemberType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestMemberTypeEnum_CustomInterestMemberType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelExclusivityEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductChannelExclusivityEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OperatingSystemVersionOperatorTypeEnum_OperatingSystemVersionOperatorType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OperatingSystemVersionOperatorTypeEnum_OperatingSystemVersionOperatorType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationSourceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationSourceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleVoiceCallStatusEnum_GoogleVoiceCallStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleVoiceCallStatusEnum_GoogleVoiceCallStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MediaTypeEnum_MediaType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MediaTypeEnum_MediaType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalTypeEnum_AccountBudgetProposalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalTypeEnum_AccountBudgetProposalType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionContextTypeEnum\\MatchingFunctionContextType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionContextTypeEnum/MatchingFunctionContextType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SpendingLimitTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SpendingLimitTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetConstantStatusEnum\\GeoTargetConstantStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetConstantStatusEnum/GeoTargetConstantStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallConversionReportingStateEnum\\CallConversionReportingState' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallConversionReportingStateEnum/CallConversionReportingState.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserIdentifierSourceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserIdentifierSourceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetAttachmentTypeEnum_ValueRuleSetAttachmentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetAttachmentTypeEnum_ValueRuleSetAttachmentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordMatchTypeEnum_KeywordMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordMatchTypeEnum_KeywordMatchType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListPrepopulationStatusEnum\\UserListPrepopulationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListPrepopulationStatusEnum/UserListPrepopulationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPlaceholderFieldEnum\\HotelPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelPlaceholderFieldEnum/HotelPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdStrengthEnum_AdStrength' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdStrengthEnum_AdStrength.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\EducationPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/EducationPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OptimizationGoalTypeEnum_OptimizationGoalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OptimizationGoalTypeEnum_OptimizationGoalType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListStringRuleItemOperatorEnum_UserListStringRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListStringRuleItemOperatorEnum_UserListStringRuleItemOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocalPlaceholderFieldEnum\\LocalPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocalPlaceholderFieldEnum/LocalPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PreferredContentTypeEnum_PreferredContentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PreferredContentTypeEnum_PreferredContentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetDeviceEnum\\FeedItemTargetDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetDeviceEnum/FeedItemTargetDevice.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessReasonEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessReasonEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetingDimensionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetingDimensionEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductTypeLevelEnum_ProductTypeLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductTypeLevelEnum_ProductTypeLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceChangeOperationEnum\\ResourceChangeOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResourceChangeOperationEnum/ResourceChangeOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ClickTypeEnum\\ClickType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ClickTypeEnum/ClickType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetPeriodEnum\\BudgetPeriod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetPeriodEnum/BudgetPeriod.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleOperationEnum_ValueRuleOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleOperationEnum_ValueRuleOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchEngineResultsPageTypeEnum\\SearchEngineResultsPageType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchEngineResultsPageTypeEnum/SearchEngineResultsPageType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BrandSafetySuitabilityEnum_BrandSafetySuitability' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BrandSafetySuitabilityEnum_BrandSafetySuitability.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductConditionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductConditionEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignSharedSetStatusEnum_CampaignSharedSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignSharedSetStatusEnum_CampaignSharedSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingRestrictionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetingRestrictionEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelTypeEnum\\AdvertisingChannelType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelTypeEnum/AdvertisingChannelType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppPlaceholderFieldEnum_AppPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppPlaceholderFieldEnum_AppPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionOperatorEnum_MatchingFunctionOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionOperatorEnum_MatchingFunctionOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedStatusEnum\\FeedStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedStatusEnum/FeedStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeEventResourceTypeEnum\\ChangeEventResourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeEventResourceTypeEnum/ChangeEventResourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\IncomeRangeTypeEnum\\IncomeRangeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/IncomeRangeTypeEnum/IncomeRangeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionOperatorEnum\\MatchingFunctionOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionOperatorEnum/MatchingFunctionOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BrandSafetySuitabilityEnum\\BrandSafetySuitability' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BrandSafetySuitabilityEnum/BrandSafetySuitability.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DsaPageFeedCriterionFieldEnum_DsaPageFeedCriterionField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DsaPageFeedCriterionFieldEnum_DsaPageFeedCriterionField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDnsErrorTypeEnum_PolicyTopicEvidenceDestinationNotWorkingDnsErrorType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDnsErrorTypeEnum_PolicyTopicEvidenceDestinationNotWorkingDnsErrorType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelEnum\\ProductChannel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductChannelEnum/ProductChannel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PositiveGeoTargetTypeEnum_PositiveGeoTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PositiveGeoTargetTypeEnum_PositiveGeoTargetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionPlaceholderFieldEnum_PromotionPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionPlaceholderFieldEnum_PromotionPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetStatusEnum_AssetSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetStatusEnum_AssetSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAdLengthEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanAdLengthEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\IncomeRangeTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/IncomeRangeTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdRotationModeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupAdRotationModeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TimeTypeEnum_TimeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TimeTypeEnum_TimeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetStatusEnum_SharedSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SharedSetStatusEnum_SharedSetStatus.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\MerchantCenterLinkStatusEnum\\MerchantCenterLinkStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MerchantCenterLinkStatusEnum/MerchantCenterLinkStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldCategoryEnum_GoogleAdsFieldCategory' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldCategoryEnum_GoogleAdsFieldCategory.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationExtensionTargetingCriterionFieldEnum_LocationExtensionTargetingCriterionField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationExtensionTargetingCriterionFieldEnum_LocationExtensionTargetingCriterionField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FlightPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FlightPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingTypeEnum\\GeoTargetingType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetingTypeEnum/GeoTargetingType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperandEnum\\WebpageConditionOperand' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperandEnum/WebpageConditionOperand.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryLocaleAvailabilityModeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryLocaleAvailabilityModeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SharedSetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdDestinationTypeEnum\\AdDestinationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdDestinationTypeEnum/AdDestinationType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedMappingStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListPrepopulationStatusEnum_UserListPrepopulationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListPrepopulationStatusEnum_UserListPrepopulationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\JobPlaceholderFieldEnum_JobPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/JobPlaceholderFieldEnum_JobPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VideoThumbnailEnum_VideoThumbnail' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VideoThumbnailEnum_VideoThumbnail.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelSubTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelSubTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppPlaceholderFieldEnum\\AppPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppPlaceholderFieldEnum/AppPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalTypeEnum\\AccountBudgetProposalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalTypeEnum/AccountBudgetProposalType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemStatusEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionTypeEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductChannelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceTypeEnum_CustomAudienceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceTypeEnum_CustomAudienceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdServingOptimizationStatusEnum_AdServingOptimizationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdServingOptimizationStatusEnum_AdServingOptimizationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessReasonEnum_AccessReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessReasonEnum_AccessReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignServingStatusEnum\\CampaignServingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignServingStatusEnum/CampaignServingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionApprovalStatusEnum_AdGroupCriterionApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionApprovalStatusEnum_AdGroupCriterionApprovalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerPayPerConversionEligibilityFailureReasonEnum_CustomerPayPerConversionEligibilityFailureReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomerPayPerConversionEligibilityFailureReasonEnum_CustomerPayPerConversionEligibilityFailureReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TimeTypeEnum\\TimeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TimeTypeEnum/TimeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionDiscountModifierEnum\\PromotionExtensionDiscountModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionDiscountModifierEnum/PromotionExtensionDiscountModifier.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOrAdjustmentLagBucketEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionOrAdjustmentLagBucketEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessReasonEnum\\AccessReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessReasonEnum/AccessReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\NegativeGeoTargetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/NegativeGeoTargetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationMismatchUrlTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationMismatchUrlTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignSharedSetStatusEnum\\CampaignSharedSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignSharedSetStatusEnum/CampaignSharedSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetingDimensionEnum\\TargetingDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetingDimensionEnum/TargetingDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ServedAssetFieldTypeEnum\\ServedAssetFieldType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ServedAssetFieldTypeEnum/ServedAssetFieldType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetStatusEnum_FeedItemTargetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetStatusEnum_FeedItemTargetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExternalConversionSourceEnum\\ExternalConversionSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExternalConversionSourceEnum/ExternalConversionSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceLimitTypeEnum\\ResourceLimitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResourceLimitTypeEnum/ResourceLimitType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallTrackingDisplayLocationEnum\\CallTrackingDisplayLocation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallTrackingDisplayLocationEnum/CallTrackingDisplayLocation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessInvitationStatusEnum_AccessInvitationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessInvitationStatusEnum_AccessInvitationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListAccessStatusEnum_UserListAccessStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListAccessStatusEnum_UserListAccessStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetFieldTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetFieldTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordMatchTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordMatchTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdStrengthEnum\\AdStrength' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdStrengthEnum/AdStrength.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleDeviceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleDeviceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobMatchRateRangeEnum\\OfflineUserDataJobMatchRateRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobMatchRateRangeEnum/OfflineUserDataJobMatchRateRange.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TimeTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TimeTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductChannelEnum\\ListingGroupFilterProductChannel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductChannelEnum/ListingGroupFilterProductChannel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AgeRangeTypeEnum_AgeRangeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AgeRangeTypeEnum_AgeRangeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldDataTypeEnum_GoogleAdsFieldDataType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldDataTypeEnum_GoogleAdsFieldDataType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemValidationStatusEnum_FeedItemValidationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemValidationStatusEnum_FeedItemValidationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapTimeUnitEnum\\FrequencyCapTimeUnit' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapTimeUnitEnum/FrequencyCapTimeUnit.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormPostSubmitCallToActionTypeEnum_LeadFormPostSubmitCallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormPostSubmitCallToActionTypeEnum_LeadFormPostSubmitCallToActionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FlightPlaceholderFieldEnum_FlightPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FlightPlaceholderFieldEnum_FlightPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetTypeEnum_AssetSetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetTypeEnum_AssetSetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanForecastIntervalEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanForecastIntervalEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobTypeEnum_OfflineUserDataJobType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobTypeEnum_OfflineUserDataJobType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ClickTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ClickTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPriceBucketEnum_HotelPriceBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelPriceBucketEnum_HotelPriceBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppUrlOperatingSystemTypeEnum_AppUrlOperatingSystemType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppUrlOperatingSystemTypeEnum_AppUrlOperatingSystemType.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\TrackingCodePageFormatEnum_TrackingCodePageFormat' => array(
 		'version' => '12.1.0.0',
@@ -7986,1701 +6170,85 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessRoleEnum_AccessRole.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AttributionModelEnum_AttributionModel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AttributionModelEnum_AttributionModel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProximityRadiusUnitsEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProximityRadiusUnitsEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchEngineResultsPageTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchEngineResultsPageTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SlotEnum\\Slot' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SlotEnum/Slot.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SitelinkPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SitelinkPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MimeTypeEnum_MimeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MimeTypeEnum_MimeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupStatusEnum_AdGroupStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupStatusEnum_AdGroupStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanKeywordAnnotationEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanKeywordAnnotationEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\SystemManagedResourceSourceEnum\\SystemManagedResourceSource' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SystemManagedResourceSourceEnum/SystemManagedResourceSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LegacyAppInstallAdAppStoreEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LegacyAppInstallAdAppStoreEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetingDimensionEnum_TargetingDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetingDimensionEnum_TargetingDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupTypeEnum_AdGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupTypeEnum_AdGroupType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAdLengthEnum_ReachPlanAdLength' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanAdLengthEnum_ReachPlanAdLength.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GenderTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GenderTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionOccasionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionOccasionEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetTypeEnum_SharedSetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SharedSetTypeEnum_SharedSetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryChannelAvailabilityModeEnum\\CriterionCategoryChannelAvailabilityMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryChannelAvailabilityModeEnum/CriterionCategoryChannelAvailabilityMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStringFilterTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStringFilterTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationFeedRelationshipTypeEnum\\AffiliateLocationFeedRelationshipType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationFeedRelationshipTypeEnum/AffiliateLocationFeedRelationshipType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetStatusEnum\\FeedItemTargetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetStatusEnum/FeedItemTargetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MediaTypeEnum\\MediaType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MediaTypeEnum/MediaType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\QualityScoreBucketEnum_QualityScoreBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/QualityScoreBucketEnum_QualityScoreBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeStatusEnum\\CustomizerAttributeStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeStatusEnum/CustomizerAttributeStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemValidationStatusEnum\\FeedItemValidationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemValidationStatusEnum/FeedItemValidationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\RecommendationTypeEnum_RecommendationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/RecommendationTypeEnum_RecommendationType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionLagBucketEnum\\ConversionLagBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionLagBucketEnum/ConversionLagBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LabelStatusEnum\\LabelStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LabelStatusEnum/LabelStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionSystemServingStatusEnum\\CriterionSystemServingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionSystemServingStatusEnum/CriterionSystemServingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallToActionTypeEnum_CallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallToActionTypeEnum_CallToActionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DeviceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DeviceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SpendingLimitTypeEnum_SpendingLimitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SpendingLimitTypeEnum_SpendingLimitType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductConditionEnum\\ProductCondition' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductConditionEnum/ProductCondition.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTypeEnum\\CampaignExperimentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTypeEnum/CampaignExperimentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AgeRangeTypeEnum\\AgeRangeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AgeRangeTypeEnum/AgeRangeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AttributionModelEnum\\AttributionModel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AttributionModelEnum/AttributionModel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanNetworkEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanNetworkEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingStatusEnum\\FeedMappingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedMappingStatusEnum/FeedMappingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupStatusEnum\\AdGroupStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupStatusEnum/AdGroupStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceUnitEnum_PriceExtensionPriceUnit' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceUnitEnum_PriceExtensionPriceUnit.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormDesiredIntentEnum\\LeadFormDesiredIntent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormDesiredIntentEnum/LeadFormDesiredIntent.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryChannelAvailabilityModeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryChannelAvailabilityModeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeClientTypeEnum\\ChangeClientType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeClientTypeEnum/ChangeClientType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalStatusEnum_AccountBudgetProposalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalStatusEnum_AccountBudgetProposalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleSetStatusEnum\\ConversionValueRuleSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleSetStatusEnum/ConversionValueRuleSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAgeRangeEnum_ReachPlanAgeRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanAgeRangeEnum_ReachPlanAgeRange.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerMatchUploadKeyTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomerMatchUploadKeyTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserIdentifierSourceEnum\\UserIdentifierSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserIdentifierSourceEnum/UserIdentifierSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionContextTypeEnum_MatchingFunctionContextType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionContextTypeEnum_MatchingFunctionContextType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SitelinkPlaceholderFieldEnum_SitelinkPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SitelinkPlaceholderFieldEnum_SitelinkPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapLevelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelReconciliationStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelReconciliationStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DistanceBucketEnum\\DistanceBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DistanceBucketEnum/DistanceBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDnsErrorTypeEnum\\PolicyTopicEvidenceDestinationNotWorkingDnsErrorType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDnsErrorTypeEnum/PolicyTopicEvidenceDestinationNotWorkingDnsErrorType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionSettingDeviceEnum\\ExtensionSettingDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExtensionSettingDeviceEnum/ExtensionSettingDevice.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationPlaceholderFieldEnum_AffiliateLocationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationPlaceholderFieldEnum_AffiliateLocationPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPriceBucketEnum\\HotelPriceBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelPriceBucketEnum/HotelPriceBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdCustomizerPlaceholderFieldEnum_AdCustomizerPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdCustomizerPlaceholderFieldEnum_AdCustomizerPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayAdFormatSettingEnum_DisplayAdFormatSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DisplayAdFormatSettingEnum_DisplayAdFormatSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MobileAppVendorEnum\\MobileAppVendor' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MobileAppVendorEnum/MobileAppVendor.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InvoiceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InvoiceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductChannelEnum_ListingGroupFilterProductChannel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductChannelEnum_ListingGroupFilterProductChannel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerPayPerConversionEligibilityFailureReasonEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomerPayPerConversionEligibilityFailureReasonEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleSetStatusEnum_ConversionValueRuleSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleSetStatusEnum_ConversionValueRuleSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyApprovalStatusEnum\\PolicyApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyApprovalStatusEnum/PolicyApprovalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProximityRadiusUnitsEnum\\ProximityRadiusUnits' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProximityRadiusUnitsEnum/ProximityRadiusUnits.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyStatusEnum\\BiddingStrategyStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyStatusEnum/BiddingStrategyStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryChannelAvailabilityModeEnum_CriterionCategoryChannelAvailabilityMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryChannelAvailabilityModeEnum_CriterionCategoryChannelAvailabilityMode.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionTypeEnum\\ConversionActionType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionTypeEnum/ConversionActionType.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeClientTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeClientTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanNetworkEnum_KeywordPlanNetwork' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanNetworkEnum_KeywordPlanNetwork.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetDeliveryMethodEnum_BudgetDeliveryMethod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetDeliveryMethodEnum_BudgetDeliveryMethod.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelDateSelectionTypeEnum\\HotelDateSelectionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelDateSelectionTypeEnum/HotelDateSelectionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanNetworkEnum\\ReachPlanNetwork' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanNetworkEnum/ReachPlanNetwork.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DeviceEnum_Device' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DeviceEnum_Device.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetPerformanceLabelEnum\\AssetPerformanceLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetPerformanceLabelEnum/AssetPerformanceLabel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetDeliveryMethodEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetDeliveryMethodEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleGeoLocationMatchTypeEnum\\ValueRuleGeoLocationMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleGeoLocationMatchTypeEnum/ValueRuleGeoLocationMatchType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRulePrimaryDimensionEnum\\ConversionValueRulePrimaryDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRulePrimaryDimensionEnum/ConversionValueRulePrimaryDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppStoreEnum\\AppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppStoreEnum/AppStore.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetDeliveryMethodEnum\\BudgetDeliveryMethod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetDeliveryMethodEnum/BudgetDeliveryMethod.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\RecommendationTypeEnum\\RecommendationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/RecommendationTypeEnum/RecommendationType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DataDrivenModelStatusEnum\\DataDrivenModelStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DataDrivenModelStatusEnum/DataDrivenModelStatus.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterVerticalEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterVerticalEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\QualityScoreBucketEnum\\QualityScoreBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/QualityScoreBucketEnum/QualityScoreBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDeviceEnum\\PolicyTopicEvidenceDestinationNotWorkingDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDeviceEnum/PolicyTopicEvidenceDestinationNotWorkingDevice.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanForecastIntervalEnum_KeywordPlanForecastInterval' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanForecastIntervalEnum_KeywordPlanForecastInterval.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapLevelEnum\\FrequencyCapLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapLevelEnum/FrequencyCapLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MediaTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MediaTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ImagePlaceholderFieldEnum_ImagePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ImagePlaceholderFieldEnum_ImagePlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionEventTypeEnum_InteractionEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InteractionEventTypeEnum_InteractionEventType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetImpressionShareLocationEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetImpressionShareLocationEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DataDrivenModelStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DataDrivenModelStatusEnum.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignCriterionStatusEnum_CampaignCriterionStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignCriterionStatusEnum_CampaignCriterionStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomPlaceholderFieldEnum_CustomPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomPlaceholderFieldEnum_CustomPlaceholderField.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\MerchantCenterLinkStatusEnum_MerchantCenterLinkStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MerchantCenterLinkStatusEnum_MerchantCenterLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryLocaleAvailabilityModeEnum\\CriterionCategoryLocaleAvailabilityMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryLocaleAvailabilityModeEnum/CriterionCategoryLocaleAvailabilityMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SummaryRowSettingEnum_SummaryRowSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SummaryRowSettingEnum_SummaryRowSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BatchJobStatusEnum\\BatchJobStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BatchJobStatusEnum/BatchJobStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermMatchTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchTermMatchTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeEventResourceTypeEnum_ChangeEventResourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeEventResourceTypeEnum_ChangeEventResourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupTypeEnum\\AdGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupTypeEnum/AdGroupType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\JobPlaceholderFieldEnum\\JobPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/JobPlaceholderFieldEnum/JobPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionTypeEnum_ExtensionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExtensionTypeEnum_ExtensionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppUrlOperatingSystemTypeEnum\\AppUrlOperatingSystemType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppUrlOperatingSystemTypeEnum/AppUrlOperatingSystemType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionSettingDeviceEnum_ExtensionSettingDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExtensionSettingDeviceEnum_ExtensionSettingDevice.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppStoreEnum_AppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppStoreEnum_AppStore.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\EducationPlaceholderFieldEnum\\EducationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/EducationPlaceholderFieldEnum/EducationPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallPlaceholderFieldEnum_CallPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallPlaceholderFieldEnum_CallPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignDraftStatusEnum_CampaignDraftStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignDraftStatusEnum_CampaignDraftStatus.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\TrackingCodeTypeEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TrackingCodeTypeEnum.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelRateTypeEnum_HotelRateType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelRateTypeEnum_HotelRateType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceMemberTypeEnum\\CustomAudienceMemberType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceMemberTypeEnum/CustomAudienceMemberType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobMatchRateRangeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobMatchRateRangeEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\BillingSetupStatusEnum\\BillingSetupStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BillingSetupStatusEnum/BillingSetupStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormDesiredIntentEnum_LeadFormDesiredIntent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormDesiredIntentEnum_LeadFormDesiredIntent.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermMatchTypeEnum\\SearchTermMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchTermMatchTypeEnum/SearchTermMatchType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceQualifierEnum\\PriceExtensionPriceQualifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceQualifierEnum/PriceExtensionPriceQualifier.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCrmDataSourceTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListCrmDataSourceTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanCompetitionLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanCompetitionLevelEnum.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetGroupStatusEnum_AssetGroupStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetGroupStatusEnum_AssetGroupStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityDisapprovalReasonEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityDisapprovalReasonEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelEnum_ProductChannel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductChannelEnum_ProductChannel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountLinkStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountLinkStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetPerformanceLabelEnum_AssetPerformanceLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetPerformanceLabelEnum_AssetPerformanceLabel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStatusEnum_FeedItemSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStatusEnum_FeedItemSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CombinedAudienceStatusEnum\\CombinedAudienceStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CombinedAudienceStatusEnum/CombinedAudienceStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExternalConversionSourceEnum_ExternalConversionSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExternalConversionSourceEnum_ExternalConversionSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetCpaOptInRecommendationGoalEnum\\TargetCpaOptInRecommendationGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetCpaOptInRecommendationGoalEnum/TargetCpaOptInRecommendationGoal.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionStatusEnum\\AdGroupCriterionStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionStatusEnum/AdGroupCriterionStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityDisapprovalReasonEnum_FeedItemQualityDisapprovalReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityDisapprovalReasonEnum_FeedItemQualityDisapprovalReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListNumberRuleItemOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListNumberRuleItemOperatorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetStatusEnum_AccountBudgetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetStatusEnum_AccountBudgetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MinuteOfHourEnum_MinuteOfHour' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MinuteOfHourEnum_MinuteOfHour.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MinuteOfHourEnum\\MinuteOfHour' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MinuteOfHourEnum/MinuteOfHour.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LabelStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LabelStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PlaceholderTypeEnum_PlaceholderType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PlaceholderTypeEnum_PlaceholderType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormCallToActionTypeEnum\\LeadFormCallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormCallToActionTypeEnum/LeadFormCallToActionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetAttachmentTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetAttachmentTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomConversionGoalStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomConversionGoalStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomPlaceholderFieldEnum\\CustomPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomPlaceholderFieldEnum/CustomPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionEventTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InteractionEventTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityApprovalStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityApprovalStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAdjustmentTypeEnum_ConversionAdjustmentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionAdjustmentTypeEnum_ConversionAdjustmentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetStatusEnum\\AssetSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetStatusEnum/AssetSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterBiddingCategoryLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterBiddingCategoryLevelEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessRoleEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessRoleEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetDeviceEnum_FeedItemTargetDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetDeviceEnum_FeedItemTargetDevice.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryLevelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListStringRuleItemOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListStringRuleItemOperatorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductConditionEnum_ListingGroupFilterProductCondition' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductConditionEnum_ListingGroupFilterProductCondition.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationFeedRelationshipTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationFeedRelationshipTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedAttributeTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedAttributeTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleOperationEnum\\ValueRuleOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleOperationEnum/ValueRuleOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionTypeEnum\\CriterionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionTypeEnum/CriterionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationGroupRadiusUnitsEnum\\LocationGroupRadiusUnits' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationGroupRadiusUnitsEnum/LocationGroupRadiusUnits.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MonthOfYearEnum_MonthOfYear' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MonthOfYearEnum_MonthOfYear.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanNetworkEnum_ReachPlanNetwork' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanNetworkEnum_ReachPlanNetwork.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetStatusEnum\\SharedSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SharedSetStatusEnum/SharedSetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormDesiredIntentEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormDesiredIntentEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermMatchTypeEnum_SearchTermMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchTermMatchTypeEnum_SearchTermMatchType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdTypeEnum_AdType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdTypeEnum_AdType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingCriterionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedMappingCriterionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingSourceEnum\\BiddingSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingSourceEnum/BiddingSource.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PreferredContentTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PreferredContentTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentStatusEnum_CampaignExperimentStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentStatusEnum_CampaignExperimentStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormCallToActionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormCallToActionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormPostSubmitCallToActionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormPostSubmitCallToActionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayUploadProductTypeEnum_DisplayUploadProductType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DisplayUploadProductTypeEnum_DisplayUploadProductType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceQualifierEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceQualifierEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusOperationEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeStatusOperationEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRulePrimaryDimensionEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRulePrimaryDimensionEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserInterestTaxonomyTypeEnum\\UserInterestTaxonomyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserInterestTaxonomyTypeEnum/UserInterestTaxonomyType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedLinkStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedLinkStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PlacementTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PlacementTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductTypeLevelEnum_ListingGroupFilterProductTypeLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductTypeLevelEnum_ListingGroupFilterProductTypeLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallToActionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallToActionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCombinedRuleOperatorEnum_UserListCombinedRuleOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListCombinedRuleOperatorEnum_UserListCombinedRuleOperator.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterTypeEnum\\ListingGroupFilterType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterTypeEnum/ListingGroupFilterType.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyReviewStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyReviewStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterBiddingCategoryLevelEnum_ListingGroupFilterBiddingCategoryLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterBiddingCategoryLevelEnum_ListingGroupFilterBiddingCategoryLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LegacyAppInstallAdAppStoreEnum\\LegacyAppInstallAdAppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LegacyAppInstallAdAppStoreEnum/LegacyAppInstallAdAppStore.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetTypeEnum\\AssetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetTypeEnum/AssetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListDateRuleItemOperatorEnum_UserListDateRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListDateRuleItemOperatorEnum_UserListDateRuleItemOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CalloutPlaceholderFieldEnum\\CalloutPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CalloutPlaceholderFieldEnum/CalloutPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PositiveGeoTargetTypeEnum\\PositiveGeoTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PositiveGeoTargetTypeEnum/PositiveGeoTargetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppPaymentModelTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppPaymentModelTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEntryTypeEnum_PolicyTopicEntryType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEntryTypeEnum_PolicyTopicEntryType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListStringRuleItemOperatorEnum\\UserListStringRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListStringRuleItemOperatorEnum/UserListStringRuleItemOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetAssetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetAssetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductTypeLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductTypeLevelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionCustomVariableStatusEnum\\ConversionCustomVariableStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionCustomVariableStatusEnum/ConversionCustomVariableStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAdjustmentTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionAdjustmentTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerMatchUploadKeyTypeEnum_CustomerMatchUploadKeyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomerMatchUploadKeyTypeEnum_CustomerMatchUploadKeyType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperatorEnum\\WebpageConditionOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperatorEnum/WebpageConditionOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignSharedSetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignSharedSetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetPeriodEnum_BudgetPeriod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetPeriodEnum_BudgetPeriod.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermTargetingStatusEnum\\SearchTermTargetingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchTermTargetingStatusEnum/SearchTermTargetingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListDateRuleItemOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListDateRuleItemOperatorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignAppStoreEnum\\AppCampaignAppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppCampaignAppStoreEnum/AppCampaignAppStore.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayAdFormatSettingEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DisplayAdFormatSettingEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAttributionEventTypeEnum_ConversionAttributionEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionAttributionEventTypeEnum_ConversionAttributionEventType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DataDrivenModelStatusEnum_DataDrivenModelStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DataDrivenModelStatusEnum_DataDrivenModelStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionDiscountModifierEnum_PromotionExtensionDiscountModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionDiscountModifierEnum_PromotionExtensionDiscountModifier.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapEventTypeEnum_FrequencyCapEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapEventTypeEnum_FrequencyCapEventType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SearchEngineResultsPageTypeEnum_SearchEngineResultsPageType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SearchEngineResultsPageTypeEnum_SearchEngineResultsPageType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetCampaignAssociationStatusEnum\\BudgetCampaignAssociationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetCampaignAssociationStatusEnum/BudgetCampaignAssociationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DsaPageFeedCriterionFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DsaPageFeedCriterionFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserInterestTaxonomyTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserInterestTaxonomyTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountLinkStatusEnum_AccountLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountLinkStatusEnum_AccountLinkStatus.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\MerchantCenterLinkStatusEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MerchantCenterLinkStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTrafficSplitTypeEnum_CampaignExperimentTrafficSplitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTrafficSplitTypeEnum_CampaignExperimentTrafficSplitType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocalPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocalPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAgeRangeEnum\\ReachPlanAgeRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ReachPlanAgeRangeEnum/ReachPlanAgeRange.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestTypeEnum\\CustomInterestType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestTypeEnum/CustomInterestType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ManagerLinkStatusEnum\\ManagerLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ManagerLinkStatusEnum/ManagerLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MessagePlaceholderFieldEnum_MessagePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MessagePlaceholderFieldEnum_MessagePlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryLocaleAvailabilityModeEnum_CriterionCategoryLocaleAvailabilityMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryLocaleAvailabilityModeEnum_CriterionCategoryLocaleAvailabilityMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListRuleTypeEnum_UserListRuleType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListRuleTypeEnum_UserListRuleType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PlacementTypeEnum_PlacementType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PlacementTypeEnum_PlacementType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventScopeEnum_SeasonalityEventScope' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventScopeEnum_SeasonalityEventScope.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GenderTypeEnum_GenderType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GenderTypeEnum_GenderType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetLinkStatusEnum_AssetSetLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetLinkStatusEnum_AssetSetLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignBiddingStrategyGoalTypeEnum_AppCampaignBiddingStrategyGoalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppCampaignBiddingStrategyGoalTypeEnum_AppCampaignBiddingStrategyGoalType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormFieldUserInputTypeEnum\\LeadFormFieldUserInputType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormFieldUserInputTypeEnum/LeadFormFieldUserInputType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ContentLabelTypeEnum_ContentLabelType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ContentLabelTypeEnum_ContentLabelType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TravelPlaceholderFieldEnum\\TravelPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TravelPlaceholderFieldEnum/TravelPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedOriginEnum\\FeedOrigin' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedOriginEnum/FeedOrigin.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BidModifierSourceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BidModifierSourceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryLevelEnum_ProductBiddingCategoryLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryLevelEnum_ProductBiddingCategoryLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessInvitationStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessInvitationStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationGroupRadiusUnitsEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationGroupRadiusUnitsEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapTimeUnitEnum_FrequencyCapTimeUnit' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapTimeUnitEnum_FrequencyCapTimeUnit.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VideoThumbnailEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VideoThumbnailEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleVoiceCallStatusEnum\\GoogleVoiceCallStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleVoiceCallStatusEnum/GoogleVoiceCallStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetLinkStatusEnum_AssetLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetLinkStatusEnum_AssetLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationPlaceholderFieldEnum\\AffiliateLocationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationPlaceholderFieldEnum/AffiliateLocationPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListMembershipStatusEnum_UserListMembershipStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListMembershipStatusEnum_UserListMembershipStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayAdFormatSettingEnum\\DisplayAdFormatSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DisplayAdFormatSettingEnum/DisplayAdFormatSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationPlaceholderFieldEnum_LocationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationPlaceholderFieldEnum_LocationPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetTypeEnum_BudgetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetTypeEnum_BudgetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetCampaignAssociationStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetCampaignAssociationStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanNetworkEnum\\KeywordPlanNetwork' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanNetworkEnum/KeywordPlanNetwork.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListMembershipStatusEnum\\UserListMembershipStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListMembershipStatusEnum/UserListMembershipStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetTypeEnum\\BudgetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetTypeEnum/BudgetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductTypeLevelEnum\\ProductTypeLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductTypeLevelEnum/ProductTypeLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignBiddingStrategyGoalTypeEnum\\AppCampaignBiddingStrategyGoalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppCampaignBiddingStrategyGoalTypeEnum/AppCampaignBiddingStrategyGoalType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserInterestTaxonomyTypeEnum_UserInterestTaxonomyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserInterestTaxonomyTypeEnum_UserInterestTaxonomyType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyTypeEnum_BiddingStrategyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyTypeEnum_BiddingStrategyType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResponseContentTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResponseContentTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResponseContentTypeEnum_ResponseContentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResponseContentTypeEnum_ResponseContentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelReconciliationStatusEnum_HotelReconciliationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelReconciliationStatusEnum_HotelReconciliationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocalPlaceholderFieldEnum_LocalPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocalPlaceholderFieldEnum_LocalPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DeviceEnum\\Device' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DeviceEnum/Device.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentStatusEnum\\CampaignExperimentStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentStatusEnum/CampaignExperimentStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingSourceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingSourceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetDimensionEnum\\ValueRuleSetDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetDimensionEnum/ValueRuleSetDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationGroupRadiusUnitsEnum_LocationGroupRadiusUnits' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationGroupRadiusUnitsEnum_LocationGroupRadiusUnits.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\NegativeGeoTargetTypeEnum_NegativeGeoTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/NegativeGeoTargetTypeEnum_NegativeGeoTargetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelRateTypeEnum\\HotelRateType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelRateTypeEnum/HotelRateType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeStatusEnum_CustomizerAttributeStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeStatusEnum_CustomizerAttributeStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStringFilterTypeEnum_FeedItemSetStringFilterType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStringFilterTypeEnum_FeedItemSetStringFilterType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobFailureReasonEnum_OfflineUserDataJobFailureReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobFailureReasonEnum_OfflineUserDataJobFailureReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryStatusEnum\\ProductBiddingCategoryStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryStatusEnum/ProductBiddingCategoryStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppStoreEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppStoreEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccountBudgetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormPostSubmitCallToActionTypeEnum\\LeadFormPostSubmitCallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormPostSubmitCallToActionTypeEnum/LeadFormPostSubmitCallToActionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdTypeEnum\\AdType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdTypeEnum/AdType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobFailureReasonEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobFailureReasonEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestStatusEnum\\CustomInterestStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestStatusEnum/CustomInterestStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MessagePlaceholderFieldEnum\\MessagePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MessagePlaceholderFieldEnum/MessagePlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetFieldTypeEnum\\AssetFieldType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetFieldTypeEnum/AssetFieldType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyStatusEnum_BiddingStrategyStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyStatusEnum_BiddingStrategyStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PlaceholderTypeEnum\\PlaceholderType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PlaceholderTypeEnum/PlaceholderType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetLinkStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetLinkStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetAssetStatusEnum_AssetSetAssetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetAssetStatusEnum_AssetSetAssetStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobMatchRateRangeEnum_OfflineUserDataJobMatchRateRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobMatchRateRangeEnum_OfflineUserDataJobMatchRateRange.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventScopeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventScopeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelReconciliationStatusEnum\\HotelReconciliationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelReconciliationStatusEnum/HotelReconciliationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanConceptGroupTypeEnum_KeywordPlanConceptGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanConceptGroupTypeEnum_KeywordPlanConceptGroupType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductTypeLevelEnum\\ListingGroupFilterProductTypeLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductTypeLevelEnum/ListingGroupFilterProductTypeLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SpendingLimitTypeEnum\\SpendingLimitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SpendingLimitTypeEnum/SpendingLimitType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceLimitTypeEnum_ResourceLimitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResourceLimitTypeEnum_ResourceLimitType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionOperatorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionOperatorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdServingOptimizationStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdServingOptimizationStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEntryTypeEnum\\PolicyTopicEntryType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEntryTypeEnum/PolicyTopicEntryType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdNetworkTypeEnum\\AdNetworkType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdNetworkTypeEnum/AdNetworkType.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelTypeEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelTypeEnum.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingRestrictionEnum_GeoTargetingRestriction' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetingRestrictionEnum_GeoTargetingRestriction.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MimeTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MimeTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TravelPlaceholderFieldEnum_TravelPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TravelPlaceholderFieldEnum_TravelPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SummaryRowSettingEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SummaryRowSettingEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PaymentModeEnum_PaymentMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PaymentModeEnum_PaymentMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetDimensionEnum_ValueRuleSetDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetDimensionEnum_ValueRuleSetDimension.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetDeviceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetDeviceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetConstantStatusEnum_GeoTargetConstantStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetConstantStatusEnum_GeoTargetConstantStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormCallToActionTypeEnum_LeadFormCallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormCallToActionTypeEnum_LeadFormCallToActionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ServedAssetFieldTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ServedAssetFieldTypeEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterVerticalEnum_ListingGroupFilterVertical' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterVerticalEnum_ListingGroupFilterVertical.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VideoThumbnailEnum\\VideoThumbnail' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VideoThumbnailEnum/VideoThumbnail.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomConversionGoalStatusEnum\\CustomConversionGoalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomConversionGoalStatusEnum/CustomConversionGoalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDeviceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDeviceEnum.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\BillingSetupStatusEnum_BillingSetupStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BillingSetupStatusEnum_BillingSetupStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetCampaignAssociationStatusEnum_BudgetCampaignAssociationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetCampaignAssociationStatusEnum_BudgetCampaignAssociationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LinkedAccountTypeEnum_LinkedAccountType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LinkedAccountTypeEnum_LinkedAccountType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTrafficSplitTypeEnum\\CampaignExperimentTrafficSplitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTrafficSplitTypeEnum/CampaignExperimentTrafficSplitType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MobileAppVendorEnum_MobileAppVendor' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MobileAppVendorEnum_MobileAppVendor.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleDeviceTypeEnum\\ValueRuleDeviceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleDeviceTypeEnum/ValueRuleDeviceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapEventTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapEventTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InteractionTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignDraftStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignDraftStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CalloutPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CalloutPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelDateSelectionTypeEnum_HotelDateSelectionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelDateSelectionTypeEnum_HotelDateSelectionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCountingTypeEnum\\ConversionActionCountingType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionCountingTypeEnum/ConversionActionCountingType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionTypeEnum_CriterionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionTypeEnum_CriterionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionOccasionEnum\\PromotionExtensionOccasion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionOccasionEnum/PromotionExtensionOccasion.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerValueStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerValueStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MonthOfYearEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MonthOfYearEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingTypeEnum_GeoTargetingType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GeoTargetingTypeEnum_GeoTargetingType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanCompetitionLevelEnum_KeywordPlanCompetitionLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanCompetitionLevelEnum_KeywordPlanCompetitionLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\NegativeGeoTargetTypeEnum\\NegativeGeoTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/NegativeGeoTargetTypeEnum/NegativeGeoTargetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallToActionTypeEnum\\CallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallToActionTypeEnum/CallToActionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SimulationTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PaymentModeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PaymentModeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedLinkStatusEnum_FeedLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedLinkStatusEnum_FeedLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedAttributeTypeEnum_FeedAttributeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedAttributeTypeEnum_FeedAttributeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductTypeLevelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductTypeLevelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppPaymentModelTypeEnum\\AppPaymentModelType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppPaymentModelTypeEnum/AppPaymentModelType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionTypeEnum\\InteractionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InteractionTypeEnum/InteractionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessInvitationStatusEnum\\AccessInvitationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessInvitationStatusEnum/AccessInvitationStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanAggregateMetricTypeEnum_KeywordPlanAggregateMetricType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanAggregateMetricTypeEnum_KeywordPlanAggregateMetricType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TravelPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TravelPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignServingStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignServingStatusEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterTypeEnum_ListingGroupFilterType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterTypeEnum_ListingGroupFilterType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DistanceBucketEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DistanceBucketEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationModificationMethodEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SimulationModificationMethodEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleStatusEnum_ConversionValueRuleStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleStatusEnum_ConversionValueRuleStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DistanceBucketEnum_DistanceBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DistanceBucketEnum_DistanceBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyTypeEnum\\BiddingStrategyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyTypeEnum/BiddingStrategyType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayUploadProductTypeEnum\\DisplayUploadProductType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DisplayUploadProductTypeEnum/DisplayUploadProductType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeTypeEnum_CustomizerAttributeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeTypeEnum_CustomizerAttributeType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetAssetStatusEnum\\AssetSetAssetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetAssetStatusEnum/AssetSetAssetStatus.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\TrackingCodeTypeEnum_TrackingCodeType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TrackingCodeTypeEnum_TrackingCodeType.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupAdStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormFieldUserInputTypeEnum_LeadFormFieldUserInputType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormFieldUserInputTypeEnum_LeadFormFieldUserInputType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionCustomVariableStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionCustomVariableStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SlotEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SlotEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\RealEstatePlaceholderFieldEnum_RealEstatePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/RealEstatePlaceholderFieldEnum_RealEstatePlaceholderField.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AccessRoleEnum\\AccessRole' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AccessRoleEnum/AccessRole.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductConditionEnum_ProductCondition' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductConditionEnum_ProductCondition.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOriginEnum\\ConversionOrigin' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionOriginEnum/ConversionOrigin.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MobileDeviceTypeEnum_MobileDeviceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MobileDeviceTypeEnum_MobileDeviceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTypeEnum_CampaignExperimentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTypeEnum_CampaignExperimentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceUnitEnum\\PriceExtensionPriceUnit' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceUnitEnum/PriceExtensionPriceUnit.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PricePlaceholderFieldEnum\\PricePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PricePlaceholderFieldEnum/PricePlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DayOfWeekEnum\\DayOfWeek' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DayOfWeekEnum/DayOfWeek.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionTypeEnum\\ExtensionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExtensionTypeEnum/ExtensionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetTypeEnum\\AssetSetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetTypeEnum/AssetSetType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelExclusivityEnum\\ProductChannelExclusivity' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductChannelExclusivityEnum/ProductChannelExclusivity.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobFailureReasonEnum\\OfflineUserDataJobFailureReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobFailureReasonEnum/OfflineUserDataJobFailureReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionPlaceholderFieldEnum\\PromotionPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionPlaceholderFieldEnum/PromotionPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MobileAppVendorEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MobileAppVendorEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterCustomAttributeIndexEnum\\ListingGroupFilterCustomAttributeIndex' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterCustomAttributeIndexEnum/ListingGroupFilterCustomAttributeIndex.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleStatusEnum\\ConversionValueRuleStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleStatusEnum/ConversionValueRuleStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceMemberTypeEnum_CustomAudienceMemberType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceMemberTypeEnum_CustomAudienceMemberType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityApprovalStatusEnum\\FeedItemQualityApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityApprovalStatusEnum/FeedItemQualityApprovalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetLinkStatusEnum\\AssetLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetLinkStatusEnum/AssetLinkStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceChangeOperationEnum_ResourceChangeOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResourceChangeOperationEnum_ResourceChangeOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventStatusEnum_SeasonalityEventStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventStatusEnum_SeasonalityEventStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoalConfigLevelEnum\\GoalConfigLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoalConfigLevelEnum/GoalConfigLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusResourceTypeEnum\\ChangeStatusResourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ChangeStatusResourceTypeEnum/ChangeStatusResourceType.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionStatusEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionStatusEnum.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListRuleTypeEnum\\UserListRuleType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListRuleTypeEnum/UserListRuleType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationTypeEnum\\SimulationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SimulationTypeEnum/SimulationType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\EducationPlaceholderFieldEnum_EducationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/EducationPlaceholderFieldEnum_EducationPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapEventTypeEnum\\FrequencyCapEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FrequencyCapEventTypeEnum/FrequencyCapEventType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionOccasionEnum_PromotionExtensionOccasion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionOccasionEnum_PromotionExtensionOccasion.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationMismatchUrlTypeEnum_PolicyTopicEvidenceDestinationMismatchUrlType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationMismatchUrlTypeEnum_PolicyTopicEvidenceDestinationMismatchUrlType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductChannelEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductChannelEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestMemberTypeEnum\\CustomInterestMemberType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestMemberTypeEnum/CustomInterestMemberType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ContentLabelTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ContentLabelTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdNetworkTypeEnum_AdNetworkType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdNetworkTypeEnum_AdNetworkType.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\SystemManagedResourceSourceEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SystemManagedResourceSourceEnum.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignAppStoreEnum_AppCampaignAppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppCampaignAppStoreEnum_AppCampaignAppStore.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OptimizationGoalTypeEnum\\OptimizationGoalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OptimizationGoalTypeEnum/OptimizationGoalType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FlightPlaceholderFieldEnum\\FlightPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FlightPlaceholderFieldEnum/FlightPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdRotationModeEnum_AdGroupAdRotationMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupAdRotationModeEnum_AdGroupAdRotationMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListPrepopulationStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListPrepopulationStatusEnum.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCategoryEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionCategoryEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldCategoryEnum\\GoogleAdsFieldCategory' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldCategoryEnum/GoogleAdsFieldCategory.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CombinedAudienceStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CombinedAudienceStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignDraftStatusEnum\\CampaignDraftStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignDraftStatusEnum/CampaignDraftStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InvoiceTypeEnum\\InvoiceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InvoiceTypeEnum/InvoiceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationMismatchUrlTypeEnum\\PolicyTopicEvidenceDestinationMismatchUrlType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationMismatchUrlTypeEnum/PolicyTopicEvidenceDestinationMismatchUrlType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceTypeEnum\\CustomAudienceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomAudienceTypeEnum/CustomAudienceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaDisplayUrlModeEnum_VanityPharmaDisplayUrlMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VanityPharmaDisplayUrlModeEnum_VanityPharmaDisplayUrlMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemStatusEnum_FeedItemStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemStatusEnum_FeedItemStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceQualifierEnum_PriceExtensionPriceQualifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceQualifierEnum_PriceExtensionPriceQualifier.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BatchJobStatusEnum_BatchJobStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BatchJobStatusEnum_BatchJobStatus.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\SystemManagedResourceSourceEnum_SystemManagedResourceSource' => array(
 		'version' => '12.1.0.0',
@@ -9690,309 +6258,25 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TrackingCodePageFormatEnum/TrackingCodePageFormat.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupTypeEnum\\ListingGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ListingGroupTypeEnum/ListingGroupType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetLinkStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetLinkStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaTextEnum_VanityPharmaText' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VanityPharmaTextEnum_VanityPharmaText.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LocationSourceTypeEnum\\LocationSourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LocationSourceTypeEnum/LocationSourceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListLogicalRuleOperatorEnum_UserListLogicalRuleOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListLogicalRuleOperatorEnum_UserListLogicalRuleOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOrAdjustmentLagBucketEnum\\ConversionOrAdjustmentLagBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionOrAdjustmentLagBucketEnum/ConversionOrAdjustmentLagBucket.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetGroupStatusEnum' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetGroupStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/BudgetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AgeRangeTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AgeRangeTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignServingStatusEnum_CampaignServingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignServingStatusEnum_CampaignServingStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdCustomizerPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdCustomizerPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppPaymentModelTypeEnum_AppPaymentModelType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppPaymentModelTypeEnum_AppPaymentModelType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PreferredContentTypeEnum\\PreferredContentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PreferredContentTypeEnum/PreferredContentType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionSettingDeviceEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ExtensionSettingDeviceEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceChangeOperationEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ResourceChangeOperationEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldDataTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldDataTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionTypeEnum_InteractionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InteractionTypeEnum_InteractionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedOriginEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedOriginEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCountingTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionCountingTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LegacyAppInstallAdAppStoreEnum_LegacyAppInstallAdAppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LegacyAppInstallAdAppStoreEnum_LegacyAppInstallAdAppStore.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListAccessStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListAccessStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetImpressionShareLocationEnum_TargetImpressionShareLocation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetImpressionShareLocationEnum_TargetImpressionShareLocation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\SummaryRowSettingEnum\\SummaryRowSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/SummaryRowSettingEnum/SummaryRowSetting.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListClosingReasonEnum\\UserListClosingReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListClosingReasonEnum/UserListClosingReason.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaTextEnum\\VanityPharmaText' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/VanityPharmaTextEnum/VanityPharmaText.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignBiddingStrategyGoalTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AppCampaignBiddingStrategyGoalTypeEnum.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignStatusEnum_CampaignStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignStatusEnum_CampaignStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemStatusEnum\\FeedItemStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemStatusEnum/FeedItemStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ParentalStatusTypeEnum\\ParentalStatusType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ParentalStatusTypeEnum/ParentalStatusType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleSetStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleSetStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ContentLabelTypeEnum\\ContentLabelType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ContentLabelTypeEnum/ContentLabelType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\StructuredSnippetPlaceholderFieldEnum_StructuredSnippetPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/StructuredSnippetPlaceholderFieldEnum_StructuredSnippetPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormFieldUserInputTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LeadFormFieldUserInputTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionLagBucketEnum_ConversionLagBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionLagBucketEnum_ConversionLagBucket.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyApprovalStatusEnum_PolicyApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PolicyApprovalStatusEnum_PolicyApprovalStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PricePlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PricePlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCombinedRuleOperatorEnum\\UserListCombinedRuleOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListCombinedRuleOperatorEnum/UserListCombinedRuleOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanAggregateMetricTypeEnum\\KeywordPlanAggregateMetricType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/KeywordPlanAggregateMetricTypeEnum/KeywordPlanAggregateMetricType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionSystemServingStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CriterionSystemServingStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListTypeEnum\\UserListType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListTypeEnum/UserListType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ParentalStatusTypeEnum_ParentalStatusType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ParentalStatusTypeEnum_ParentalStatusType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionEventTypeEnum\\InteractionEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/InteractionEventTypeEnum/InteractionEventType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListLogicalRuleOperatorEnum\\UserListLogicalRuleOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListLogicalRuleOperatorEnum/UserListLogicalRuleOperator.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ParentalStatusTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ParentalStatusTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\DayOfWeekEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/DayOfWeekEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobStatusEnum\\OfflineUserDataJobStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobStatusEnum/OfflineUserDataJobStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetLinkStatusEnum\\AssetSetLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AssetSetLinkStatusEnum/AssetSetLinkStatus.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelTypeEnum_AdvertisingChannelType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelTypeEnum_AdvertisingChannelType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionStatusEnum_AdGroupCriterionStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionStatusEnum_AdGroupCriterionStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\LinkedAccountTypeEnum\\LinkedAccountType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/LinkedAccountTypeEnum/LinkedAccountType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\RealEstatePlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/RealEstatePlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionCustomVariableStatusEnum_ConversionCustomVariableStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionCustomVariableStatusEnum_ConversionCustomVariableStatus.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStringFilterTypeEnum\\FeedItemSetStringFilterType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStringFilterTypeEnum/FeedItemSetStringFilterType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\TargetCpaOptInRecommendationGoalEnum_TargetCpaOptInRecommendationGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/TargetCpaOptInRecommendationGoalEnum_TargetCpaOptInRecommendationGoal.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\UserListRuleTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/UserListRuleTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\PositiveGeoTargetTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/PositiveGeoTargetTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTrafficSplitTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTrafficSplitTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOrAdjustmentLagBucketEnum_ConversionOrAdjustmentLagBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionOrAdjustmentLagBucketEnum_ConversionOrAdjustmentLagBucket.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignCriterionStatusEnum\\CampaignCriterionStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CampaignCriterionStatusEnum/CampaignCriterionStatus.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CalloutPlaceholderFieldEnum_CalloutPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CalloutPlaceholderFieldEnum_CalloutPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestMemberTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestMemberTypeEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionLagBucketEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionLagBucketEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallTypeEnum_CallType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallTypeEnum_CallType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestTypeEnum_CustomInterestType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomInterestTypeEnum_CustomInterestType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CustomConversionGoalStatusEnum_CustomConversionGoalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CustomConversionGoalStatusEnum_CustomConversionGoalStatus.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCategoryEnum_ConversionActionCategory' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ConversionActionCategoryEnum_ConversionActionCategory.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\MobileDeviceTypeEnum\\MobileDeviceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/MobileDeviceTypeEnum/MobileDeviceType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleGeoLocationMatchTypeEnum_ValueRuleGeoLocationMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ValueRuleGeoLocationMatchTypeEnum_ValueRuleGeoLocationMatchType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdRotationModeEnum\\AdGroupAdRotationMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupAdRotationModeEnum/AdGroupAdRotationMode.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\CallPlaceholderFieldEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/CallPlaceholderFieldEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryLevelEnum\\ProductBiddingCategoryLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryLevelEnum/ProductBiddingCategoryLevel.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionApprovalStatusEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionApprovalStatusEnum.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingCriterionTypeEnum_FeedMappingCriterionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/FeedMappingCriterionTypeEnum_FeedMappingCriterionType.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\StructuredSnippetPlaceholderFieldEnum\\StructuredSnippetPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/StructuredSnippetPlaceholderFieldEnum/StructuredSnippetPlaceholderField.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Enums\\HotelDateSelectionTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Enums/HotelDateSelectionTypeEnum.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Common\\VideoOutstreamAdInfo' => array(
 		'version' => '12.1.0.0',
@@ -12702,10 +8986,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Errors/LanguageCodeErrorEnum_LanguageCodeError.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetDynamicSearchAdsSearchTermViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetDynamicSearchAdsSearchTermViewRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignDuration' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignDuration.php'
@@ -12714,33 +8994,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BillingSetupServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAudienceViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAudienceViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupLabelServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupLabelServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerClientLinkRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerClientLinkRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetAssetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetSetAssetOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CallConversion' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CallConversion.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerClientServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_CalloutExtensionParameters' => array(
 		'version' => '12.1.0.0',
@@ -12754,33 +9014,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestGeoTargetConstantsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupAssetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupAssetsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountLinkServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountLinkServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomConversionGoalOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomConversionGoalOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdParametersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdParametersResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCustomizerServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCustomizerServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignExperimentRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignExperimentRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LabelOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LabelOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListMerchantCenterLinksResponse' => array(
 		'version' => '12.1.0.0',
@@ -12794,69 +9030,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetGeoTargetConstantRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerConversionGoalResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerConversionGoalResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DisplayKeywordViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DisplayKeywordViewServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CreateCampaignExperimentMetadata' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CreateCampaignExperimentMetadata.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignAssetSetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignAssetSetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetDetailPlacementViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetDetailPlacementViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetSharedSetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetSharedSetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DistanceViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DistanceViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupAdResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupAdResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserDataServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserDataServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountBudgetServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetSmartCampaignSettingRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetSmartCampaignSettingRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerLabelsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerLabelsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserListServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserListServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerUserAccessRequest' => array(
 		'version' => '12.1.0.0',
@@ -12866,29 +9054,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupListingGroupFilterResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerFeedsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerFeedsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GeoTargetConstantServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GeoTargetConstantServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignFeedsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignFeedsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_MoveUnusedBudgetParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_MoveUnusedBudgetParameters.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemSetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CreateOfflineUserDataJobRequest' => array(
 		'version' => '12.1.0.0',
@@ -12902,14 +9074,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FrequencyCap.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GoogleAdsFieldServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GoogleAdsFieldServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DetailPlacementViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DetailPlacementViewServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\BillingSetupServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BillingSetupServiceGrpcClient.php'
@@ -12917,14 +9081,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateMerchantCenterLinkResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateMerchantCenterLinkResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordThemeConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordThemeConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LanguageConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LanguageConstantServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MoveManagerLinkRequest' => array(
 		'version' => '12.1.0.0',
@@ -12934,49 +9090,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestKeywordThemeConstantsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemTargetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemTargetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ExpandedLandingPageViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ExpandedLandingPageViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerCustomizersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerCustomizersResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerExtensionSettingResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerExtensionSettingResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestKeywordThemeConstantsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestKeywordThemeConstantsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerAssetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerAssetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerAssetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerAssetResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupListingGroupFiltersRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupListingGroupFiltersRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserLocationViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserLocationViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateLabelsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateLabelsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignConversionGoalServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignConversionGoalServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerOperation' => array(
 		'version' => '12.1.0.0',
@@ -12986,25 +9106,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignBudgetOptionsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerLabelOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerLabelOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AddBatchJobOperationsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AddBatchJobOperationsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSharedSetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignSharedSetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetLifeEventRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetLifeEventRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\RestatementValue' => array(
 		'version' => '12.1.0.0',
@@ -13014,353 +9118,33 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBatchJobResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ExtensionFeedItemServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ExtensionFeedItemServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetParentalStatusViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetParentalStatusViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetIncomeRangeViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetIncomeRangeViewRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupListingGroupFilterOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupListingGroupFilterOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LocationViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LocationViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientLinkServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerClientLinkServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCurrencyConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCurrencyConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionValueRuleServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ConversionValueRuleServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignDraftServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignDraftServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignCriterionSimulationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignCriterionSimulationServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupAdLabelServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupAdLabelServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerExtensionSettingServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerExtensionSettingServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdScheduleViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdScheduleViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordPlanCampaignKeywordServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordPlanCampaignKeywordServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\LandingPageViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/LandingPageViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupCriterionSimulationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupCriterionSimulationServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerClientLinkServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerClientLinkServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AccountBudgetProposalServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AccountBudgetProposalServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AgeRangeViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AgeRangeViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ThirdPartyAppAnalyticsLinkServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ThirdPartyAppAnalyticsLinkServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetGroupListingGroupFilterServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetGroupListingGroupFilterServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionCustomVariableServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ConversionCustomVariableServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\DistanceViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/DistanceViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupCustomizerServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupCustomizerServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomInterestServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomInterestServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionUploadServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ConversionUploadServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedItemTargetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedItemTargetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordPlanAdGroupKeywordServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordPlanAdGroupKeywordServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupExtensionSettingServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupExtensionSettingServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupAdAssetViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupAdAssetViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedMappingServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedMappingServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomAudienceServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomAudienceServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\UserInterestServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/UserInterestServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\LifeEventServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/LifeEventServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\PaidOrganicSearchTermViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/PaidOrganicSearchTermViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ManagedPlacementViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ManagedPlacementViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerManagerLinkServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerManagerLinkServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\DomainCategoryServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/DomainCategoryServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\RecommendationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/RecommendationServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerConversionGoalServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerConversionGoalServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordThemeConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordThemeConstantServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\GoogleAdsServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/GoogleAdsServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ChangeStatusServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ChangeStatusServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\DetailPlacementViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/DetailPlacementViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\LanguageConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/LanguageConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\DisplayKeywordViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/DisplayKeywordViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\SmartCampaignSettingServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/SmartCampaignSettingServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupCriterionLabelServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupCriterionLabelServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ReachPlanServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ReachPlanServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\OperatingSystemVersionConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/OperatingSystemVersionConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionGoalCampaignConfigServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ConversionGoalCampaignConfigServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\TopicConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/TopicConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerClientServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerClientServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\SmartCampaignSuggestServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/SmartCampaignSuggestServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\RemarketingActionServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/RemarketingActionServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetGroupServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetGroupServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\LabelServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/LabelServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupAssetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupAssetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignAssetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignAssetServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\SmartCampaignSearchTermViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/SmartCampaignSearchTermViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CurrencyConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CurrencyConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordPlanAdGroupServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordPlanAdGroupServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\BiddingSeasonalityAdjustmentServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/BiddingSeasonalityAdjustmentServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\SharedCriterionServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/SharedCriterionServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\GeographicViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/GeographicViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordPlanCampaignServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordPlanCampaignServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\IncomeRangeViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/IncomeRangeViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignAudienceViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignAudienceViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupLabelServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupLabelServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignLabelServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignLabelServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedItemSetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedItemSetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\OfflineUserDataJobServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/OfflineUserDataJobServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\GenderViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/GenderViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AccessibleBiddingStrategyServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AccessibleBiddingStrategyServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetFieldTypeViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetFieldTypeViewServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignCriterionServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignCriterionServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\SharedSetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/SharedSetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignSharedSetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignSharedSetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupBidModifierServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupBidModifierServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\PaymentsAccountServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/PaymentsAccountServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ExpandedLandingPageViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ExpandedLandingPageViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignCustomizerServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignCustomizerServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignExperimentServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignExperimentServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\BiddingDataExclusionServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/BiddingDataExclusionServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\HotelGroupViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/HotelGroupViewServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionActionServiceGapicClient' => array(
 		'version' => '12.1.0.0',
@@ -13370,137 +9154,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ClickViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ClickViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ProductBiddingCategoryConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ProductBiddingCategoryConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomizerAttributeServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomizerAttributeServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CarrierConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CarrierConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\WebpageViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/WebpageViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\LocationViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/LocationViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerFeedServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerFeedServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ShoppingPerformanceViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ShoppingPerformanceViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupFeedServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupFeedServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerUserAccessInvitationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerUserAccessInvitationServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomConversionGoalServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomConversionGoalServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdParameterServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdParameterServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ExtensionFeedItemServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ExtensionFeedItemServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\MediaFileServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/MediaFileServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordPlanServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordPlanServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\BatchJobServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/BatchJobServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedItemServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedItemServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\TopicViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/TopicViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignBidModifierServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignBidModifierServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\GroupPlacementViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/GroupPlacementViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\SearchTermViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/SearchTermViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordPlanIdeaServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordPlanIdeaServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\DynamicSearchAdsSearchTermViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/DynamicSearchAdsSearchTermViewServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupCriterionServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupCriterionServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\GoogleAdsFieldServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/GoogleAdsFieldServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\UserLocationViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/UserLocationViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionAdjustmentUploadServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ConversionAdjustmentUploadServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\BiddingStrategyServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/BiddingStrategyServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\GeoTargetConstantServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/GeoTargetConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedItemSetLinkServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedItemSetLinkServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\UserDataServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/UserDataServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\UserListServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/UserListServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupAudienceViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupAudienceViewServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignServiceGapicClient' => array(
 		'version' => '12.1.0.0',
@@ -13510,273 +9170,65 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/MerchantCenterLinkServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\HotelPerformanceViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/HotelPerformanceViewServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignSimulationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignSimulationServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetSetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetSetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerLabelServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerLabelServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\MobileDeviceConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/MobileDeviceConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\DetailedDemographicServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/DetailedDemographicServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetGroupAssetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetGroupAssetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerNegativeCriterionServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerNegativeCriterionServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerAssetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerAssetServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AccountLinkServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AccountLinkServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerCustomizerServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerCustomizerServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AccountBudgetServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AccountBudgetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CombinedAudienceServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CombinedAudienceServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupSimulationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupSimulationServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupCriterionCustomizerServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupCriterionCustomizerServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ConversionValueRuleSetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ConversionValueRuleSetServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\VideoServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/VideoServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedPlaceholderViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedPlaceholderViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ProductGroupViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ProductGroupViewServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignBudgetServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignBudgetServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignExtensionSettingServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignExtensionSettingServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\KeywordViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/KeywordViewServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\InvoiceServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/InvoiceServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\MobileAppCategoryConstantServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/MobileAppCategoryConstantServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignAssetSetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignAssetSetServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CustomerUserAccessServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CustomerUserAccessServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\BiddingStrategySimulationServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/BiddingStrategySimulationServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignConversionGoalServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignConversionGoalServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\FeedServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/FeedServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\ParentalStatusViewServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/ParentalStatusViewServiceGapicClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AdGroupAdServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AdGroupAdServiceGapicClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\AssetSetAssetServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/AssetSetAssetServiceGapicClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\BillingSetupServiceGapicClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/BillingSetupServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\Gapic\\CampaignFeedServiceGapicClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Gapic/CampaignFeedServiceGapicClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SharedSetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SharedSetServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlansResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlansResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignConversionGoalsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignConversionGoalsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedPlaceholderViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedPlaceholderViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\DismissRecommendationResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DismissRecommendationResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAccountBudgetProposalRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAccountBudgetProposalRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerLabelServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerLabelServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingDataExclusionOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingDataExclusionOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAccessibleBiddingStrategyRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAccessibleBiddingStrategyRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\WebpageViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/WebpageViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemSetLinkResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemSetLinkResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ExpandedLandingPageViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ExpandedLandingPageViewServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadUserDataResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadUserDataResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomAudienceOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomAudienceOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCriterionServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerManagerLinkResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerManagerLinkResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetProposalServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountBudgetProposalServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionGoalCampaignConfigServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionGoalCampaignConfigServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemSetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerCustomizerServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerCustomizerServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SharedCriterionServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SharedCriterionServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionLabelServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionLabelServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CreateAccountLinkResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CreateAccountLinkResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GenderViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenderViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetOperatingSystemVersionConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetOperatingSystemVersionConstantRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PromoteCampaignExperimentRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PromoteCampaignExperimentRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionCustomVariableServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionCustomVariableServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupForecast.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateExtensionFeedItemResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateExtensionFeedItemResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionUploadServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionUploadServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\OnTargetAudienceMetrics' => array(
 		'version' => '12.1.0.0',
@@ -13790,45 +9242,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CartData_Item.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanAdGroupKeywordsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanAdGroupKeywordsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListPlannableProductsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListPlannableProductsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MediaFileOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MediaFileOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomInterestOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomInterestOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedItemSetLinkRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedItemSetLinkRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupAdAssetViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupAdAssetViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignAssetSetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignAssetSetsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetSetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAssetSetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerAssetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerAssetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PlannableLocation' => array(
 		'version' => '12.1.0.0',
@@ -13842,10 +9258,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAdOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetSetAssetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetSetAssetsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAccountLinkResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAccountLinkResponse.php'
@@ -13854,33 +9266,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SearchGoogleAdsStreamResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupLabelsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupLabelsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerCustomizerOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerCustomizerOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateOperationResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateOperationResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedMappingsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedMappingsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupAssetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupAssetsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignSharedSetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignSharedSetsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestGeoTargetConstantsRequest\\LocationNames' => array(
 		'version' => '12.1.0.0',
@@ -13890,21 +9282,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestGeoTargetConstantsRequest/GeoTargets.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBatchJobResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBatchJobResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedMappingServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedMappingServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListPaymentsAccountsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListPaymentsAccountsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanAdGroupResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanAdGroupResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerUserAccessInvitationRequest' => array(
 		'version' => '12.1.0.0',
@@ -13914,57 +9294,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\HotelPerformanceViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/HotelPerformanceViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupFeedRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupFeedRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignBidModifiersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignBidModifiersRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExtensionSettingServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignExtensionSettingServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetExpandedLandingPageViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetExpandedLandingPageViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ReachPlanServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ReachPlanServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignConversionGoalOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignConversionGoalOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_TargetCpaOptInParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_TargetCpaOptInParameters.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignBidModifierResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignBidModifierResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetUserInterestRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetUserInterestRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionLabelResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionLabelResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignBudgetRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignBudgetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSharedSetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignSharedSetServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
@@ -13974,14 +9310,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupListingGroupFilterServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetPaidOrganicSearchTermViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetPaidOrganicSearchTermViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemSetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemSetsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignForecastCurve' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignForecastCurve.php'
@@ -13989,10 +9317,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MobileDeviceConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MobileDeviceConstantServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerUserAccessRequest' => array(
 		'version' => '12.1.0.0',
@@ -14002,37 +9326,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListAccessibleCustomersResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerManagerLinkServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerManagerLinkServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordPlanRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordPlanRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetGenderViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetGenderViewRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestSmartCampaignAdResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignAdResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignSharedSetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignSharedSetResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestSmartCampaignBudgetOptionsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignBudgetOptionsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategyOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingStrategyOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanAdGroupsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanAdGroupsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdServiceClient' => array(
 		'version' => '12.1.0.0',
@@ -14042,185 +9342,37 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ClickViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ClickViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategySimulationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingStrategySimulationServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionGoalCampaignConfigServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionGoalCampaignConfigServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAssetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAssetServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerConversionGoalServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerConversionGoalServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MerchantCenterLinkServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MerchantCenterLinkServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetHotelGroupViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetHotelGroupViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetLocationViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetLocationViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignConversionGoalsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignConversionGoalsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedMappingRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedMappingRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateMediaFilesRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateMediaFilesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AgeRangeViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AgeRangeViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomInterestServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomInterestServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerUserAccessInvitationResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerUserAccessInvitationResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerClientLinkRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerClientLinkRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAccountLinkRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAccountLinkRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerManagerLinkOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerManagerLinkOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerExtensionSettingRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerExtensionSettingRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSharedSetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSharedSetsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ProductAllocation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ProductAllocation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetSetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetSetResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetThirdPartyAppAnalyticsLinkRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetThirdPartyAppAnalyticsLinkRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\OperatingSystemVersionConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/OperatingSystemVersionConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetSetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionCustomizerServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionCustomizerServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignFeedServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignFeedServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_CallExtensionParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_CallExtensionParameters.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionSimulationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCriterionSimulationServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedItemSetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedItemSetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAdServiceGrpcClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserDataServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserDataServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\TopicConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/TopicConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetSetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetSetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GroupPlacementViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GroupPlacementViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSearchTermViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSearchTermViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LandingPageViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LandingPageViewServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignCriterionRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignCriterionRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomConversionGoalsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomConversionGoalsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanCampaignsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanCampaignsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemsRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ExternalAttributionData' => array(
 		'version' => '12.1.0.0',
@@ -14266,161 +9418,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation/ResponsiveSearchAdParameters.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanIdeaServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanIdeaServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\PaidOrganicSearchTermViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PaidOrganicSearchTermViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PlannedProductForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PlannedProductForecast.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetGoogleAdsFieldRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetGoogleAdsFieldRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetBiddingDataExclusionRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetBiddingDataExclusionRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MediaFileServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MediaFileServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomConversionGoalResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomConversionGoalResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\PaymentsAccountServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PaymentsAccountServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessInvitationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessInvitationServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\VideoServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/VideoServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionLabelsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionLabelsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerLabelServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerLabelServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanCampaignKeywordsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanCampaignKeywordsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerConversionGoalsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerConversionGoalsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetExtensionFeedItemRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetExtensionFeedItemRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdParameterOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdParameterOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetMobileDeviceConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetMobileDeviceConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupBidModifierRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupBidModifierRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupAssetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupAssetResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemSetLinksResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemSetLinksResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAudienceViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAudienceViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetDetailedDemographicRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetDetailedDemographicRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupFeedServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupFeedServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemSetServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestKeywordThemesResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestKeywordThemesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\InvoiceServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/InvoiceServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanCampaignsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanCampaignsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\OfflineUserDataJobOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/OfflineUserDataJobOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemTargetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemTargetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordThemeConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordThemeConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCustomizersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCustomizersRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupCriterionLabelRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupCriterionLabelRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomInterestResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomInterestResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetProposalServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountBudgetProposalServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupBidModifiersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupBidModifiersRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\OfflineUserDataJobServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/OfflineUserDataJobServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LocationViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LocationViewServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AddOfflineUserDataJobOperationsResponse' => array(
 		'version' => '12.1.0.0',
@@ -14434,133 +9442,25 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AgeRangeViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AgeRangeViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerCustomizersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerCustomizersRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListCampaignDraftAsyncErrorsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListCampaignDraftAsyncErrorsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAssetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAssetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetProductGroupViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetProductGroupViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignAssetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignAssetResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\PaidOrganicSearchTermViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PaidOrganicSearchTermViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignSimulationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignSimulationRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignSharedSetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignSharedSetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetBiddingSeasonalityAdjustmentRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetBiddingSeasonalityAdjustmentRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetSearchTermViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetSearchTermViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionAdjustmentUploadServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionAdjustmentUploadServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanWeeklyForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanWeeklyForecast.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GroupPlacementViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GroupPlacementViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ProductBiddingCategoryConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ProductBiddingCategoryConstantServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingSeasonalityAdjustmentServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingSeasonalityAdjustmentServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemSetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemSetsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SharedCriterionOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SharedCriterionOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignAssetSetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignAssetSetResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionGoalCampaignConfigsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionGoalCampaignConfigsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAssetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateRemarketingActionsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateRemarketingActionsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetMediaFileRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetMediaFileRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupListingGroupFiltersResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupListingGroupFiltersResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessInvitationOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessInvitationOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\PaymentsAccountServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PaymentsAccountServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingStrategiesRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingStrategiesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GeographicViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GeographicViewServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionActionResult' => array(
 		'version' => '12.1.0.0',
@@ -14574,49 +9474,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetSetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignLabelRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignLabelRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateMerchantCenterLinkResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateMerchantCenterLinkResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerLabelRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerLabelRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanMaxCpcBidForecastCurve' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanMaxCpcBidForecastCurve.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ThirdPartyAppAnalyticsLinkServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ThirdPartyAppAnalyticsLinkServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PlannedProduct' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PlannedProduct.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomAudienceRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomAudienceRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CombinedAudienceServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CombinedAudienceServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionUploadServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionUploadServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetMerchantCenterLinkRequest' => array(
 		'version' => '12.1.0.0',
@@ -14626,30 +9494,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CartData.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DomainCategoryServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DomainCategoryServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\RemarketingActionServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RemarketingActionServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateExtensionFeedItemsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateExtensionFeedItemsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingDataExclusionsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingDataExclusionsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LabelServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LabelServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdLabelServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAdLabelServiceGrpcClient.php'
@@ -14658,17 +9502,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignLabelsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignLabelsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanWeeklyTimeSeriesForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanWeeklyTimeSeriesForecast.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAssetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAssetServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignCriteriaResponse' => array(
 		'version' => '12.1.0.0',
@@ -14678,69 +9514,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CreateOfflineUserDataJobResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSharedSetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSharedSetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleSetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleSetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupBidModifiersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupBidModifiersResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingDataExclusionsResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingDataExclusionsResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionValueRuleResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionValueRuleResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerAssetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerAssetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAssetFieldTypeViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAssetFieldTypeViewRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupAdLabelsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupAdLabelsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemTargetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemTargetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupAssetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupAssetServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanMaxCpcBidForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanMaxCpcBidForecast.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignExtensionSettingResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignExtensionSettingResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadClickConversionsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadClickConversionsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomAudienceServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomAudienceServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupFeedResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupFeedResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SearchGoogleAdsRequest' => array(
 		'version' => '12.1.0.0',
@@ -14754,17 +9542,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CreateCustomerClientRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LabelServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LabelServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateMerchantCenterLinkRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateMerchantCenterLinkRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupBidModifierOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupBidModifierOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAccountLinkRequest' => array(
 		'version' => '12.1.0.0',
@@ -14778,10 +9558,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateGoogleAdsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetConversionValueRuleSetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetConversionValueRuleSetRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAccountBudgetRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAccountBudgetRequest.php'
@@ -14790,121 +9566,29 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBillingSetupRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerExtensionSettingsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerExtensionSettingsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignAssetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignAssetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedMappingOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedMappingOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingSeasonalityAdjustmentsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingSeasonalityAdjustmentsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ExtensionFeedItemOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ExtensionFeedItemOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerAssetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerAssetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CarrierConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CarrierConstantServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetConversionCustomVariableRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetConversionCustomVariableRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\RemarketingActionOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RemarketingActionOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionSimulationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCriterionSimulationServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AddOfflineUserDataJobOperationsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AddOfflineUserDataJobOperationsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupLabelsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupLabelsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BatchJobServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BatchJobServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ClickConversionResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ClickConversionResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignKeywordServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignKeywordServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerUserAccessResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerUserAccessResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerExtensionSettingOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerExtensionSettingOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomAudienceServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomAudienceServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetLabelRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetLabelRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MoveManagerLinkResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MoveManagerLinkResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignLabelServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignLabelServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetFieldTypeViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetFieldTypeViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CurrencyConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CurrencyConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdAssetViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAdAssetViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingDataExclusionServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingDataExclusionServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LanguageConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LanguageConstantServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestGeoTargetConstantsResponse' => array(
 		'version' => '12.1.0.0',
@@ -14914,21 +9598,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAccountBudgetProposalResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupSimulationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupSimulationServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_KeywordParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_KeywordParameters.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCombinedAudienceRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCombinedAudienceRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CurrencyConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CurrencyConstantServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionServiceClient' => array(
 		'version' => '12.1.0.0',
@@ -14938,45 +9610,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomizerAttributeServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomizerAttributeServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupListingGroupFilterServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupListingGroupFilterServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAccountBudgetProposalRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAccountBudgetProposalRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetMobileAppCategoryConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetMobileAppCategoryConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomInterestsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomInterestsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\DismissRecommendationRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DismissRecommendationRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupKeywordServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupKeywordServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetUserListRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetUserListRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
@@ -14986,117 +9630,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateForecastTimeSeriesRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleSetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleSetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupLabelServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupLabelServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordPlanCampaignKeywordRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordPlanCampaignKeywordRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MediaFileServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MediaFileServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAssetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAssetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BatchJobOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BatchJobOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCustomizerResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCustomizerResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GeographicViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GeographicViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanAdGroupKeywordResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanAdGroupKeywordResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBudgetOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignBudgetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordPlanAdGroupKeywordRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordPlanAdGroupKeywordRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionActionServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionActionServiceGrpcClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupLabelOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupLabelOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignDraftOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignDraftOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DynamicSearchAdsSearchTermViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DynamicSearchAdsSearchTermViewServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GraduateCampaignExperimentResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GraduateCampaignExperimentResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerNegativeCriterionOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerNegativeCriterionOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionCustomVariableServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionCustomVariableServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomInterestServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomInterestServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\BatchJobResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BatchJobResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemSetLinksRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemSetLinksRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedMappingsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedMappingsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdParameterServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdParameterServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAudienceViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAudienceViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateUserListResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateUserListResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignAssetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignAssetsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListBatchJobResultsResponse' => array(
 		'version' => '12.1.0.0',
@@ -15106,49 +9654,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateReachForecastRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdParameterRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdParameterRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerNegativeCriterionRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerNegativeCriterionRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\IncomeRangeViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/IncomeRangeViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionCustomizerOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionCustomizerOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SearchGoogleAdsStreamRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SearchGoogleAdsStreamRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupFeedsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupFeedsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignLabelsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignLabelsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAssetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CarrierConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CarrierConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSharedCriterionResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSharedCriterionResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ProductGroupViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ProductGroupViewServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\BillingSetupOperation' => array(
 		'version' => '12.1.0.0',
@@ -15158,10 +9666,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SearchGoogleAdsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\HotelPerformanceViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/HotelPerformanceViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupServiceClient.php'
@@ -15169,22 +9673,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadUserDataRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadUserDataRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAudienceViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAudienceViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupExtensionSettingsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupExtensionSettingsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignLabelOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignLabelOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSmartCampaignSettingsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSmartCampaignSettingsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_CampaignBudgetParameters' => array(
 		'version' => '12.1.0.0',
@@ -15206,205 +9694,37 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionValueRulesResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionValueRulesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupFeedServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupFeedServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanAdGroupKeywordsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanAdGroupKeywordsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExperimentOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignExperimentOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionGoalCampaignConfigResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionGoalCampaignConfigResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\RecommendationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RecommendationServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdScheduleViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdScheduleViewRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListPlannableLocationsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListPlannableLocationsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSearchTermViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSearchTermViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingDataExclusionsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingDataExclusionsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetWebpageViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetWebpageViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAccountBudgetProposalResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAccountBudgetProposalResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionSimulationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionSimulationServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ClickConversion' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ClickConversion.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignDraftsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignDraftsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupBidModifierServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupBidModifierServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetRecommendationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetRecommendationRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ParentalStatusViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ParentalStatusViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordPlanAdGroupRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordPlanAdGroupRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateLabelResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateLabelResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupSimulationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupSimulationRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ManagedPlacementViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ManagedPlacementViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerConversionGoalServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerConversionGoalServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ClickViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ClickViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCustomizerServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCustomizerServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupAssetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupAssetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetAssetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetSetAssetServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GenerateKeywordIdeasRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateKeywordIdeasRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCustomizerServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCustomizerServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetSetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAssetSetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserInterestServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserInterestServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\WebpageViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/WebpageViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignFeedResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignFeedResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ReachForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ReachForecast.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionValueRulesRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionValueRulesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignLabelResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignLabelResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerConversionGoalsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerConversionGoalsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestGeoTargetConstantsRequest_LocationNames' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestGeoTargetConstantsRequest_LocationNames.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanCampaignKeywordResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanCampaignKeywordResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingStrategiesResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingStrategiesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCustomizerOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCustomizerOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignBidModifierRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignBidModifierRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordPlanCampaignRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordPlanCampaignRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomizerAttributesRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomizerAttributesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionCustomVariablesRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionCustomVariablesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignKeywordOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignKeywordOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSmartCampaignSettingsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSmartCampaignSettingsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupFeedOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupFeedOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionAdjustmentResult' => array(
 		'version' => '12.1.0.0',
@@ -15414,53 +9734,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateForecastTimeSeriesResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedMappingServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedMappingServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestKeywordThemesRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestKeywordThemesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MobileAppCategoryConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MobileAppCategoryConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedItemTargetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedItemTargetRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestSmartCampaignBudgetOptionsRequest\\SuggestionDataOneof' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignBudgetOptionsRequest/SuggestionDataOneof.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignExtensionSettingsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignExtensionSettingsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignCriterionResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignCriterionResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerExtensionSettingServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerExtensionSettingServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SearchTermViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SearchTermViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSmartCampaignSettingResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSmartCampaignSettingResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionLabelsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionLabelsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSharedSetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSharedSetResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ForecastMetrics' => array(
 		'version' => '12.1.0.0',
@@ -15474,10 +9758,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GoogleAdsServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GenerateReachForecastResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateReachForecastResponse.php'
@@ -15490,57 +9770,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GclidDateTimePair.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignConversionGoalServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignConversionGoalServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupExtensionSettingRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupExtensionSettingRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExperimentServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignExperimentServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemTargetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemTargetServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GenerateKeywordIdeaResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateKeywordIdeaResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupLabelResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupLabelResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_TargetRoasOptInParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_TargetRoasOptInParameters.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomConversionGoalServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomConversionGoalServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemTargetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemTargetResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListAccessibleCustomersRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListAccessibleCustomersRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessInvitationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessInvitationServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAssetGroupRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAssetGroupRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListMerchantCenterLinksRequest' => array(
 		'version' => '12.1.0.0',
@@ -15558,18 +9802,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GraduateCampaignExperimentRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingStrategyResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingStrategyResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionCustomizerResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionCustomizerResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomInterestRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomInterestRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadCallConversionsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadCallConversionsRequest.php'
@@ -15578,53 +9810,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ProductMetadata.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DistanceViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DistanceViewServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessServiceGrpcClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCarrierConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCarrierConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomizerAttributesResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomizerAttributesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAssetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerNegativeCriterionServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerNegativeCriterionServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingSeasonalityAdjustmentServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingSeasonalityAdjustmentServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionCustomVariableResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionCustomVariableResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientLinkServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerClientLinkServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignDraftsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignDraftsRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\EndCampaignExperimentRequest' => array(
 		'version' => '12.1.0.0',
@@ -15634,81 +9826,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerUserAccessResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetDomainCategoryRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetDomainCategoryRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignForecast.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignAudienceViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignAudienceViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateRemarketingActionResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateRemarketingActionResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomVariable' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomVariable.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionLabelServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionLabelServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\RemarketingActionServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RemarketingActionServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\TopicConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/TopicConstantServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionGoalCampaignConfigOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionGoalCampaignConfigOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignSharedSetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignSharedSetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdParameterServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdParameterServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSimulationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignSimulationServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\OperatingSystemVersionConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/OperatingSystemVersionConstantServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupSimulationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupSimulationServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupAssetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupAssetResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetGroupPlacementViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetGroupPlacementViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerManagerLinkServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerManagerLinkServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientLinkOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerClientLinkOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSuggestionInfo_LocationList' => array(
 		'version' => '12.1.0.0',
@@ -15717,38 +9841,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBudgetServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignBudgetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetSmartCampaignSearchTermViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetSmartCampaignSearchTermViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerConversionGoalOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerConversionGoalOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetLandingPageViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetLandingPageViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignBidModifiersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignBidModifiersResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateUserListsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateUserListsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionCustomizersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionCustomizersResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAssetGroupAssetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAssetGroupAssetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupAudienceViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupAudienceViewRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CallConversionResult' => array(
 		'version' => '12.1.0.0',
@@ -15762,33 +9854,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ProductGroupViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ProductGroupViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignExtensionSettingRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignExtensionSettingRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionCustomizersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionCustomizersRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerUserAccessInvitationResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerUserAccessInvitationResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetDistanceViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetDistanceViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DynamicSearchAdsSearchTermViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DynamicSearchAdsSearchTermViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\TopicViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/TopicViewServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdOperation' => array(
 		'version' => '12.1.0.0',
@@ -15797,26 +9865,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetLinkOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemSetLinkOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupBidModifierServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupBidModifierServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingSeasonalityAdjustmentOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingSeasonalityAdjustmentOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerCustomizerServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerCustomizerServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetFieldTypeViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetFieldTypeViewServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetConversionActionRequest' => array(
 		'version' => '12.1.0.0',
@@ -15842,29 +9890,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CartData/Item.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionValueRuleSetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionValueRuleSetResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignBudgetsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignBudgetsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserDataOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserDataOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingDataExclusionServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingDataExclusionServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\DismissRecommendationRequest\\DismissRecommendationOperation' => array(
 		'version' => '12.1.0.0',
@@ -15874,141 +9902,41 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MerchantCenterLinkOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerCustomizerResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerCustomizerResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCriterionServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetSharedCriterionRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetSharedCriterionRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupAssetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupAssetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionValueRuleSetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionValueRuleSetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignFeedRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignFeedRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCustomizersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCustomizersResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSettingServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSettingServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignCustomizersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignCustomizersRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerClientServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CreateCampaignExperimentRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CreateCampaignExperimentRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetShoppingPerformanceViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetShoppingPerformanceViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateLabelsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateLabelsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GoogleAdsRow' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GoogleAdsRow.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignDraftServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignDraftServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanCampaignResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanCampaignResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PlannableTargeting' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PlannableTargeting.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetRemarketingActionRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetRemarketingActionRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionAdjustment' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionAdjustment.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignLabelServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignLabelServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupKeywordOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupKeywordOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignExperimentsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignExperimentsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategyServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingStrategyServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordSeed' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordSeed.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetDisplayKeywordViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetDisplayKeywordViewRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListInvoicesRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListInvoicesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ShoppingPerformanceViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ShoppingPerformanceViewServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemTargetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemTargetsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetProductBiddingCategoryConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetProductBiddingCategoryConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignFeedOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignFeedOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_TextAdParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_TextAdParameters.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerExtensionSettingServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerExtensionSettingServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation' => array(
 		'version' => '12.1.0.0',
@@ -16018,14 +9946,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAccountLinkResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetBatchJobRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetBatchJobRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MobileDeviceConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MobileDeviceConstantServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetBillingSetupRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetBillingSetupRequest.php'
@@ -16034,45 +9954,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListCampaignExperimentAsyncErrorsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSettingServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSettingServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AccessibleBiddingStrategyServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccessibleBiddingStrategyServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetOfflineUserDataJobRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetOfflineUserDataJobRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetProposalOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountBudgetProposalOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSimulationServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignSimulationServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GeoTargetConstantServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GeoTargetConstantServiceGrpcClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerFeedsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerFeedsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedItemSetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedItemSetResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestGeoTargetConstantsRequest_GeoTargets' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestGeoTargetConstantsRequest_GeoTargets.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupKeywordServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupKeywordServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanKeywordHistoricalMetrics' => array(
 		'version' => '12.1.0.0',
@@ -16081,10 +9969,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\DismissRecommendationRequest_DismissRecommendationOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DismissRecommendationRequest_DismissRecommendationOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetGeographicViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetGeographicViewRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignsRequest' => array(
 		'version' => '12.1.0.0',
@@ -16102,57 +9986,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DismissRecommendationResponse/DismissRecommendationResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignExperimentsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignExperimentsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerFeedServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerFeedServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignAssetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignAssetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ThirdPartyAppAnalyticsLinkServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ThirdPartyAppAnalyticsLinkServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupExtensionSettingOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupExtensionSettingOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\RunBatchJobRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RunBatchJobRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignFeedServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignFeedServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerClientLinkResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerClientLinkResult.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingSeasonalityAdjustmentsResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingSeasonalityAdjustmentsResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExtensionSettingOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignExtensionSettingOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DetailedDemographicServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DetailedDemographicServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\RunOfflineUserDataJobRequest' => array(
 		'version' => '12.1.0.0',
@@ -16165,26 +10009,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountBudgetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBidModifierServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignBidModifierServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GoogleAdsFieldServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GoogleAdsFieldServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupLabelRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupLabelRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BatchJobServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BatchJobServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ChangeStatusServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ChangeStatusServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MerchantCenterLinkServiceClient' => array(
 		'version' => '12.1.0.0',
@@ -16206,22 +10030,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerClientLinkResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerExtensionSettingsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerExtensionSettingsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\VideoServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/VideoServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSettingOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSettingOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionCustomVariableOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionCustomVariableOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestSmartCampaignBudgetOptionsResponse\\Metrics' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignBudgetOptionsResponse/Metrics.php'
@@ -16238,49 +10046,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionActionServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ShoppingPerformanceViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ShoppingPerformanceViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerLabelResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerLabelResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionCustomVariablesResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionCustomVariablesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionLabelOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionLabelOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomAudiencesResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomAudiencesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExperimentServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignExperimentServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignConversionGoalResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignConversionGoalResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetLinkServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemSetLinkServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordAndUrlSeed' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordAndUrlSeed.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCustomizerServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCustomizerServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupExtensionSettingResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupExtensionSettingResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SiteSeed' => array(
 		'version' => '12.1.0.0',
@@ -16290,22 +10058,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionActionOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerUserAccessInvitationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerUserAccessInvitationRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateRemarketingActionsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateRemarketingActionsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateMediaFileResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateMediaFileResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionSimulationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionSimulationServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionActionsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionActionsResponse.php'
@@ -16314,65 +10066,25 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/EffectiveFrequencyBreakdown.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignExtensionSettingsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignExtensionSettingsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Forecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Forecast.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetTopicConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetTopicConstantRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GenderViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenderViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetLanguageConstantRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetLanguageConstantRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupCriterionResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriterionResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserListServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserListServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserLocationViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserLocationViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignBudgetResult' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignBudgetResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanAdGroupsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanAdGroupsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExtensionSettingServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignExtensionSettingServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AccountLinkOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountLinkOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\InvoiceServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/InvoiceServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GenerateForecastCurveRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateForecastCurveRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\HotelGroupViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/HotelGroupViewServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdLabelOperation' => array(
 		'version' => '12.1.0.0',
@@ -16381,18 +10093,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBudgetServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignBudgetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignKeywordServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignKeywordServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBidModifierServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignBidModifierServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleSetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleSetOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CreateCustomerClientResponse' => array(
 		'version' => '12.1.0.0',
@@ -16406,34 +10106,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupCriteriaResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlansRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlansRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupExtensionSettingsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupExtensionSettingsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserListOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserListOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignCustomizersResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignCustomizersResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\IncomeRangeViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/IncomeRangeViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupExtensionSettingServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupExtensionSettingServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomConversionGoalServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomConversionGoalServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSuggestionInfo' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSuggestionInfo.php'
@@ -16441,14 +10113,6 @@ return array(
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UrlSeed' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UrlSeed.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomizerAttributeResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomizerAttributeResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetSetAssetResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetSetAssetResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
@@ -16458,18 +10122,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdServiceGrpcClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedPlaceholderViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedPlaceholderViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetSetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSuggestServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSuggestServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CreateAccountLinkRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CreateAccountLinkRequest.php'
@@ -16478,49 +10130,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccountLinkServiceClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBidModifierOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignBidModifierOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListPlannableProductsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListPlannableProductsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetConversionValueRuleRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetConversionValueRuleRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetVideoRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetVideoRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupBidModifierResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupBidModifierResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerManagerLinkRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerManagerLinkRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ManagedPlacementViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ManagedPlacementViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetSetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetSetsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignBudgetsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignBudgetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\RecommendationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RecommendationServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LandingPageViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LandingPageViewServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupResult' => array(
 		'version' => '12.1.0.0',
@@ -16530,58 +10150,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/RegenerateShareableLinkIdResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\UserInterestServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UserInterestServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DetailedDemographicServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DetailedDemographicServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CombinedAudienceServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CombinedAudienceServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\OfflineUserDataJobServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/OfflineUserDataJobServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ReachPlanServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ReachPlanServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateFeedMappingResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateFeedMappingResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupFeedsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupFeedsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerManagerLinkRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerManagerLinkRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerNegativeCriterionServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerNegativeCriterionServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetUserLocationViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetUserLocationViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomizerAttributeServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomizerAttributeServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateUserListsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateUserListsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomConversionGoalsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomConversionGoalsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadConversionAdjustmentsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadConversionAdjustmentsRequest.php'
@@ -16590,137 +10158,33 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupServiceGrpcClient.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedItemRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedItemRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetTopicViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetTopicViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerFeedServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerFeedServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignDraftServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignDraftServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GenerateProductMixIdeasRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateProductMixIdeasRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlansResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlansResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignCriteriaRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignCriteriaRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomizerAttributeOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomizerAttributeOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DetailPlacementViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DetailPlacementViewServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomAudiencesRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomAudiencesRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetLinkServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/FeedItemSetLinkServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetAssetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetSetAssetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdScheduleViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdScheduleViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\Preferences' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/Preferences.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DisplayKeywordViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DisplayKeywordViewServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListPlannableLocationsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListPlannableLocationsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetHotelPerformanceViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetHotelPerformanceViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignCriterionSimulationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignCriterionSimulationRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupAssetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AssetGroupAssetOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LifeEventServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LifeEventServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PromoteCampaignDraftRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PromoteCampaignDraftRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateMediaFilesResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateMediaFilesResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignDraftResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignDraftResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\LifeEventServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/LifeEventServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\EffectiveFrequencyLimit' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/EffectiveFrequencyLimit.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerFeedResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerFeedResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateBiddingSeasonalityAdjustmentsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBiddingSeasonalityAdjustmentsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignExperimentResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignExperimentResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategySimulationServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingStrategySimulationServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupCriterionSimulationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupCriterionSimulationRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupAdLabelRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupAdLabelRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionCustomizerServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionCustomizerServiceClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSharedCriteriaResponse' => array(
 		'version' => '12.1.0.0',
@@ -16734,69 +10198,25 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadCallConversionsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerAssetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerAssetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetBiddingStrategySimulationRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetBiddingStrategySimulationRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\PlannedProductReachForecast' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/PlannedProductReachForecast.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCustomizerOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCustomizerOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionAdjustmentUploadServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionAdjustmentUploadServiceGrpcClient.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdScheduleViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdScheduleViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerAssetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerAssetsResponse.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdGroupAdsResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdGroupAdsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerClientRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerClientRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GenerateForecastCurveResponse' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateForecastCurveResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ParentalStatusViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ParentalStatusViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomerLabelsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerLabelsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SharedCriterionServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SharedCriterionServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupCriterionRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupCriterionRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignFeedsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignFeedsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SearchGoogleAdsFieldsResponse' => array(
 		'version' => '12.1.0.0',
@@ -16806,29 +10226,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateKeywordPlanCampaignKeywordsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateKeywordPlanCampaignKeywordsRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionOperation' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignCriterionOperation.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetClickViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetClickViewRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestSmartCampaignBudgetOptionsResponse_BudgetOption' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignBudgetOptionsResponse_BudgetOption.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetManagedPlacementViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetManagedPlacementViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionGoalCampaignConfigsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionGoalCampaignConfigsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessOperation' => array(
 		'version' => '12.1.0.0',
@@ -16838,97 +10242,17 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateBatchJobRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdParametersRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdParametersRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerFeedOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerFeedOperation.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetFeedPlaceholderViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetFeedPlaceholderViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SearchTermViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SearchTermViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetSetServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignAssetSetServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ChangeStatusServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ChangeStatusServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomInterestsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomInterestsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdAssetViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAdAssetViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GoogleAdsServiceGrpcClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GoogleAdsServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSharedSetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CampaignSharedSetServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAdParameterResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdParameterResult.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateSharedCriteriaRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateSharedCriteriaRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategyServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/BiddingStrategyServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCampaignCustomizerResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCampaignCustomizerResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ProductBiddingCategoryConstantServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ProductBiddingCategoryConstantServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCustomerFeedRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCustomerFeedRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordThemeConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordThemeConstantServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MobileAppCategoryConstantServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MobileAppCategoryConstantServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanIdeaServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/KeywordPlanIdeaServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\SuggestSmartCampaignAdRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SuggestSmartCampaignAdRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateCustomAudienceResult' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomAudienceResult.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetKeywordViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetKeywordViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionValueRuleSetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionValueRuleSetsResponse.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\GeoTargetConstantSuggestion' => array(
 		'version' => '12.1.0.0',
@@ -16946,21 +10270,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAdsResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetBiddingStrategyRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetBiddingStrategyRequest.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadClickConversionsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/UploadClickConversionsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ExtensionFeedItemServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ExtensionFeedItemServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetChangeStatusRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetChangeStatusRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\UploadConversionAdjustmentsResponse' => array(
 		'version' => '12.1.0.0',
@@ -16974,29 +10286,13 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GenerateKeywordIdeaResult.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\TopicViewServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/TopicViewServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ApplyRecommendationOperation_ResponsiveSearchAdParameters' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ApplyRecommendationOperation_ResponsiveSearchAdParameters.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleOperation.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdLabelServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupAdLabelServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupExtensionSettingServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AdGroupExtensionSettingServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateExtensionFeedItemsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateExtensionFeedItemsRequest.php'
 	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\ListPaymentsAccountsResponse' => array(
 		'version' => '12.1.0.0',
@@ -17010,14 +10306,6 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/ListCampaignExperimentAsyncErrorsRequest.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\HotelGroupViewServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/HotelGroupViewServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSuggestServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SmartCampaignSuggestServiceGrpcClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateConversionActionsRequest' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateConversionActionsRequest.php'
@@ -17026,45 +10314,9 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateCustomerNegativeCriteriaResponse.php'
 	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\AccessibleBiddingStrategyServiceGrpcClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/AccessibleBiddingStrategyServiceGrpcClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\DomainCategoryServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/DomainCategoryServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAgeRangeViewRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAgeRangeViewRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetCampaignDraftRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetCampaignDraftRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SharedSetServiceClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SharedSetServiceClient.php'
-	),
 	'Google\\Ads\\GoogleAds\\V9\\Services\\CustomerServiceClient' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/CustomerServiceClient.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\GetAdGroupAssetRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/GetAdGroupAssetRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetGroupAssetsRequest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetGroupAssetsRequest.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\MutateAssetSetAssetsResponse' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/MutateAssetSetAssetsResponse.php'
-	),
-	'Google\\Ads\\GoogleAds\\V9\\Services\\SharedSetOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/src/Google/Ads/GoogleAds/V9/Services/SharedSetOperation.php'
 	),
 	'Google\\Ads\\GoogleAds\\Util\\ApiVersionSupport' => array(
 		'version' => '12.1.0.0',
@@ -18314,57 +11566,9 @@ return array(
 		'version' => '3.19.3.0',
 		'path'    => $vendorDir . '/google/protobuf/src/GPBMetadata/Google/Protobuf/Duration.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Recommendation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Recommendation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\DynamicSearchAdsSearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/DynamicSearchAdsSearchTermView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemTarget' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/FeedItemTarget.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\MediaFile' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/MediaFile.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerConversionGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerConversionGoal.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\RemarketingAction' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/RemarketingAction.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRule' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ConversionValueRule.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Feed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Feed.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerFeed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerFeed.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerManagerLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerManagerLink.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Ad' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Ad.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\GoogleAdsField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/GoogleAdsField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ChangeEvent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ChangeEvent.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroupListingGroupFilter' => array(
 		'version' => '12.1.0.0',
@@ -18374,189 +11578,29 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Campaign.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignAudienceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignAudienceView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerLabel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\HotelPerformanceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/HotelPerformanceView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ManagedPlacementView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ManagedPlacementView.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroup' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AssetGroup.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/FeedItemSet.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterionLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterionLabel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignBidModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignBidModifier.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetSetAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AssetSetAsset.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignAssetSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignAssetSet.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CarrierConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CarrierConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdScheduleView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdScheduleView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\SmartCampaignSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/SmartCampaignSetting.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AccountLink' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AccountLink.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupLabel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\LifeEvent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/LifeEvent.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Label' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Label.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AccountBudgetProposal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AccountBudgetProposal.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignDraft' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignDraft.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignAsset.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\DetailPlacementView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/DetailPlacementView.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterion' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterion.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\FeedMapping' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/FeedMapping.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanCampaign' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordPlanCampaign.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AccountBudget' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AccountBudget.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\MobileAppCategoryConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/MobileAppCategoryConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\LocationView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/LocationView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupBidModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupBidModifier.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignBudget' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignBudget.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupExtensionSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupExtensionSetting.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\HotelReconciliation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/HotelReconciliation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerClient' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerClient.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\HotelGroupView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/HotelGroupView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ParentalStatusView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ParentalStatusView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\MobileDeviceConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/MobileDeviceConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanCampaignKeyword' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordPlanCampaignKeyword.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\DetailedDemographic' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/DetailedDemographic.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\MerchantCenterLink' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/MerchantCenterLink.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignExperiment' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignExperiment.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\GroupPlacementView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/GroupPlacementView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignSharedSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignSharedSet.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanAdGroupKeyword' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordPlanAdGroupKeyword.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ProductBiddingCategoryConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ProductBiddingCategoryConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroupProductGroupView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AssetGroupProductGroupView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingSeasonalityAdjustment' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/BiddingSeasonalityAdjustment.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordView.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\GeoTargetConstant' => array(
 		'version' => '12.1.0.0',
@@ -18566,473 +11610,37 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Customer.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ExpandedLandingPageView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ExpandedLandingPageView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\SearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/SearchTermView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\DisplayKeywordView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/DisplayKeywordView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignSimulation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomAudience' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomAudience.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\GenderView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/GenderView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignCriterionSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignCriterionSimulation.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroup' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroup.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\FeedPlaceholderView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/FeedPlaceholderView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\DomainCategory' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/DomainCategory.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ShoppingPerformanceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ShoppingPerformanceView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerNegativeCriterion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerNegativeCriterion.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetGroupAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AssetGroupAsset.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerAsset.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignConversionGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignConversionGoal.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\SharedSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/SharedSet.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerUserAccess' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerUserAccess.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\LandingPageView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/LandingPageView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdParameter' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdParameter.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\OperatingSystemVersionConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/OperatingSystemVersionConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\SmartCampaignSearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/SmartCampaignSearchTermView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Invoice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Invoice.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerClientLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerClientLink.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionAction' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ConversionAction.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerExtensionSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerExtensionSetting.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerCustomizer.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupSimulation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupFeed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupFeed.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterionCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterionCustomizer.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAudienceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupAudienceView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomizerAttribute' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomizerAttribute.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Video' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Video.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingStrategySimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/BiddingStrategySimulation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignFeed' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignFeed.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ChangeStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ChangeStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CurrencyConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CurrencyConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\PaymentsAccount' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/PaymentsAccount.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItem' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/FeedItem.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAdLabel' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupAdLabel.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CallView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CallView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\BatchJob' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/BatchJob.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetFieldTypeView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AssetFieldTypeView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordThemeConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordThemeConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionGoalCampaignConfig' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ConversionGoalCampaignConfig.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\LanguageConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/LanguageConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AssetSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AssetSet.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ExtensionFeedItem' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ExtensionFeedItem.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\DistanceView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/DistanceView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\UserLocationView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/UserLocationView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ClickView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ClickView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlan' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordPlan.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\SharedCriterion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/SharedCriterion.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingDataExclusion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/BiddingDataExclusion.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ProductGroupView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ProductGroupView.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\BillingSetup' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/BillingSetup.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomInterest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomInterest.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\IncomeRangeView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/IncomeRangeView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignCustomizer.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AccessibleBiddingStrategy' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AccessibleBiddingStrategy.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAd' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupAd.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomConversionGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomConversionGoal.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignExtensionSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignExtensionSetting.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\PaidOrganicSearchTermView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/PaidOrganicSearchTermView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\TopicConstant' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/TopicConstant.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ThirdPartyAppAnalyticsLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ThirdPartyAppAnalyticsLink.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAdAssetView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupAdAssetView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\FeedItemSetLink' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/FeedItemSetLink.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CombinedAudience' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CombinedAudience.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\TopicView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/TopicView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignLabel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\KeywordPlanAdGroup' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/KeywordPlanAdGroup.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\WebpageView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/WebpageView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCustomizer' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupCustomizer.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CustomerUserAccessInvitation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CustomerUserAccessInvitation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionValueRuleSet' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ConversionValueRuleSet.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\GeographicView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/GeographicView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AgeRangeView' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AgeRangeView.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupCriterionSimulation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupCriterionSimulation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\AdGroupAsset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/AdGroupAsset.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\BiddingStrategy' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/BiddingStrategy.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\OfflineUserDataJob' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/OfflineUserDataJob.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\CampaignCriterion' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/CampaignCriterion.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\ConversionCustomVariable' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/ConversionCustomVariable.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\UserInterest' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/UserInterest.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\UserList' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/UserList.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Resources\\Asset' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Resources/Asset.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductCustomAttributeIndex' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductCustomAttributeIndex.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanConceptGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordPlanConceptGroupType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ChangeStatusOperation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanForecastInterval' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordPlanForecastInterval.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAdjustmentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionAdjustmentType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LocationExtensionTargetingCriterionField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LocationExtensionTargetingCriterionField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCrmDataSourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListCrmDataSourceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdGroupAdStatus.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCategory' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionActionCategory.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccountLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccountLinkStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GenderType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GenderType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingCriterionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedMappingCriterionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomAudienceStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdServingOptimizationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdServingOptimizationStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaDisplayUrlMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/VanityPharmaDisplayUrlMode.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelSubType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelSubType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\DsaPageFeedCriterionField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/DsaPageFeedCriterionField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedAttributeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedAttributeType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanCompetitionLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordPlanCompetitionLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ImagePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ImagePlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdCustomizerPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdCustomizerPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MonthOfYear' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MonthOfYear.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionApprovalStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SitelinkPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SitelinkPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductCondition' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductCondition.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CallPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CallPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyReviewStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PolicyReviewStatus.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TrackingCodeType' => array(
 		'version' => '12.1.0.0',
@@ -19042,993 +11650,41 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionActionStatus.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionAttributionEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionAttributionEventType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityDisapprovalReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityDisapprovalReason.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingRestriction' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GeoTargetingRestriction.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PlacementType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PlacementType.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanKeywordAnnotation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordPlanKeywordAnnotation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterTypeEnum' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterTypeEnum.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterBiddingCategoryLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterBiddingCategoryLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListAccessStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListAccessStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListDateRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListDateRuleItemOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldDataType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldDataType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListSizeRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListSizeRange.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SharedSetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedLinkStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\OperatingSystemVersionOperatorType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/OperatingSystemVersionOperatorType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BidModifierSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BidModifierSource.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MimeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MimeType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccountBudgetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ResponseContentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ResponseContentType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerMatchUploadKeyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomerMatchUploadKeyType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerValueStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomizerValueStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PriceExtensionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetAttachmentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetAttachmentType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TargetImpressionShareLocation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/TargetImpressionShareLocation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CallType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CallType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\RealEstatePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/RealEstatePlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SeasonalityEventScope' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SeasonalityEventScope.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationModificationMethod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SimulationModificationMethod.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PaymentMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PaymentMode.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterVertical' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterVertical.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomerPayPerConversionEligibilityFailureReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomerPayPerConversionEligibilityFailureReason.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetGroupStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetGroupStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BudgetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAdLength' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ReachPlanAdLength.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordMatchType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetDevice.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceChangeOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ResourceChangeOperation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ClickType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ClickType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetPeriod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BudgetPeriod.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LocalPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LocalPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetConstantStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GeoTargetConstantStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CallConversionReportingState' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CallConversionReportingState.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/HotelPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListPrepopulationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListPrepopulationStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListNumberRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListNumberRuleItemOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LocationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LocationPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionContextType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionContextType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductChannel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeEventResourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ChangeEventResourceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\IncomeRangeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/IncomeRangeType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MatchingFunctionOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MatchingFunctionOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BrandSafetySuitability' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BrandSafetySuitability.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdvertisingChannelType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdvertisingChannelType.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SearchEngineResultsPageType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SearchEngineResultsPageType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AppPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AppPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccountBudgetProposalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccountBudgetProposalType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperand' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperand.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GeoTargetingType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GeoTargetingType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdDestinationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdDestinationType.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MerchantCenterLinkStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MerchantCenterLinkStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdStrength' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdStrength.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobMatchRateRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobMatchRateRange.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductChannel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductChannel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ServedAssetFieldType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ServedAssetFieldType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ExternalConversionSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ExternalConversionSource.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TargetingDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/TargetingDimension.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignSharedSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignSharedSetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ResourceLimitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ResourceLimitType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CallTrackingDisplayLocation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CallTrackingDisplayLocation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionDiscountModifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionDiscountModifier.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccessReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccessReason.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TimeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/TimeType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignServingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignServingStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationFeedRelationshipType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationFeedRelationshipType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemTargetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemTargetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MediaType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MediaType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryChannelAvailabilityMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryChannelAvailabilityMode.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\Slot' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/Slot.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapTimeUnit' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FrequencyCapTimeUnit.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleSetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeClientType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ChangeClientType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserIdentifierSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserIdentifierSource.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AgeRangeType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AgeRangeType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AttributionModel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AttributionModel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormDesiredIntent' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LeadFormDesiredIntent.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedMappingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedMappingStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdGroupStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductCondition' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductCondition.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomizerAttributeStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomizerAttributeStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionLagBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionLagBucket.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LabelStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LabelStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionSystemServingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CriterionSystemServingStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemValidationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemValidationStatus.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionType' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionActionType.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProximityRadiusUnits' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProximityRadiusUnits.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PolicyApprovalStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\HotelPriceBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/HotelPriceBucket.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MobileAppVendor' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MobileAppVendor.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\DistanceBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/DistanceBucket.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionSettingDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ExtensionSettingDevice.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDnsErrorType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDnsErrorType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FrequencyCapLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationNotWorkingDevice' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationNotWorkingDevice.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\DataDrivenModelStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/DataDrivenModelStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\QualityScoreBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/QualityScoreBucket.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetPerformanceLabel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetPerformanceLabel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\HotelDateSelectionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/HotelDateSelectionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanNetwork' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ReachPlanNetwork.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetDeliveryMethod' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BudgetDeliveryMethod.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\RecommendationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/RecommendationType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleGeoLocationMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ValueRuleGeoLocationMatchType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRulePrimaryDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionValueRulePrimaryDimension.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AppStore.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceMemberType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomAudienceMemberType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermMatchType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SearchTermMatchType.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BillingSetupStatus' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BillingSetupStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdGroupType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\JobPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/JobPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\EducationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/EducationPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AppUrlOperatingSystemType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AppUrlOperatingSystemType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionCategoryLocaleAvailabilityMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CriterionCategoryLocaleAvailabilityMode.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BatchJobStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BatchJobStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormCallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LeadFormCallToActionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupCriterionStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdGroupCriterionStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MinuteOfHour' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MinuteOfHour.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CombinedAudienceStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CombinedAudienceStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TargetCpaOptInRecommendationGoal' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/TargetCpaOptInRecommendationGoal.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceQualifier' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceQualifier.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LocationGroupRadiusUnits' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LocationGroupRadiusUnits.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CriterionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CriterionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetSetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleOperation' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ValueRuleOperation.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LegacyAppInstallAdAppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LegacyAppInstallAdAppStore.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserInterestTaxonomyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserInterestTaxonomyType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingSource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BiddingSource.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SystemManagedEntitySource' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SystemManagedEntitySource.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SharedSetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SharedSetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SearchTermTargetingStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SearchTermTargetingStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\WebpageConditionOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/WebpageConditionOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignAppStore' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AppCampaignAppStore.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionCustomVariableStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionCustomVariableStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CalloutPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CalloutPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PositiveGeoTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PositiveGeoTargetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListStringRuleItemOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListStringRuleItemOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormFieldUserInputType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LeadFormFieldUserInputType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TravelPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/TravelPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedOrigin' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedOrigin.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomInterestType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ManagerLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ManagerLinkStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ReachPlanAgeRange' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ReachPlanAgeRange.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetCampaignAssociationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BudgetCampaignAssociationStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductTypeLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductTypeLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListMembershipStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListMembershipStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BudgetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BudgetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AppCampaignBiddingStrategyGoalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AppCampaignBiddingStrategyGoalType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanNetwork' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordPlanNetwork.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayAdFormatSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/DisplayAdFormatSetting.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AffiliateLocationPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AffiliateLocationPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleVoiceCallStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GoogleVoiceCallStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetFieldType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetFieldType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MessagePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MessagePlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PlaceholderType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PlaceholderType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomInterestStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LeadFormPostSubmitCallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LeadFormPostSubmitCallToActionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\HotelRateType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/HotelRateType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleSetDimension' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ValueRuleSetDimension.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\Device' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/Device.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomConversionGoalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomConversionGoalStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\VideoThumbnail' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/VideoThumbnail.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEntryType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEntryType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdNetworkType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdNetworkType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterProductTypeLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterProductTypeLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\HotelReconciliationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/HotelReconciliationStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SpendingLimitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SpendingLimitType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/InteractionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccessInvitationStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccessInvitationStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AppPaymentModelType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AppPaymentModelType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\NegativeGeoTargetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/NegativeGeoTargetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CallToActionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CallToActionType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionActionCountingType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionActionCountingType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionExtensionOccasion' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PromotionExtensionOccasion.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignExperimentTrafficSplitType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignExperimentTrafficSplitType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ValueRuleDeviceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ValueRuleDeviceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetAssetStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetSetAssetStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\DisplayUploadProductType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/DisplayUploadProductType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\BiddingStrategyType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/BiddingStrategyType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GoalConfigLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GoalConfigLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetLinkStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListRuleType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListRuleType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SimulationType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SimulationType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ChangeStatusResourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ChangeStatusResourceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupFilterCustomAttributeIndex' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupFilterCustomAttributeIndex.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobFailureReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobFailureReason.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PromotionPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PromotionPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemQualityApprovalStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemQualityApprovalStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionValueRuleStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionValueRuleStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\DayOfWeek' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/DayOfWeek.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PriceExtensionPriceUnit' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PriceExtensionPriceUnit.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PricePlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PricePlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetSetType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductChannelExclusivity' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductChannelExclusivity.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ExtensionType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ExtensionType.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AccessRole' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AccessRole.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOrigin' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionOrigin.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ListingGroupType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ListingGroupType.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\TrackingCodePageFormat' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/TrackingCodePageFormat.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignDraftStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CampaignDraftStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\InvoiceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/InvoiceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\GoogleAdsFieldCategory' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/GoogleAdsFieldCategory.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PolicyTopicEvidenceDestinationMismatchUrlType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PolicyTopicEvidenceDestinationMismatchUrlType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomAudienceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomAudienceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\OptimizationGoalType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/OptimizationGoalType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FlightPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FlightPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FrequencyCapEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FrequencyCapEventType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CustomInterestMemberType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/CustomInterestMemberType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ParentalStatusType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ParentalStatusType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ContentLabelType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ContentLabelType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\SummaryRowSetting' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/SummaryRowSetting.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListClosingReason' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListClosingReason.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\VanityPharmaText' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/VanityPharmaText.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\PreferredContentType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/PreferredContentType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ConversionOrAdjustmentLagBucket' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ConversionOrAdjustmentLagBucket.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LocationSourceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LocationSourceType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\FeedItemSetStringFilterType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/FeedItemSetStringFilterType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\OfflineUserDataJobStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/OfflineUserDataJobStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\LinkedAccountType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/LinkedAccountType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AssetSetLinkStatus' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AssetSetLinkStatus.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListLogicalRuleOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListLogicalRuleOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\InteractionEventType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/InteractionEventType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\UserListCombinedRuleOperator' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/UserListCombinedRuleOperator.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\KeywordPlanAggregateMetricType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/KeywordPlanAggregateMetricType.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\ProductBiddingCategoryLevel' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/ProductBiddingCategoryLevel.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\StructuredSnippetPlaceholderField' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/StructuredSnippetPlaceholderField.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\AdGroupAdRotationMode' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/AdGroupAdRotationMode.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\MobileDeviceType' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Enums/MobileDeviceType.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Enums\\CampaignCriterionStatus' => array(
 		'version' => '12.1.0.0',
@@ -20702,437 +12358,57 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Errors/CustomConversionGoalError.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\DisplayKeywordViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/DisplayKeywordViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerCustomizerService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerCustomizerService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\DynamicSearchAdsSearchTermViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/DynamicSearchAdsSearchTermViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignDraftService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignDraftService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\OfflineUserDataJobService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/OfflineUserDataJobService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CombinedAudienceService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CombinedAudienceService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetGroupService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionGoalCampaignConfigService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionGoalCampaignConfigService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupAdService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\UserDataService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/UserDataService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AgeRangeViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AgeRangeViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAssetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupAssetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\GroupPlacementViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/GroupPlacementViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ChangeStatusService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ChangeStatusService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetAssetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetSetAssetService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\UserListService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/UserListService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerFeedService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerFeedService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\PaidOrganicSearchTermViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/PaidOrganicSearchTermViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\TopicViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/TopicViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\VideoService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/VideoService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAudienceViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupAudienceViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetLinkService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedItemSetLinkService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordPlanService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\IncomeRangeViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/IncomeRangeViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ExtensionFeedItemService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ExtensionFeedItemService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\GoogleAdsFieldService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/GoogleAdsFieldService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\OperatingSystemVersionConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/OperatingSystemVersionConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedMappingService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedMappingService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AccountLinkService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AccountLinkService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetSetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetSetService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignCriterionService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupLabelService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupLabelService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ProductGroupViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ProductGroupViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ClickViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ClickViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\SearchTermViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/SearchTermViewService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AccessibleBiddingStrategyService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AccessibleBiddingStrategyService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ManagedPlacementViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ManagedPlacementViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBidModifierService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignBidModifierService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupFeedService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupFeedService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\TopicConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/TopicConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomAudienceService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomAudienceService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSharedSetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignSharedSetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\HotelPerformanceViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/HotelPerformanceViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionSimulationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionSimulationService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\DistanceViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/DistanceViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerNegativeCriterionService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerNegativeCriterionService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignBudgetService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignBudgetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanAdGroupKeywordService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordPlanAdGroupKeywordService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemSetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedItemSetService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\BillingSetupService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/BillingSetupService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedPlaceholderViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedPlaceholderViewService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionCustomizerService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionCustomizerService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\HotelGroupViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/HotelGroupViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\MobileAppCategoryConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/MobileAppCategoryConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignFeedService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignFeedService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ShoppingPerformanceViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ShoppingPerformanceViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\PaymentsAccountService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/PaymentsAccountService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleSetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleSetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CurrencyConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CurrencyConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdParameterService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdParameterService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerManagerLinkService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerManagerLinkService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\GeoTargetConstantService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/GeoTargetConstantService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionValueRuleService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionValueRuleService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomizerAttributeService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomizerAttributeService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAudienceViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignAudienceViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerUserAccessInvitationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessInvitationService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExtensionSettingService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignExtensionSettingService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupExtensionSettingService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupExtensionSettingService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomConversionGoalService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomConversionGoalService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetProposalService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AccountBudgetProposalService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanIdeaService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordPlanIdeaService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCriterionSimulationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignCriterionSimulationService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdLabelService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupAdLabelService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerClientService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\SharedCriterionService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/SharedCriterionService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSuggestService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/SmartCampaignSuggestService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerClientLinkService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerClientLinkService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignAssetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\MobileDeviceConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/MobileDeviceConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerAssetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerAssetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\WebpageViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/WebpageViewService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AccountBudgetService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AccountBudgetService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\MediaFileService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/MediaFileService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupAdAssetViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupAdAssetViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ThirdPartyAppAnalyticsLinkService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ThirdPartyAppAnalyticsLinkService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\LandingPageViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/LandingPageViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupAssetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetGroupAssetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\BiddingDataExclusionService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/BiddingDataExclusionService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\GenderViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/GenderViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\UserLocationViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/UserLocationViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionUploadService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionUploadService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CarrierConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CarrierConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ParentalStatusViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ParentalStatusViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\LabelService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/LabelService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignLabelService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignLabelService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerLabelService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerLabelService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\DetailPlacementViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/DetailPlacementViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ProductBiddingCategoryConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ProductBiddingCategoryConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedItemService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\LanguageConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/LanguageConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignExperimentService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignExperimentService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\GoogleAdsService' => array(
 		'version' => '12.1.0.0',
@@ -21142,173 +12418,21 @@ return array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerUserAccessService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionCustomVariableService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionCustomVariableService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\DomainCategoryService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/DomainCategoryService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategyService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/BiddingStrategyService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\SharedSetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/SharedSetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSearchTermViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/SmartCampaignSearchTermViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\BiddingStrategySimulationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/BiddingStrategySimulationService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetFieldTypeViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetFieldTypeViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionAdjustmentUploadService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionAdjustmentUploadService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerConversionGoalService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerConversionGoalService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCriterionLabelService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupCriterionLabelService.php'
 	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ConversionActionService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ConversionActionService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\LifeEventService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/LifeEventService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordThemeConstantService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordThemeConstantService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\BatchJobService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/BatchJobService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\LocationViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/LocationViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\RemarketingActionService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/RemarketingActionService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ExpandedLandingPageViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ExpandedLandingPageViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\UserInterestService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/UserInterestService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\SmartCampaignSettingService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/SmartCampaignSettingService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\GeographicViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/GeographicViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordPlanCampaignKeywordService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordPlanCampaignKeywordService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignSimulationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignSimulationService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\BiddingSeasonalityAdjustmentService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/BiddingSeasonalityAdjustmentService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AssetGroupListingGroupFilterService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AssetGroupListingGroupFilterService.php'
 	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdScheduleViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdScheduleViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\RecommendationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/RecommendationService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\InvoiceService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/InvoiceService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomerExtensionSettingService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomerExtensionSettingService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignAssetSetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignAssetSetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupSimulationService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupSimulationService.php'
-	),
 	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\MerchantCenterLinkService' => array(
 		'version' => '12.1.0.0',
 		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/MerchantCenterLinkService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\ReachPlanService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/ReachPlanService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\KeywordViewService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/KeywordViewService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\FeedItemTargetService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/FeedItemTargetService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignConversionGoalService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignConversionGoalService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupCustomizerService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupCustomizerService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CampaignCustomizerService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CampaignCustomizerService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\CustomInterestService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/CustomInterestService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\AdGroupBidModifierService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/AdGroupBidModifierService.php'
-	),
-	'GPBMetadata\\Google\\Ads\\GoogleAds\\V9\\Services\\DetailedDemographicService' => array(
-		'version' => '12.1.0.0',
-		'path'    => $vendorDir . '/googleads/google-ads-php/metadata/Google/Ads/GoogleAds/V9/Services/DetailedDemographicService.php'
 	),
 	'GPBMetadata\\Google\\Longrunning\\Operations' => array(
 		'version' => '1.4.0.0',
@@ -22222,1896 +13346,1916 @@ return array(
 		'version' => '1.18.0.0',
 		'path'    => $vendorDir . '/google/auth/src/Credentials/InsecureCredentials.php'
 	),
+	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Util\\GoogleAdsCleanupServices' => array(
+		'version' => 'dev-release/1.13.0',
+		'path'    => $baseDir . '/bin/GoogleAdsCleanupServices.php'
+	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Ads\\AccountServiceTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Ads/AccountServiceTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Integration\\YoastWooCommerceSeoTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Integration/YoastWooCommerceSeoTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Google\\GoogleHelperTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Google/GoogleHelperTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Google\\SiteVerificationMetaTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Google/SiteVerificationMetaTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Value\\PhoneNumberTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Value/PhoneNumberTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Shipping\\ShippingZoneTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Shipping/ShippingZoneTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Coupon\\SyncerHooksTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Coupon/SyncerHooksTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Coupon\\CouponMetaHandlerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Coupon/CouponMetaHandlerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Coupon\\CouponSyncerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Coupon/CouponSyncerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Coupon\\WCCouponAdapterTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Coupon/WCCouponAdapterTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\WCProductAdapterTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/WCProductAdapterTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\SyncerHooksTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/SyncerHooksTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\ProductRepositoryTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/ProductRepositoryTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\ProductFactoryTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/ProductFactoryTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\ProductSyncerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/ProductSyncerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\Attributes\\AttributeManagerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/Attributes/AttributeManagerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\Attributes\\AbstractAttributeTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/Attributes/AbstractAttributeTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\ProductHelperTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/ProductHelperTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\ProductFilterTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/ProductFilterTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\BatchProductHelperTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/BatchProductHelperTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Product\\ProductMetaHandlerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Product/ProductMetaHandlerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Notes\\ReconnectWordPressTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Notes/ReconnectWordPressTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\View\\PHPViewTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/View/PHPViewTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\View\\PHPViewFactoryTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/View/PHPViewFactoryTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\DB\\Migration\\MigratorTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/DB/Migration/MigratorTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsCampaignBudgetTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsCampaignBudgetTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsConversionActionTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsConversionActionTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsCampaignTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsCampaignTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\MerchantTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/MerchantTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsAssetGroupTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsAssetGroupTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\MiddlewareTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/MiddlewareTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\SiteVerificationTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/SiteVerificationTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsReportTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsReportTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\AdsCampaignCriterionTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/AdsCampaignCriterionTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Google\\MerchantMetricsTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Google/MerchantMetricsTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\Ads\\AccountControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/Ads/AccountControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\Ads\\BudgetRecommendationControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/Ads/BudgetRecommendationControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\Ads\\CampaignControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/Ads/CampaignControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\Google\\AccountControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/Google/AccountControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\Jetpack\\AccountControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/Jetpack/AccountControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\MerchantCenter\\AccountControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/MerchantCenter/AccountControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\MerchantCenter\\PhoneVerificationControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/MerchantCenter/PhoneVerificationControllerTest.php'
 	),
+	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\MerchantCenter\\RequestReviewControllerTest' => array(
+		'version' => 'dev-release/1.13.0',
+		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/MerchantCenter/RequestReviewControllerTest.php'
+	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\MerchantCenter\\SupportedCountriesControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/MerchantCenter/SupportedCountriesControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\MerchantCenter\\ContactInformationControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/MerchantCenter/ContactInformationControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\API\\Site\\Controllers\\MerchantCenter\\ShippingRateControllerTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/API/Site/Controllers/MerchantCenter/ShippingRateControllerTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\MerchantCenter\\AccountServiceTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/MerchantCenter/AccountServiceTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\MerchantCenter\\ValidateAddressTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/MerchantCenter/ValidateAddressTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\MerchantCenter\\ContactInformationTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/MerchantCenter/ContactInformationTest.php'
 	),
+	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\MerchantCenter\\MerchantCenterServiceTest' => array(
+		'version' => 'dev-release/1.13.0',
+		'path'    => $baseDir . '/tests/Unit/MerchantCenter/MerchantCenterServiceTest.php'
+	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\MerchantCenter\\PhoneVerificationTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/MerchantCenter/PhoneVerificationTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Jobs\\CleanupSyncedProductsTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Jobs/CleanupSyncedProductsTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Jobs\\UpdateProductsTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Jobs/UpdateProductsTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Jobs\\UpdateAllProductsTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Jobs/UpdateAllProductsTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Assets\\AdminScriptAssetTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Assets/AdminScriptAssetTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Utility\\DateTimeUtilityTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Utility/DateTimeUtilityTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Utility\\AddressUtilityTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Utility/AddressUtilityTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Unit\\Utility\\ISOUtilityTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Unit/Utility/ISOUtilityTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\GuzzleClientTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/GuzzleClientTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\MerchantTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/MerchantTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\ProductTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/ProductTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\JobTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/JobTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\DataTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/DataTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\ProductMetaTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/ProductMetaTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\SettingsTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/SettingsTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\GoogleAdsClientTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/GoogleAdsClientTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Tools\\HelperTrait\\CouponTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Tools/HelperTrait/CouponTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Framework\\UnitTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Framework/UnitTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Framework\\RESTControllerUnitTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Framework/RESTControllerUnitTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tests\\Framework\\ContainerAwareUnitTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/tests/Framework/ContainerAwareUnitTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\PluginFactory' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/PluginFactory.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Ads\\AdsService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Ads/AdsService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Ads\\AccountService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Ads/AccountService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Ads\\AdsAwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Ads/AdsAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Ads\\AdsAwareTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Ads/AdsAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\AdsAccountState' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/AdsAccountState.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\AccountState' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/AccountState.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsAwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/OptionsAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\Transients' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/Transients.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsAwareTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/OptionsAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\TransientsInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/TransientsInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\OptionsInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/OptionsInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\AdsSetupCompleted' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/AdsSetupCompleted.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\Options' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/Options.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\MerchantAccountState' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/MerchantAccountState.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Options\\MerchantSetupCompleted' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Options/MerchantSetupCompleted.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Container' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Container.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\ActionScheduler\\ActionScheduler' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/ActionScheduler/ActionScheduler.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\ActionScheduler\\ActionSchedulerException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/ActionScheduler/ActionSchedulerException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\ActionScheduler\\AsyncActionRunner' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/ActionScheduler/AsyncActionRunner.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\ActionScheduler\\ActionSchedulerInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/ActionScheduler/ActionSchedulerInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Validator\\GooglePriceConstraintValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Validator/GooglePriceConstraintValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Validator\\GooglePriceConstraint' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Validator/GooglePriceConstraint.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Validator\\Validatable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Validator/Validatable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\ConnectionTest' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/ConnectionTest.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\YoastWooCommerceSeo' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/YoastWooCommerceSeo.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\WooCommerceBrands' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/WooCommerceBrands.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\WooCommerceSubscriptions' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/WooCommerceSubscriptions.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\WooCommercePreOrders' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/WooCommercePreOrders.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\IntegrationInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/IntegrationInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\WooCommerceProductBundles' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/WooCommerceProductBundles.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Integration\\IntegrationInitializer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Integration/IntegrationInitializer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\Ads\\GoogleAdsClient' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/Ads/GoogleAdsClient.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\Ads\\ServiceClientFactoryTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/Ads/ServiceClientFactoryTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\GoogleHelperAwareTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/GoogleHelperAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\InvalidCouponEntry' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/InvalidCouponEntry.php'
 	),
+	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\RequestReviewStatuses' => array(
+		'version' => 'dev-release/1.13.0',
+		'path'    => $baseDir . '/src/Google/RequestReviewStatuses.php'
+	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\DeleteCouponEntry' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/DeleteCouponEntry.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\BatchProductRequestEntry' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/BatchProductRequestEntry.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\GooglePromotionService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/GooglePromotionService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\BatchInvalidProductEntry' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/BatchInvalidProductEntry.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\BatchProductIDRequestEntry' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/BatchProductIDRequestEntry.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\GoogleHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/GoogleHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\SiteVerificationMeta' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/SiteVerificationMeta.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\BatchProductEntry' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/BatchProductEntry.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\GoogleHelperAwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/GoogleHelperAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\GoogleProductService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/GoogleProductService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\BatchProductResponse' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/BatchProductResponse.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Google\\GlobalSiteTag' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Google/GlobalSiteTag.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\TosAccepted' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/TosAccepted.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\ProductIDMap' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/ProductIDMap.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\ChannelVisibility' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/ChannelVisibility.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\RateType' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/RateType.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\EnumeratedValues' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/EnumeratedValues.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\MCStatus' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/MCStatus.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\BuiltScriptDependencyArray' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/BuiltScriptDependencyArray.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\CastableValueInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/CastableValueInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\MerchantCenterSettings' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/MerchantCenterSettings.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\ValueInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/ValueInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\ArrayWithRequiredKeys' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/ArrayWithRequiredKeys.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\PhoneNumber' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/PhoneNumber.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\PositiveInteger' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/PositiveInteger.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Value\\SyncStatus' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Value/SyncStatus.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\DateTime' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/DateTime.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Integer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Integer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\FormInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/FormInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\BooleanSelect' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/BooleanSelect.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\FormException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/FormException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Input' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Input.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Select' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Select.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Checkbox' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Checkbox.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Form' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Form.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\InputInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/InputInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Text' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Text.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Decimal' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/Decimal.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\SelectWithTextInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Input/SelectWithTextInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\BulkEdit\\CouponBulkEdit' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/BulkEdit/CouponBulkEdit.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\BulkEdit\\BulkEditInitializer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/BulkEdit/BulkEditInitializer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\BulkEdit\\BulkEditInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/BulkEdit/BulkEditInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\MPNInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/MPNInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\AdultInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/AdultInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\AgeGroupInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/AgeGroupInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\AvailabilityDateInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/AvailabilityDateInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\ConditionInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/ConditionInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\GTINInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/GTINInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\SizeInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/SizeInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\SizeTypeInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/SizeTypeInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\IsBundleInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/IsBundleInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\MaterialInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/MaterialInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\PatternInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/PatternInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\AttributeInputInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/AttributeInputInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\SizeSystemInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/SizeSystemInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\GenderInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/GenderInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\MultipackInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/MultipackInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\BrandInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/BrandInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\Input\\ColorInput' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/Input/ColorInput.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\VariationsAttributes' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/VariationsAttributes.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\AttributesTab' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/AttributesTab.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Product\\Attributes\\AttributesForm' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Product/Attributes/AttributesForm.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\MetaBoxInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/MetaBox/MetaBoxInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\AbstractMetaBox' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/MetaBox/AbstractMetaBox.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\MetaBoxInitializer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/MetaBox/MetaBoxInitializer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\ChannelVisibilityMetaBox' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/MetaBox/ChannelVisibilityMetaBox.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\CouponChannelVisibilityMetaBox' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/MetaBox/CouponChannelVisibilityMetaBox.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\SubmittableMetaBox' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/MetaBox/SubmittableMetaBox.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\ActivationRedirect' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/ActivationRedirect.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Admin' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Admin/Admin.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\ContainerAwareTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/ContainerAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\RequirementValidatorInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/RequirementValidatorInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\RequirementValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/RequirementValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\WCValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/WCValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\VersionValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/VersionValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\WCAdminValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/WCAdminValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\GoogleProductFeedValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/GoogleProductFeedValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Requirements\\PluginValidator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Requirements/PluginValidator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\StatusMapping' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/StatusMapping.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\InstallTimestamp' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/InstallTimestamp.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\RESTServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/RESTServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\ThirdPartyServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ThirdPartyServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\DBServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/DBServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\ProxyServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ProxyServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\JobServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/JobServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\CoreServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/CoreServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\AbstractServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/AbstractServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\IntegrationServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/IntegrationServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DependencyManagement\\GoogleServiceProvider' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/GoogleServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\DeprecatedFilters' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/DeprecatedFilters.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Interfaces\\InstallableInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Interfaces/InstallableInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Interfaces\\FirstInstallInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Interfaces/FirstInstallInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Interfaces\\ISO3166AwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Interfaces/ISO3166AwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Internal\\Interfaces\\ContainerAwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Internal/Interfaces/ContainerAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Shipping\\ShippingZone' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Shipping/ShippingZone.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Coupon\\SyncerHooks' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Coupon/SyncerHooks.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Coupon\\CouponSyncerException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Coupon/CouponSyncerException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Coupon\\CouponSyncer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Coupon/CouponSyncer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Coupon\\CouponHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Coupon/CouponHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Coupon\\WCCouponAdapter' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Coupon/WCCouponAdapter.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Coupon\\CouponMetaHandler' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Coupon/CouponMetaHandler.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\SyncerHooks' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/SyncerHooks.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductMetaHandler' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductMetaHandler.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductRepository' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductRepository.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\WCProductAdapter' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/WCProductAdapter.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductSyncerException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductSyncerException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Material' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Material.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\SizeSystem' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/SizeSystem.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\MPN' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/MPN.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Size' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Size.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\AvailabilityDate' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/AvailabilityDate.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\AttributeInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/AttributeInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\AbstractAttribute' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/AbstractAttribute.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Multipack' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Multipack.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Pattern' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Pattern.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\AttributeManager' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/AttributeManager.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\GTIN' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/GTIN.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\WithValueOptionsInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/WithValueOptionsInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Color' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Color.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\IsBundle' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/IsBundle.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\SizeType' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/SizeType.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Adult' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Adult.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\AgeGroup' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/AgeGroup.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Condition' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Condition.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Brand' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Brand.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\Attributes\\Gender' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/Attributes/Gender.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\FilteredProductList' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/FilteredProductList.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductFactory' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductFactory.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\BatchProductHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/BatchProductHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductSyncer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductSyncer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Product\\ProductFilter' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Product/ProductFilter.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\HelperTraits\\ViewHelperTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/HelperTraits/ViewHelperTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\HelperTraits\\Utilities' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/HelperTraits/Utilities.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\HelperTraits\\ISO3166Awareness' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/HelperTraits/ISO3166Awareness.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\TaskList\\CompleteSetup' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/TaskList/CompleteSetup.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\TaskList\\TaskListTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/TaskList/TaskListTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\AbstractSetupCampaign' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/AbstractSetupCampaign.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\Note' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/Note.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\CompleteSetup' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/CompleteSetup.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\LeaveReviewActionTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/LeaveReviewActionTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\SetupCouponSharing' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/SetupCouponSharing.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\SetupCampaign' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/SetupCampaign.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\NoteInitializer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/NoteInitializer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\SetupCampaignTwoWeeks' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/SetupCampaignTwoWeeks.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\ContactInformation' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/ContactInformation.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\ReconnectWordPress' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/ReconnectWordPress.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\ReviewAfterConversions' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/ReviewAfterConversions.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\ReviewAfterClicks' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/ReviewAfterClicks.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Notes\\AbstractNote' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Notes/AbstractNote.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\Dashboard' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/Dashboard.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\Settings' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/Settings.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\Reports' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/Reports.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\WooAdminNavigationTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/WooAdminNavigationTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\MenuFixesTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/MenuFixesTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\ProductFeed' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/ProductFeed.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\SetupMerchantCenter' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/SetupMerchantCenter.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\GetStarted' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/GetStarted.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Menu\\SetupAds' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Menu/SetupAds.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\View\\PHPViewFactory' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/View/PHPViewFactory.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\View\\ViewException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/View/ViewException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\View\\PHPView' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/View/PHPView.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Polyfills\\MBString' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Polyfills/MBString.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\TableManager' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/TableManager.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\TableInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/TableInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\ProductFeedQueryHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/ProductFeedQueryHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Table\\MerchantIssueTable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Table/MerchantIssueTable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Table\\BudgetRecommendationTable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Table/BudgetRecommendationTable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Table\\ShippingRateTable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Table/ShippingRateTable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Table\\ShippingTimeTable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Table/ShippingTimeTable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Installer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Installer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Query' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Query.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Query\\MerchantIssueQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Query/MerchantIssueQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Query\\ShippingTimeQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Query/ShippingTimeQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Query\\ShippingRateQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Query/ShippingRateQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Query\\BudgetRecommendationQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Query/BudgetRecommendationQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\QueryInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/QueryInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\ProductMetaQueryHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/ProductMetaQueryHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Table' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Table.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migration20211228T1640692399' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Migration/Migration20211228T1640692399.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migrator' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Migration/Migrator.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\MigrationVersion141' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Migration/MigrationVersion141.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\MigrationInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Migration/MigrationInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\AbstractMigration' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/DB/Migration/AbstractMigration.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\MicroTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/MicroTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Connection' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Connection.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Ads' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Ads.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\MerchantMetrics' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/MerchantMetrics.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\CampaignStatus' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/CampaignStatus.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Settings' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Settings.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\ApiExceptionTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/ApiExceptionTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\ReportTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/ReportTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsReport' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/AdsReport.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsAssetGroup' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/AdsAssetGroup.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\SiteVerification' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/SiteVerification.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\LocationIDTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/LocationIDTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\BillingSetupStatus' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/BillingSetupStatus.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsCampaignBudget' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/AdsCampaignBudget.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\CampaignType' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/CampaignType.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsCampaign' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/AdsCampaign.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsConversionAction' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/AdsConversionAction.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Merchant' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Merchant.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Middleware' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Middleware.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\MerchantReport' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/MerchantReport.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\MerchantProductReportQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/MerchantProductReportQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsCampaignCriterionQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsCampaignCriterionQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\MerchantQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/MerchantQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsProductReportQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsProductReportQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsBillingStatusQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsBillingStatusQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsAccountQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsAccountQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\MerchantFreeListingReportQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/MerchantFreeListingReportQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsAssetGroupQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsAssetGroupQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsCampaignBudgetQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsCampaignBudgetQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\MerchantReportQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/MerchantReportQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsCampaignReportQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsCampaignReportQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\ReportQueryTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/ReportQueryTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\Query' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/Query.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\QueryInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/QueryInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsCampaignQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsCampaignQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Query\\AdsReportQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/Query/AdsReportQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\AdsCampaignCriterion' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Google/AdsCampaignCriterion.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\TransportMethods' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/TransportMethods.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\RESTControllers' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/RESTControllers.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Ads\\ReportsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Ads/ReportsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Ads\\BudgetRecommendationController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Ads/BudgetRecommendationController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Ads\\SetupCompleteController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Ads/SetupCompleteController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Ads\\AccountController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Ads/AccountController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Ads\\CampaignController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Ads/CampaignController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\BaseOptionsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/BaseOptionsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\CountryCodeTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/CountryCodeTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\EmptySchemaPropertiesTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/EmptySchemaPropertiesTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\DisconnectController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/DisconnectController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\ResponseFromExceptionTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/ResponseFromExceptionTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\ShippingRateSchemaTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/ShippingRateSchemaTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Google\\AccountController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Google/AccountController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\Jetpack\\AccountController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/Jetpack/AccountController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\BaseController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/BaseController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ReportsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ReportsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\IssuesController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/IssuesController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ShippingTimeBatchController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ShippingTimeBatchController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ContactInformationController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ContactInformationController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ProductStatisticsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ProductStatisticsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\AccountController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/AccountController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\SupportedCountriesController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/SupportedCountriesController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\BatchShippingTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/BatchShippingTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ShippingRateController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ShippingRateController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ProductVisibilityController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ProductVisibilityController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ShippingTimeController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ShippingTimeController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\SettingsSyncController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/SettingsSyncController.php'
 	),
+	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\RequestReviewController' => array(
+		'version' => 'dev-release/1.13.0',
+		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/RequestReviewController.php'
+	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ShippingRateBatchController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ShippingRateBatchController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ConnectionController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ConnectionController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\SettingsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/SettingsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\TargetAudienceController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/TargetAudienceController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ShippingRateSuggestionsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ShippingRateSuggestionsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\PhoneVerificationController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/PhoneVerificationController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\MerchantCenter\\ProductFeedController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/MerchantCenter/ProductFeedController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\BaseReportsController' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/BaseReportsController.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Site\\Controllers\\BatchSchemaTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/Site/Controllers/BatchSchemaTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\PermissionsTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/API/PermissionsTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\TracksAwareTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/TracksAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\TrackerSnapshot' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/TrackerSnapshot.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\EventTracking' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/EventTracking.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\TracksAwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/TracksAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\Events\\ActivatedEvents' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/Events/ActivatedEvents.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\Events\\BaseEvent' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/Events/BaseEvent.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\Events\\SiteClaimEvents' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/Events/SiteClaimEvents.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\Events\\TracksEventInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/Events/TracksEventInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\Events\\SiteVerificationEvents' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/Events/SiteVerificationEvents.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\TracksInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/TracksInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Tracking\\Tracks' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Tracking/Tracks.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\AccountService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/AccountService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\ContactInformation' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/ContactInformation.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\PhoneVerification' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/PhoneVerification.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\MerchantCenterService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/MerchantCenterService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\MerchantStatuses' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/MerchantStatuses.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\MerchantCenterAwareTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/MerchantCenterAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\PhoneVerificationException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/PhoneVerificationException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\MerchantCenterAwareInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/MerchantCenterAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\MerchantCenter\\TargetAudience' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/MerchantCenter/TargetAudience.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Installer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Installer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Proxies\\GoogleGtagJs' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Proxies/GoogleGtagJs.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Proxies\\Http' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Proxies/Http.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Proxies\\RESTServer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Proxies/RESTServer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Proxies\\WC' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Proxies/WC.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Proxies\\Tracks' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Proxies/Tracks.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Proxies\\WP' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Proxies/WP.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\AbstractBatchedActionSchedulerJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/AbstractBatchedActionSchedulerJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\ProductSyncerJobInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/ProductSyncerJobInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\ProductSyncStats' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/ProductSyncStats.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\AbstractActionSchedulerJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/AbstractActionSchedulerJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\RecurringJobInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/RecurringJobInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\JobInitializer' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/JobInitializer.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\CleanupProductsJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/CleanupProductsJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\Update\\CleanupProductTargetCountriesJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/Update/CleanupProductTargetCountriesJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\Update\\PluginUpdate' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/Update/PluginUpdate.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\DeleteCoupon' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/DeleteCoupon.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\ActionSchedulerJobMonitor' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/ActionSchedulerJobMonitor.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\ResubmitExpiringProducts' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/ResubmitExpiringProducts.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\JobInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/JobInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\UpdateAllProducts' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/UpdateAllProducts.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\JobRepository' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/JobRepository.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\DeleteAllProducts' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/DeleteAllProducts.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\BatchedActionSchedulerJobInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/BatchedActionSchedulerJobInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\AbstractProductSyncerJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/AbstractProductSyncerJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\UpdateCoupon' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/UpdateCoupon.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\DeleteProducts' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/DeleteProducts.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\StartOnHookInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/StartOnHookInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\ActionSchedulerJobInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/ActionSchedulerJobInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\UpdateProducts' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/UpdateProducts.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\CleanupSyncedProducts' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/CleanupSyncedProducts.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\AbstractProductSyncerBatchedJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/AbstractProductSyncerBatchedJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\StartHook' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/StartHook.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\JobException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/JobException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Jobs\\AbstractCouponSyncerJob' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Jobs/AbstractCouponSyncerJob.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Activateable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Activateable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Service' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Service.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\ViewFactory' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/ViewFactory.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Renderable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Renderable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Plugin' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Plugin.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\AdminConditional' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/AdminConditional.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Deactivateable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Deactivateable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\View' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/View.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Registerable' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Registerable.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\GoogleListingsAndAdsPlugin' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/GoogleListingsAndAdsPlugin.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Infrastructure\\Conditional' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Infrastructure/Conditional.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\AssetsHandler' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/AssetsHandler.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\AdminAssetHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/AdminAssetHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\StyleAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/StyleAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\AssetsHandlerInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/AssetsHandlerInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\AdminStyleAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/AdminStyleAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\BaseAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/BaseAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\ScriptAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/ScriptAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\AdminScriptWithBuiltDependenciesAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/AdminScriptWithBuiltDependenciesAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\AdminScriptAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/AdminScriptAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Assets\\Asset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Assets/Asset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidState' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidState.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\ExceptionWithResponseData' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/ExceptionWithResponseData.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidArgument' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidArgument.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidQuery' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidQuery.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\ApiNotReady' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/ApiNotReady.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidVersion' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidVersion.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\ValidateInterface' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/ValidateInterface.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidAsset' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidAsset.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\MerchantApiException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/MerchantApiException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\ExtensionRequirementException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/ExtensionRequirementException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\AccountReconnect' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/AccountReconnect.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidClass' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidClass.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidMeta' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidMeta.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidTerm' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidTerm.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidDomainName' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidDomainName.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidService' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidService.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\GoogleListingsAndAdsException' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/GoogleListingsAndAdsException.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\WPErrorTrait' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/WPErrorTrait.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidProperty' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidProperty.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\WPError' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/WPError.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidType' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidType.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidArray' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidArray.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidOption' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidOption.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Exception\\InvalidValue' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Exception/InvalidValue.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Event\\ClearProductStatsCache' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Event/ClearProductStatsCache.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Event\\StartProductSync' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Event/StartProductSync.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Logging\\DebugLogger' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Logging/DebugLogger.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Autoloader' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Autoloader.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\PluginHelper' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/PluginHelper.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Utility\\ISOUtility' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Utility/ISOUtility.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Utility\\DateTimeUtility' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Utility/DateTimeUtility.php'
 	),
 	'Automattic\\WooCommerce\\GoogleListingsAndAds\\Utility\\AddressUtility' => array(
-		'version' => 'dev-develop',
+		'version' => 'dev-release/1.13.0',
 		'path'    => $baseDir . '/src/Utility/AddressUtility.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => array(

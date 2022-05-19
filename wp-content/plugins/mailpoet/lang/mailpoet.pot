@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the MailPoet 3 (New) package.
 msgid ""
 msgstr ""
-"Project-Id-Version: MailPoet 3 (New) 3.89.0\n"
+"Project-Id-Version: MailPoet 3 (New) 3.89.1\n"
 "Report-Msgid-Bugs-To: http://support.mailpoet.com/\n"
-"POT-Creation-Date: 2022-05-09 11:57:48+00:00\n"
+"POT-Creation-Date: 2022-05-17 10:42:07+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -204,36 +204,27 @@ msgid "This template does not exist."
 msgstr ""
 
 #: lib/API/JSON/v1/Newsletters.php:123 lib/API/JSON/v1/Newsletters.php:140
-#: lib/API/JSON/v1/Newsletters.php:183 lib/API/JSON/v1/Newsletters.php:257
-#: lib/API/JSON/v1/Newsletters.php:273 lib/API/JSON/v1/Newsletters.php:287
-#: lib/API/JSON/v1/Newsletters.php:304 lib/API/JSON/v1/Newsletters.php:319
-#: lib/API/JSON/v1/Newsletters.php:342
+#: lib/API/JSON/v1/Newsletters.php:183 lib/API/JSON/v1/Newsletters.php:242
+#: lib/API/JSON/v1/Newsletters.php:258 lib/API/JSON/v1/Newsletters.php:272
+#: lib/API/JSON/v1/Newsletters.php:289 lib/API/JSON/v1/Newsletters.php:304
+#: lib/API/JSON/v1/Newsletters.php:327
 msgid "This email does not exist."
 msgstr ""
 
 #: lib/API/JSON/v1/Newsletters.php:176 lib/API/JSON/v1/SendingQueue.php:77
-#: lib/API/JSON/v1/SendingQueue.php:233
+#: lib/API/JSON/v1/SendingQueue.php:209
 msgid "Subscribers limit reached."
 msgstr ""
 
-#: lib/API/JSON/v1/Newsletters.php:191 views/newsletter/editor.html:380
-#: views/newsletters.html:450
-msgid "A re-engagement email must include a link with [link:subscription_re_engage_url] shortcode."
-msgstr ""
-
 #: lib/API/JSON/v1/Newsletters.php:202
-msgid "Re-engagement emails are disabled because open and click tracking is disabled in MailPoet → Settings → Advanced."
-msgstr ""
-
-#: lib/API/JSON/v1/Newsletters.php:217
 msgid "This email has incorrect state."
 msgstr ""
 
-#: lib/API/JSON/v1/Newsletters.php:312
+#: lib/API/JSON/v1/Newsletters.php:297
 msgid "Newsletter data is missing."
 msgstr ""
 
-#: lib/API/JSON/v1/Newsletters.php:335
+#: lib/API/JSON/v1/Newsletters.php:320
 msgid "Please specify receiver information."
 msgstr ""
 
@@ -277,7 +268,7 @@ msgid "Duplicating of segment failed."
 msgstr ""
 
 #: lib/API/JSON/v1/SendingQueue.php:90 lib/API/JSON/v1/SendingQueue.php:96
-#: lib/API/JSON/v1/SendingQueue.php:225 lib/API/JSON/v1/SendingQueue.php:255
+#: lib/API/JSON/v1/SendingQueue.php:201 lib/API/JSON/v1/SendingQueue.php:231
 msgid "This newsletter does not exist."
 msgstr ""
 
@@ -289,17 +280,7 @@ msgstr ""
 msgid "There are no subscribers in that list!"
 msgstr ""
 
-#: lib/API/JSON/v1/SendingQueue.php:189 lib/API/JSON/v1/SendingQueue.php:200
-#: views/newsletter/editor.html:381 views/newsletters.html:451
-msgid "Poet, please add prose to your masterpiece before you send it to your followers."
-msgstr ""
-
-#: lib/API/JSON/v1/SendingQueue.php:197 views/newsletter/editor.html:379
-#: views/newsletters.html:449
-msgid "All emails must include an \"Unsubscribe\" link. Add a footer widget to your email to continue."
-msgstr ""
-
-#: lib/API/JSON/v1/SendingQueue.php:217 lib/API/JSON/v1/SendingQueue.php:247
+#: lib/API/JSON/v1/SendingQueue.php:193 lib/API/JSON/v1/SendingQueue.php:223
 msgid "This newsletter has not been sent yet."
 msgstr ""
 
@@ -758,7 +739,7 @@ msgstr ""
 msgid "MailPoet"
 msgstr ""
 
-#: lib/Config/Hooks.php:366
+#: lib/Config/Hooks.php:376
 msgid "MailPoet Newsletter"
 msgstr ""
 
@@ -3314,31 +3295,31 @@ msgstr ""
 msgid "Error while sending."
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:90
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:93
 msgid "Email service is temporarily not available, please try again in a few minutes."
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:108
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:111
 msgid "Invalid MSS response format."
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:123
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:126
 msgid "Unknown address"
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:131
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:134
 msgid "You have reached the subscriber limit of your plan. Please [link1]upgrade your plan[/link1], or [link2]contact our support team[/link2] if you have any questions."
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:155
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:158
 msgid "MailPoet Sending Service has been temporarily suspended for your site due to [link1]degraded email deliverability[/link1]. Please [link2]contact our support team[/link2] to resolve the issue."
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:183
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:186
 msgid "You have sent more emails this month than your MailPoet plan includes (%s), and sending has been temporarily paused. To continue sending with MailPoet Sending Service please [link]upgrade your plan[/link], or wait until sending is automatically resumed on <b>%s</b>."
 msgstr ""
 
-#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:200
+#: lib/Mailer/Methods/ErrorMappers/MailPoetMapper.php:203
 msgid "Your subscription is currently [link]pending approval[/link].You’ll soon be able to send once our team reviews your account. In the meantime, you can send previews to your authorized emails."
 msgstr ""
 
@@ -3433,6 +3414,29 @@ msgstr ""
 
 #: lib/Newsletter/Listing/NewsletterListingRepository.php:166
 msgid "Not active"
+msgstr ""
+
+#: lib/Newsletter/NewsletterValidator.php:47 views/newsletter/editor.html:379
+#: views/newsletters.html:449
+msgid "All emails must include an \"Unsubscribe\" link. Add a footer widget to your email to continue."
+msgstr ""
+
+#: lib/Newsletter/NewsletterValidator.php:52 views/newsletter/editor.html:381
+#: views/newsletters.html:451
+msgid "Poet, please add prose to your masterpiece before you send it to your followers."
+msgstr ""
+
+#: lib/Newsletter/NewsletterValidator.php:71 views/newsletter/editor.html:380
+#: views/newsletters.html:450
+msgid "A re-engagement email must include a link with [link:subscription_re_engage_url] shortcode."
+msgstr ""
+
+#: lib/Newsletter/NewsletterValidator.php:75
+msgid "Re-engagement emails are disabled because open and click tracking is disabled in MailPoet → Settings → Advanced."
+msgstr ""
+
+#: lib/Newsletter/NewsletterValidator.php:88
+msgid "Please add an “Automatic Latest Content” widget to the email from the right sidebar."
 msgstr ""
 
 #: lib/Newsletter/Sending/ScheduledTaskSubscribersListingRepository.php:58

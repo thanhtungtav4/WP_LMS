@@ -85,7 +85,7 @@ class WelcomeScheduler {
         $newRole = $wpUser['roles'];
         if (
           $newsletterRole === self::WORDPRESS_ALL_ROLES ||
-          !array_diff($oldRole, $newRole)
+          !array_diff($newRole, $oldRole)
         ) {
           continue;
         }
@@ -117,7 +117,9 @@ class WelcomeScheduler {
       }
     }
     $previouslyScheduledNotification = $this->scheduledTasksRepository->findByNewsletterAndSubscriberId($newsletter, $subscriberId);
-    if (!empty($previouslyScheduledNotification)) return;
+    if (!empty($previouslyScheduledNotification)) {
+      return;
+    }
     $sendingTask = SendingTask::create();
     $sendingTask->newsletterId = $newsletter->getId();
     $sendingTask->setSubscribers([$subscriberId]);

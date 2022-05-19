@@ -6,8 +6,8 @@
 
 ?>
 
-<?php if(!get_option( 'users_can_register', false )): ?> 
-    <?php 
+<?php if(!get_option( 'users_can_register', false )): ?>
+    <?php
         $args = array(
             'image_path'    => tutor()->url.'assets/images/construction.png',
             'title'         => __('Oooh! Access Denied', 'tutor'),
@@ -18,7 +18,7 @@
                 'class'     => 'tutor-btn'
             )
         );
-        tutor_load_template('feature_disabled', $args); 
+        tutor_load_template('feature_disabled', $args);
     ?>
 <?php else: ?>
 
@@ -32,7 +32,7 @@
         <input type="hidden" value="tutor_register_student" name="tutor_action"/>
 
         <?php
-        
+
         $errors = apply_filters('tutor_student_register_validation_errors', array());
         if (is_array($errors) && count($errors)){
             echo '<div class="tutor-alert-warning tutor-mb-12"><ul class="tutor-required-fields">';
@@ -122,7 +122,7 @@
                 ?>
                 </div>
             </div>
-        </div>    
+        </div>
 
         <?php do_action('tutor_student_reg_form_end');?>
 
@@ -136,4 +136,12 @@
 
     </form>
     <?php do_action('tutor_after_student_reg_form');?>
+    <style>
+        .entry-header{
+            margin: 0 auto;
+            text-align: center;
+            font-size: 3rem;
+            color: #34a606;
+        }
+    </style>
 <?php endif; ?>
