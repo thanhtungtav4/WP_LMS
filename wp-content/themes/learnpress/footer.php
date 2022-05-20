@@ -16,9 +16,9 @@
             <dt>Giới thiệu</dt>
             <dd>Future Brand Việt Nam cung cấp các khóa học trực tuyến e-learning và các nội dung chuyên về lĩnh vực Branding, Marketing</dd>
             <dl class="c-footer_social">
-              <dd><a href="#"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png"></a></dd>
-              <dd><a href="#"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png"></a></dd>
-              <dd><a href="#"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/youtube.png"></a></dd>
+              <dd><a href="#"><img loading="lazy" class="lazy-loaded-image lazyload" width="28" height="28" data-src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png" src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png"></a></dd>
+              <dd><a href="#"><img loading="lazy" class="lazy-loaded-image lazyload" width="28" height="28"  data-src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png"></a></dd>
+              <dd><a href="#"><img loading="lazy" class="lazy-loaded-image lazyload" width="28" height="28" data-src="<?php echo get_template_directory_uri();?>/assets/images/youtube.png" src="<?php echo get_template_directory_uri();?>/assets/images/youtube.png"></a></dd>
             </dl>
           </dl>
           <dl>
@@ -60,7 +60,7 @@
         items: 1,
         autoplayHoverPause: true,
       })
-      
+
     </script>
 	<?php wp_footer(); ?>
   </body>
