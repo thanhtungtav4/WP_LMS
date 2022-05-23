@@ -119,20 +119,105 @@ add_action( 'after_setup_theme', 'learnpress_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-// function learnpress_widgets_init() {
-// 	register_sidebar(
-// 		array(
-// 			'name'          => esc_html__( 'Sidebar', 'learnpress' ),
-// 			'id'            => 'sidebar-1',
-// 			'description'   => esc_html__( 'Add widgets here.', 'learnpress' ),
-// 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-// 			'after_widget'  => '</section>',
-// 			'before_title'  => '<h2 class="widget-title">',
-// 			'after_title'   => '</h2>',
-// 		)
-// 	);
-// }
-// add_action( 'widgets_init', 'learnpress_widgets_init' );
+if( function_exists('acf_add_local_field_group') ):
+
+	acf_add_local_field_group(array(
+		'key' => 'group_628b9dc4eabaa',
+		'title' => 'Download Ebook',
+		'fields' => array(
+			array(
+				'key' => 'field_628b9de22fb73',
+				'label' => 'Link Ebook',
+				'name' => 'link_ebook',
+				'type' => 'text',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => '',
+				'maxlength' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'ebook',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'top',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => array(
+			0 => 'comments',
+			1 => 'format',
+			2 => 'page_attributes',
+			3 => 'tags',
+			4 => 'send-trackbacks',
+		),
+		'active' => true,
+		'description' => '',
+		'show_in_rest' => 0,
+	));
+	
+	acf_add_local_field_group(array(
+		'key' => 'group_628a6a3e7ccbf',
+		'title' => 'Time Read',
+		'fields' => array(
+			array(
+				'key' => 'field_628a6a4aea919',
+				'label' => 'Time Read',
+				'name' => 'time_read',
+				'type' => 'number',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => 15,
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'min' => '',
+				'max' => '',
+				'step' => '',
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'top',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => '',
+		'show_in_rest' => 0,
+	));
+	
+	endif;		
 
 /**
  * Enqueue scripts and styles.

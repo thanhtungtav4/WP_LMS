@@ -46,7 +46,7 @@ function toggleCart(){
 let currentPage = 1;
 $('#load-more').on('click', function() {
   currentPage++; // Do currentPage + 1, because we want to load the next page
-
+  console.log(1312);
   $.ajax({
     type: 'POST',
     url: '/wp-admin/admin-ajax.php',
