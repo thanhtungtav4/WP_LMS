@@ -302,7 +302,7 @@ function getCrunchifyPostViews($postID){
     }
     return $count.' Views';
 }
- 
+
 function setCrunchifyPostViews($postID) {
     $count_key = 'post_views_count';
     $count = get_post_meta($postID, $count_key, true);
@@ -315,6 +315,29 @@ function setCrunchifyPostViews($postID) {
         update_post_meta($postID, $count_key, $count);
     }
 }
- 
+
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 #!Track Post Views
+function weichie_load_more() {
+  $ajaxposts = new WP_Query([
+    'post_type' => 'post',
+    'posts_per_page' => 3,
+		'orderby'	=> 'post_date',
+		'order'         => 'DESC',
+    'paged' => $_POST['paged'],
+  ]);
+  $response = '';
+
+  if($ajaxposts->have_posts()) {
+    while($ajaxposts->have_posts()) : $ajaxposts->the_post();
+      $response .= get_template_part('template-parts/content', 'item');
+    endwhile;
+  } else {
+    $response = '';
+  }
+
+  echo $response;
+  exit;
+}
+add_action('wp_ajax_weichie_load_more', 'weichie_load_more');
+add_action('wp_ajax_nopriv_weichie_load_more', 'weichie_load_more');

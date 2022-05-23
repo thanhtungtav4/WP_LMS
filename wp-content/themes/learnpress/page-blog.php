@@ -18,15 +18,20 @@ $paged = get_query_var('paged') ? get_query_var('paged') : 1;
 $myposts = get_posts( array(
   'post_type' => array('post'),
   'post_status' => 'publish',
-  'orderby' => 'ID',
-  'order' => 'DESC',
 ) );
 $bigpost = get_posts( array(
   'post_type' => array('post'),
   'post_status' => 'publish',
-  'orderby' => 'ID',
-  'posts_per_page' => 1,  
-  'order' => 'DESC',
+  'posts_per_page' => 1,
+) );
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+$post_list = get_posts( array(
+  'post_type' => array('post'),
+  'post_status' => 'publish',
+  'posts_per_page' => 3,
+  'orderby'	=> 'post_date',
+	'order'         => 'DESC',
+  'paged'         => $paged
 ) );
 $i = 0;
 ?>
@@ -34,18 +39,19 @@ $i = 0;
         <div class="l-container">
           <div class="c-banner">
             <div class="c-banner_inner">
-              <?php if ( $bigpost ) 
+              <?php if ( $bigpost )
                 { foreach ( $bigpost as $postbig ) : setup_postdata( $postbig ); ?>
-                    <?php  var_dump(get_the_post_thumbnail_url($postbig->ID)); ?>
                     <div class="c-banner_big">
+                      <?php $thumbnail_src = wp_get_attachment_image_src(get_post_thumbnail_id($postbig->ID))[0];
+                      ?>
                       <a class="c-banner_img" href="<?php the_permalink($postbig->ID); ?>">
-                        <img src="" alt="" width="816" height="378" srcset="">
+                        <img src="<?php $thumbnail_src ? print $thumbnail_src : print "https://picsum.photos/800/478" ?>" alt="" width="816" height="378" srcset="">
                       </a>
                       <div class="c-banner_content">
                         <a class="tag_a" href="<?php the_permalink($postbig->ID); ?>">
                         <div class="c-banner_category"><?php echo get_the_category($postbig->ID)[0]->name; ?>  </div>
                         <h3 class="c-banner_ttl"><?php echo($postbig->post_title); ?></h3>
-                        <p class="c-banner_time"><?php echo get_the_category($postbig->ID)[0]->name; ?>  | <?php the_field('time_read', $postbig->ID); ?> MIN READ</p>
+                        <p class="c-banner_time"><?php echo get_the_category($postbig->ID)[0]->name; ?>  | <?php get_field('time_read', $postbig->ID) ? print get_field('time_read', $postbig->ID) : print'15' ; ?> MIN READ</p>
                         </a>
                       </div>
                     </div>
@@ -55,15 +61,16 @@ $i = 0;
                 }
               ?>
               <div class="c-banner_smail">
-                <div class="c-banner_btn">Marketing Strage</div>
+                <div class="c-banner_btn">Blog</div>
                 <ul>
-                  <?php if ( $myposts ) 
+                  <?php if ( $myposts )
                     { foreach ( $myposts as $post ) : setup_postdata( $post ); $i++; ?>
                      <?php if ( $i >=2 && $i <=6 ) :?>
                       <li>
+                        <?php $time = get_field('time_read', $post->ID); ?>
                         <a href="<?php the_permalink(); ?>">
                           <h3><?php the_title(); ?></h3>
-                          <p><?php echo get_the_category()[0]->cat_name; ?>  | <?php the_field('time_read'); ?> MIN READ</p>
+                          <p><?php echo get_the_category()[0]->cat_name; ?>  | <?php $time ? print $time : print'15' ; ?> MIN READ</p>
                         </a>
                       </li>
                       <?php endif ; ?>
@@ -82,18 +89,27 @@ $i = 0;
           <div class="l-container">
             <div class="c-learn_inner">
               <h3>New Posts</h3>
-              <ul>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazyload" width="320" height="223" loading="lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/img03.jpg" src="<?php echo get_template_directory_uri();?>/assets/images/img03.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <a class="tag_a" href="#">
-                      <p class="c-learn_category">Marketing Strage</p>
-                      <h4>5 Steps to Create an Outstanding Marketing Plan [Free Templates]</h4>
-                      <p class="c-learn_view">111905</p>
-                    </a>
-                  </div>
-                </li>
+              <ul class="publication-list">
+              <?php if ( $post_list )
+                { foreach ( $post_list as $post_item ) : setup_postdata( $post_item ); ?>
+                    <li class="c-learn_item">
+                      <div class="c-learn_img">
+                        <img class="lazyload" width="320" height="223" loading="lazy" data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID))[0] ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID))[0] ?>" alt=""></div>
+                      <div class="c-learn_content">
+                        <a class="tag_a" href="<?php the_permalink(); ?>">
+                          <p class="c-learn_category"><?php echo get_the_category($post_item->ID)[0]->name; ?></p>
+                          <h4><?php echo($post_item->post_title)  ?></h4>
+                          <p class="c-learn_view"><?php echo getCrunchifyPostViews($post_item->ID); ?></p>
+                        </a>
+                      </div>
+                    </li>
+              <?php
+                endforeach;
+                wp_reset_postdata();
+                }
+              ?>
               </ul>
+              <div id="load-more" class="c-btn"><a class="c-btn_ebook" href="#!">Xem thêm bài viết</a></div>
             </div>
           </div>
         </div>

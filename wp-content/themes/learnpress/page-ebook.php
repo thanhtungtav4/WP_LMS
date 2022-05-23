@@ -18,9 +18,9 @@ get_header();
 <main class="l-main">
         <div class="c-learn ebook">
           <div class="l-container">
-            <h1 class="ttl">Ebook by Tomorrow Marketers</h1>
+            <h1 class="ttl">Ebook by FUTURE BRAND VIETNAM</h1>
             <p class="text">
-              Bạn muốn tìm hiểu về Brand , Digital hay Trade Marketing ? <br>Hãy khám phá thế giới marketing trong ebook của Tomorrow Marketers</p>
+              Bạn muốn tìm hiểu về Brand , Digital hay Trade Marketing ? <br>Hãy khám phá thế giới marketing trong ebook của FUTURE BRAND VIETNAM</p>
             <div class="c-learn_inner">
               <ul>
                 <li class="c-learn_item">

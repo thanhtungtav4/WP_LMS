@@ -1,0 +1,92 @@
+2022-05-23T01:10:19+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php:48
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php on line 48
+
+2022-05-23T01:10:26+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php:48
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php on line 48
+
+2022-05-23T01:10:27+00:00 CRITICAL Uncaught Error: Call to undefined function the_field() in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php:48
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\template-loader.php(106): include()
+#1 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#3 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php on line 48
+
+2022-05-23T01:48:58+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php on line 65
+
+2022-05-23T06:06:19+00:00 CRITICAL Uncaught Error: Call to undefined function dd_action() in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:321
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-settings.php(555): include()
+#1 D:\xampp\htdocs\WP_LMS\wp-config.php(133): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\WP_LMS\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\WP_LMS\wp-admin\edit.php(10): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 321
+
+2022-05-23T06:06:19+00:00 CRITICAL Uncaught Error: Call to undefined function dd_action() in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:321
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-settings.php(555): include()
+#1 D:\xampp\htdocs\WP_LMS\wp-config.php(133): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 321
+
+2022-05-23T06:06:32+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in D:\xampp\htdocs\WP_LMS\wp-includes\widgets.php:2077
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(307): wp_check_widget_editor_deps('hide_posts_page...')
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php(321): do_action('admin_head', 'hide_posts_page...')
+#4 D:\xampp\htdocs\WP_LMS\wp-settings.php(555): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\WP_LMS\wp-config.php(133): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\WP_LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\WP_LMS\wp-admin\admin.php(34): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\WP_LMS\wp-admin\edit.php(10): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-includes\widgets.php on line 2077
+
+2022-05-23T06:06:32+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in D:\xampp\htdocs\WP_LMS\wp-includes\widgets.php:2077
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(307): wp_check_widget_editor_deps('hide_posts_page...')
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php(321): do_action('admin_head', 'hide_posts_page...')
+#4 D:\xampp\htdocs\WP_LMS\wp-settings.php(555): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\WP_LMS\wp-config.php(133): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\WP_LMS\wp-load.php(50): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(13): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#9 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-includes\widgets.php on line 2077
+
+2022-05-23T06:23:53+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT) in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 326
+
+2022-05-23T06:23:54+00:00 CRITICAL syntax error, unexpected 'die' (T_EXIT) in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 326
+
+2022-05-23T06:32:24+00:00 CRITICAL Uncaught Error: Call to a member function get_queried_object() on null in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:326
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(307): jp_exclude_pages_from_admin(Object(WP_Query))
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\WP_LMS\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-query.php(1103): do_action_ref_array('parse_query', Array)
+#4 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-query.php(1791): WP_Query->parse_query()
+#5 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp-query.php(3542): WP_Query->get_posts()
+#6 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp.php(637): WP_Query->query(Array)
+#7 D:\xampp\htdocs\WP_LMS\wp-includes\class-wp.php(760): WP->query_posts()
+#8 D:\xampp\htdocs\WP_LMS\wp-includes\functions.php(1310): WP->main(Array)
+#9 D:\xampp\htdocs\WP_LMS\wp-admin\includes\post.php(1239): wp(Array)
+#1 in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 326
+
