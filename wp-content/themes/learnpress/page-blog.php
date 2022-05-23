@@ -96,7 +96,7 @@ $i = 0;
                       <div class="c-learn_img">
                         <img class="lazyload" width="320" height="223" loading="lazy" data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID))[0] ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID))[0] ?>" alt=""></div>
                       <div class="c-learn_content">
-                        <a class="tag_a" href="<?php the_permalink(); ?>">
+                        <a class="tag_a" href="<?php the_permalink($post_item->ID); ?>">
                           <p class="c-learn_category"><?php echo get_the_category($post_item->ID)[0]->name; ?></p>
                           <h4><?php echo($post_item->post_title)  ?></h4>
                           <p class="c-learn_view"><?php echo getCrunchifyPostViews($post_item->ID); ?></p>
