@@ -78,9 +78,9 @@
 			margin-bottom: 30px;
 		}
 		ul {
-			@include flex-jbetween;
+			@include flex;
 			flex-wrap: wrap;
-			margin: 0 -80px;
+			justify-content: flex-start;
 			max-width: 1200px;
 			@include sp{
 				margin: 0;

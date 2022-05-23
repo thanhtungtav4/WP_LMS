@@ -1,0 +1,77 @@
+2022-05-22T11:36:01+00:00 CRITICAL syntax error, unexpected ':', expecting ';' in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 48
+
+2022-05-22T11:47:12+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 41
+
+2022-05-22T13:07:42+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Tax_Query as array in /var/www/html/wp-content/themes/learnpress/page-blog.php:49
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 49
+
+2022-05-22T14:53:27+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 46
+
+2022-05-22T14:55:02+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 46
+
+2022-05-22T14:56:04+00:00 CRITICAL Uncaught Error: Call to undefined function setup_postdatabig() in /var/www/html/wp-content/themes/learnpress/page-blog.php:31
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 31
+
+2022-05-22T14:56:52+00:00 CRITICAL Uncaught Error: Call to undefined function setup_postdatabig() in /var/www/html/wp-content/themes/learnpress/page-blog.php:31
+Stack trace:
+#0 /var/www/html/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 31
+
+2022-05-22T14:58:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function setup_postdata(), 0 passed in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 48 and exactly 1 expected in /var/www/html/wp-includes/query.php:1175
+Stack trace:
+#0 /var/www/html/wp-content/themes/learnpress/page-blog.php(48): setup_postdata()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/query.php on line 1175
+
+2022-05-22T15:34:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function setup_postdata(), 0 passed in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 48 and exactly 1 expected in /var/www/html/wp-includes/query.php:1175
+Stack trace:
+#0 /var/www/html/wp-content/themes/learnpress/page-blog.php(48): setup_postdata()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/query.php on line 1175
+
+2022-05-22T15:36:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function setup_postdata(), 0 passed in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 54 and exactly 1 expected in /var/www/html/wp-includes/query.php:1175
+Stack trace:
+#0 /var/www/html/wp-content/themes/learnpress/page-blog.php(54): setup_postdata()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/query.php on line 1175
+
+2022-05-22T15:37:36+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function setup_postdata(), 0 passed in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 52 and exactly 1 expected in /var/www/html/wp-includes/query.php:1175
+Stack trace:
+#0 /var/www/html/wp-content/themes/learnpress/page-blog.php(52): setup_postdata()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/query.php on line 1175
+
+2022-05-22T15:39:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function setup_postdata(), 0 passed in /var/www/html/wp-content/themes/learnpress/page-blog.php on line 53 and exactly 1 expected in /var/www/html/wp-includes/query.php:1175
+Stack trace:
+#0 /var/www/html/wp-content/themes/learnpress/page-blog.php(53): setup_postdata()
+#1 /var/www/html/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wp-includes/query.php on line 1175
+
