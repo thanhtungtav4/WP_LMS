@@ -11,7 +11,6 @@ if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
 }
-
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -30,6 +29,9 @@ function learnpress_setup() {
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
+	add_post_type_support( 'page', 'excerpt' );
+	add_post_type_support( 'post', 'excerpt' );
+	add_post_type_support( 'ebook', 'excerpt' );
 
 	/*
 		* Let WordPress manage the document title.
@@ -119,105 +121,6 @@ add_action( 'after_setup_theme', 'learnpress_content_width', 0 );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-if( function_exists('acf_add_local_field_group') ):
-
-	acf_add_local_field_group(array(
-		'key' => 'group_628b9dc4eabaa',
-		'title' => 'Download Ebook',
-		'fields' => array(
-			array(
-				'key' => 'field_628b9de22fb73',
-				'label' => 'Link Ebook',
-				'name' => 'link_ebook',
-				'type' => 'text',
-				'instructions' => '',
-				'required' => 0,
-				'conditional_logic' => 0,
-				'wrapper' => array(
-					'width' => '',
-					'class' => '',
-					'id' => '',
-				),
-				'default_value' => '',
-				'maxlength' => '',
-				'placeholder' => '',
-				'prepend' => '',
-				'append' => '',
-			),
-		),
-		'location' => array(
-			array(
-				array(
-					'param' => 'post_type',
-					'operator' => '==',
-					'value' => 'ebook',
-				),
-			),
-		),
-		'menu_order' => 0,
-		'position' => 'normal',
-		'style' => 'default',
-		'label_placement' => 'top',
-		'instruction_placement' => 'label',
-		'hide_on_screen' => array(
-			0 => 'comments',
-			1 => 'format',
-			2 => 'page_attributes',
-			3 => 'tags',
-			4 => 'send-trackbacks',
-		),
-		'active' => true,
-		'description' => '',
-		'show_in_rest' => 0,
-	));
-	
-	acf_add_local_field_group(array(
-		'key' => 'group_628a6a3e7ccbf',
-		'title' => 'Time Read',
-		'fields' => array(
-			array(
-				'key' => 'field_628a6a4aea919',
-				'label' => 'Time Read',
-				'name' => 'time_read',
-				'type' => 'number',
-				'instructions' => '',
-				'required' => 0,
-				'conditional_logic' => 0,
-				'wrapper' => array(
-					'width' => '',
-					'class' => '',
-					'id' => '',
-				),
-				'default_value' => 15,
-				'placeholder' => '',
-				'prepend' => '',
-				'append' => '',
-				'min' => '',
-				'max' => '',
-				'step' => '',
-			),
-		),
-		'location' => array(
-			array(
-				array(
-					'param' => 'post_type',
-					'operator' => '==',
-					'value' => 'post',
-				),
-			),
-		),
-		'menu_order' => 0,
-		'position' => 'normal',
-		'style' => 'default',
-		'label_placement' => 'top',
-		'instruction_placement' => 'label',
-		'hide_on_screen' => '',
-		'active' => true,
-		'description' => '',
-		'show_in_rest' => 0,
-	));
-	
-	endif;		
 
 /**
  * Enqueue scripts and styles.
@@ -314,12 +217,13 @@ function bbloomer_thankyou_change_order_status( $order_id ){
    $order = wc_get_order( $order_id );
 	 $is_payment = $order->get_payment_method();
 	 if($is_payment == 'vnpay'){
-			$order->update_status( 'wc-completed' );
+			$order->update_status( 'wc-processing' );
 	 	}
 	 else{
 		$order->update_status( 'wc-processing' );
 	 }
 }
+
 // !control order status if vnpay succes pay
 
 function cptui_register_my_cpts() {
@@ -352,11 +256,11 @@ function cptui_register_my_cpts() {
 		"capability_type" => "post",
 		"map_meta_cap" => true,
 		"hierarchical" => false,
-		"can_export" => false,
+		"can_export" => true,
 		"rewrite" => [ "slug" => "ebook", "with_front" => true ],
 		"query_var" => true,
 		"menu_icon" => "dashicons-admin-page",
-		"supports" => [ "title", "editor", "thumbnail" ],
+		"supports" => [ "title", "editor", "thumbnail", "export" ],
 		"show_in_graphql" => false,
 	];
 
@@ -406,7 +310,7 @@ remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 function weichie_load_more() {
   $ajaxposts = new WP_Query([
     'post_type' => 'post',
-    'posts_per_page' => 3,
+    'posts_per_page' => 6,
 		'orderby'	=> 'post_date',
 		'order'         => 'DESC',
     'paged' => $_POST['paged'],
