@@ -17,7 +17,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 $ebook_list = get_posts( array(
   'post_type' => array('ebook'),
   'post_status' => 'publish',
-  'posts_per_page' => 6,
+  'posts_per_page' => 3,
   'orderby'	=> 'post_date',
 	'order'         => 'DESC',
   'paged'         => $paged
@@ -42,7 +42,7 @@ $ebook_list = get_posts( array(
                       <h4><?php echo($item->post_title)  ?></h4>
                       <div class="c-learn_category">Ebook</div>
                       <p class="c-learn_icon">
-                        <img class="lazyload" loading="lazy"  width="24" height="24" data-src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg"  alt="">
+                        <img class="lazyload" loading="lazy"  width="24" height="24" data-src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg" src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg"  alt="">
                       </p>
                       <p class="ebook_excerpt"><?php echo get_the_excerpt($item->ID); ?></p>
                     </a>
@@ -57,7 +57,7 @@ $ebook_list = get_posts( array(
                 }
               ?>
               </ul>
-              <div class="c-btn"><a class="c-btn_ebook" href>Xem thêm bài viết</a></div>
+              <div id="eload-more" class="c-btn"><a class="c-btn_ebook" href="#!">Xem thêm bài viết</a></div>
             </div>
           </div>
         </div>

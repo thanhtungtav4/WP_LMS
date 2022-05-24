@@ -330,3 +330,29 @@ function weichie_load_more() {
 }
 add_action('wp_ajax_weichie_load_more', 'weichie_load_more');
 add_action('wp_ajax_nopriv_weichie_load_more', 'weichie_load_more');
+
+function eload_more() {
+  $ajaxposts = new WP_Query([
+    'post_type' => 'ebook',
+    'posts_per_page' => 3,
+		'orderby'	=> 'post_date',
+		'order'         => 'DESC',
+    'paged' => $_POST['paged'],
+  ]);
+  $response = '';
+
+  if($ajaxposts->have_posts()) {
+    while($ajaxposts->have_posts()) : $ajaxposts->the_post();
+      $response .= get_template_part('template-parts/content', 'eitem');
+    endwhile;
+  } else {
+    $response = '';
+  }
+
+  echo $response;
+  exit;
+}
+add_action('wp_ajax_eload_more', 'eload_more');
+add_action('wp_ajax_nopriv_eload_more', 'eload_more');
+
+

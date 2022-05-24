@@ -29,3 +29,18 @@ $('#load-more').on('click', function() {
     }
   });
 });
+$('#eload-more').on('click', function() {
+  currentPage++; // Do currentPage + 1, because we want to load the next page
+  $.ajax({
+    type: 'POST',
+    url: '/wp-admin/admin-ajax.php',
+    dataType: 'html',
+    data: {
+      action: 'eload_more',
+      paged: currentPage,
+    },
+    success: function (res) {
+      $('.ebook-list').append(res);
+    }
+  });
+});
