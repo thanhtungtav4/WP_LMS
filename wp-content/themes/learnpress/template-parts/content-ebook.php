@@ -17,17 +17,5 @@
             <?php the_content() ?>
             </div>
           </div>
-          <div class="c-avd">
-            <div class="c-avd_inner">
-              <div class="c-avd_img"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/img02.png" src="<?php echo get_template_directory_uri();?>/assets/images/img02.png"></div>
-              <div class="c-avd_content">
-                <h3>Quản lý dự án quảng cáo</h3>
-                <div class="c-avd_area">
-                  <div class="c-avd_btn"><a class="shop" href="#">Đăng ký</a></div>
-                  <div class="c-avd_btn"><a class="play" href="#">Trailer</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </main>

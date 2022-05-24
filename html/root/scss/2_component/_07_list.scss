@@ -473,7 +473,7 @@
 		}
 	}
 }
-.c-ad{
+.c-avd{
 	margin: 3rem 0 4rem;
 	border-radius: 20px;
 	background-color: $color-main;
@@ -511,9 +511,13 @@
 	}
 	&_area{
 		@include flex-center;
+		flex-wrap: nowrap;
+		@include sp{
+			flex-wrap: wrap;
+		}
 	}
 	&_btn{
-		margin: 0 60px;
+		margin: 1rem 60px;
 		@include sp{
 			margin: 1rem 0;
 		}
@@ -521,7 +525,7 @@
 			background-color: white;
 			color: $color-main;
 			display: block;
-			width: 350px;
+			width: 250px;
 			max-width: 100%;
 			text-align: center;
 			padding: 1rem 2rem;
