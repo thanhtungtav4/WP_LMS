@@ -1,0 +1,18 @@
+2022-05-27T08:57:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function getCrunchifyPostViews(), 0 passed in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\category.php on line 32 and exactly 1 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:284
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\category.php(32): getCrunchifyPostViews()
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 284
+
+2022-05-27T09:05:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function getCrunchifyPostViews(), 0 passed in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\category.php on line 30 and exactly 1 expected in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php:284
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\category.php(30): getCrunchifyPostViews()
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\WP_LMS\index.php(17): require('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\functions.php on line 284
+
