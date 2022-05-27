@@ -39,7 +39,7 @@ $txtLogin ="Đăng nhập";
               <li class="nav-menu_item"><a href="/courses/">Khóa Học</a></li>
               <li class="nav-menu_item"><a href="/blog">Blog</a></li>
               <li class="nav-menu_item"><a href="/ebook">Ebook</a></li>
-              <li class="nav-menu_item"><a href="#">Video</a></li>
+              <li class="nav-menu_item"><a href="/video">Video</a></li>
               <li class="nav-menu_item"><a href="/dashboard-page/">
               <?php
                 if($user){
