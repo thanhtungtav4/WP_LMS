@@ -9,25 +9,26 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+use TUTOR\Input;
 use TUTOR\Withdraw_Requests_List;
 $withdraw = new Withdraw_Requests_List();
 
 /**
  * Short able params
  */
-$order       = isset( $_GET['order'] ) ? $_GET['order'] : 'DESC';
-$date        = isset( $_GET['date'] ) ? tutor_get_formated_date( 'Y-m-d', $_GET['date'] ) : '';
-$search_term = isset( $_GET['search'] ) ? $_GET['search'] : '';
+$order       = Input::get( 'order', 'DESC' );
+$date        = Input::has( 'date' ) ? tutor_get_formated_date( 'Y-m-d' , Input::get( 'date' ) ) : '';
+$search_term = Input::get( 'search', '' );
 
 /**
  * Determine active tab
  */
-$active_tab = isset( $_GET['data'] ) && $_GET['data'] !== '' ? esc_html__( $_GET['data'] ) : 'all';
+$active_tab = Input::get( 'data', 'all' );
 
 /**
  * Pagination data
  */
-$paged    = ( isset( $_GET['paged'] ) && is_numeric( $_GET['paged'] ) && $_GET['paged'] >= 1 ) ? $_GET['paged'] : 1;
+$paged    = Input::get( 'paged', 1, Input::TYPE_INT );
 $per_page = tutor_utils()->get_option( 'pagination_per_page' );
 $offset   = ( $per_page * $paged ) - $per_page;
 
@@ -37,6 +38,7 @@ $args          = array(
 	'order'    => $order,
 	'search'   => $search_term,
 );
+
 $withdraw_list = tutor_utils()->get_withdrawals_history( null, $args, $offset, $per_page);
 $total         = $withdraw_list->count;
 
@@ -70,51 +72,36 @@ $filters = array(
 
 	<div class="tutor-admin-body">
 		<div class="tutor-admin-page-content-wrapper tutor-withdraw-wrapper tutor-mt-24">
-			<div class="tutor-table-wrapper">
-				<table class="tutor-table tutor-table-responsive tutor-withdraw-request">
-					<thead class="tutor-text-sm tutor-text-400">
+			<div class="tutor-table-responsive">
+				<table class="tutor-table tutor-table-middle tutor-withdraw-request">
+					<thead>
 						<tr>
 							<th>
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<?php esc_html_e( 'Request Date', 'tutor' ); ?>
-								</div>
+								<?php esc_html_e( 'Request Date', 'tutor' ); ?>
 							</th>
 							<th class="tutor-table-rows-sorting">
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<span>
-										<?php esc_html_e( 'Request By', 'tutor' ); ?>
-									</span>
-									<span class="tutor-icon-ordering-a-z  a-to-z-sort-icon tutor-color-secondary"></span>
-								</div>
+								<?php esc_html_e( 'Request By', 'tutor' ); ?>
+								<span class="tutor-icon-ordering-a-z  a-to-z-sort-icon tutor-color-secondary"></span>
 							</th>
 							<th>
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<?php esc_html_e( 'Withdraw Method', 'tutor' ); ?>
-								</div>
+								<?php esc_html_e( 'Withdraw Method', 'tutor' ); ?>
 							</th>
 							<th>
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<?php esc_html_e( 'Withdraw Details', 'tutor' ); ?>
-								</div>
+								<?php esc_html_e( 'Withdraw Details', 'tutor' ); ?>
 							</th>
 							<th>
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<?php esc_html_e( 'Amount', 'tutor' ); ?>
-								</div>
+								<?php esc_html_e( 'Amount', 'tutor' ); ?>
 							</th>
 							<th>
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<?php esc_html_e( 'Status', 'tutor' ); ?>
-								</div>
+								<?php esc_html_e( 'Status', 'tutor' ); ?>
 							</th>
 							<th>
-								<div class="tutor-fs-7 tutor-color-secondary">
-									<?php esc_html_e( 'Update', 'tutor' ); ?>
-								</div>
+								<?php esc_html_e( 'Update', 'tutor' ); ?>
 							</th>
 						</tr>
 					</thead>
-					<tbody class="tutor-text-500">
+
+					<tbody>
 						<?php if ( is_array( $withdraw_list->results ) && count( $withdraw_list->results ) ) : ?>
 							<?php foreach ( $withdraw_list->results as $list ) : ?>
 								<?php
@@ -127,17 +114,17 @@ $filters = array(
 								}
 								?>
 							<tr>
-								<td data-th="<?php esc_html_e( 'Request Date', 'tutor' ); ?>">
-									<div class="tutor-fs-7 tutor-fw-medium tutor-color-black">
-										<?php esc_html_e( tutor_get_formated_date( get_option( 'date_format' ), $list->created_at ) ); ?>,<br>
-										<?php esc_html_e( tutor_get_formated_date( get_option( 'time_format' ), $list->created_at ) ); ?>
-									</div>
+								<td>
+									<div class="tutor-fs-7"><?php esc_html_e( tutor_get_formated_date( get_option( 'date_format' ), $list->created_at ) ); ?>,</div>
+									<div class="tutor-fs-7 tutor-color-muted tutor-mt-4"><?php esc_html_e( tutor_get_formated_date( get_option( 'time_format' ), $list->created_at ) ); ?></div>
 								</td>
-								<td data-th="<?php esc_html_e( 'Request By', 'tutor' ); ?>">
-									<div class="td-avatar">
+
+								<td>
+									<div class="tutor-d-flex tutor-gap-2">
 										<?php echo tutor_utils()->get_tutor_avatar( $user_data->ID ); ?>
-										<div class="td-avatar-detials">
-											<div class="td-avatar-name tutor-d-flex tutor-align-center">
+										
+										<div>
+											<div class="tutor-d-flex tutor-align-center tutor-gap-1">
 												<span class="tutor-color-black tutor-fs-6 tutor-fw-medium">
 													<?php echo esc_html( $user_data->display_name ); ?>
 												</span>
@@ -145,18 +132,21 @@ $filters = array(
 													<span class="tutor-icon-external-link"></span>
 												</a>
 											</div>
-											<span class="tutor-color-secondary tutor-fs-7">
+
+											<span class="tutor-fs-7 tutor-color-muted">
 												<?php echo esc_html( $user_data->user_email ); ?>
 											</span>
 										</div>
 									</div>
 								</td>
-								<td data-th="<?php esc_html_e( 'Withdraw Method', 'tutor' ); ?>" class="v-align-top">
-									<div class="tutor-fs-7 tutor-fw-medium tutor-color-black" style="">
+
+								<td>
+									<div class="tutor-fs-7">
 										<?php echo esc_html( $details['withdraw_method_name'] ); ?>
 									</div>
 								</td>
-								<td data-th="<?php esc_html_e( 'Withdraw Details', 'tutor' ); ?>">
+
+								<td>
 									<?php if ( 'bank_transfer_withdraw' === $details['withdraw_method_key'] ) : ?>
 										<ul class="tutor-table-inside-table">
 											<li>
@@ -257,7 +247,7 @@ $filters = array(
 								</td>
 								<td data-th="<?php esc_html_e( 'Update', 'tutor' ); ?>" class="tutor-withdraw-btns">
 									<?php if ( 'pending' === $list->status ) : ?>
-									<div class="tutor-d-flex td-action-btns">
+									<div class="tutor-d-flex tutor-gap-1">
 										<button data-tutor-modal-target="tutor-admin-withdraw-approve" data-id="<?php echo esc_attr( $list->withdraw_id ); ?>" data-name="<?php echo esc_attr( $data_name ); ?>" data-amount="<?php echo esc_attr( $list->amount ); ?>" class="tutor-btn tutor-btn-outline-primary tutor-btn-sm tutor-admin-open-withdraw-approve-modal">
 											<?php esc_html_e( 'Approve', 'tutor' ); ?>
 										</button>

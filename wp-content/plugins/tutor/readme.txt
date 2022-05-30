@@ -3,9 +3,9 @@ Contributors: themeum
 Donate link: https://www.themeum.com
 Tags: lms, course, elearning, education, learning management system
 Requires at least: 5.3
-Tested up to: 5.9
+Tested up to: 6.0
 Requires PHP: 7.0
-Stable tag: 2.0.4
+Stable tag: 2.0.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -224,6 +224,40 @@ Looking for the best LMS for WordPress? Get Tutor and start your e-learning webs
 31. Mobile Responsive: Highly responsive UI designed for quality user experience
 
 == Changelog ==
+
+= 2.0.5 - May 26, 2022
+
+New: Course Details page design is improved for a better experience
+New: The Active Topic in the Lesson List sidebar now remains uncollapsed for a better experience inside the course
+New: On the Course Journey page, the currently active Lesson/Quiz/Assignment menu will remain highlighted   
+New: Once a Course is purchased using WooCommerce, the Order Status will become “Completed”, Admin can enable it from Settings
+New: Certificates created by Admins will be usable (not editable) by Instructors, Admins can enable it from Settings
+New: Students and Instructors will see “Terms & Conditions” information and link on the Signup page to be compliant with regulatory laws
+New: Non-Video lessons will show Next and Prev navigation option
+New: A button to go to Frontend Course Builder has been introduced for the Gutenberg Editor
+Update: Single Course page is redesigned with changes in Instructor List, Curriculum, and Course Contents
+Update: The Courses page of the Admin Panel is redesigned with an introduction to Course Image
+Update: All table designs are improved in both Front-site and Admin Panel
+Update: Accordion is redesigned throughout the entire platform
+Update: Gradebook delete confirmation alert is now shown on modal
+Update: Numerous pages optimized for faster loading and better performance 
+Update: “Students must be logged in to see the Course Contents” option is reintroduced
+Update: On top of the Course Journey Page, the Course Title will now appear instead of the “Lesson/Assignment/Quiz” name
+Update: Greater translation compatibility updated 
+Fix: The Rich Text Editor was not saving any changes made in the “Text” Mode
+Fix: "Q&A", "Announcements", and "Resources" were not accessible to Admin and Instructors
+Fix: “Question & Answer” Page was showing archived Q&As too
+Fix: On the User Dashboard page, the Active Course count was appearing wrong
+Fix: The Wishlist icon was not showing that a course is on the wishlist 
+Fix: In a student's individual Report page the Enroll Date was showing wrong
+Fix: When editing a Quiz, the "Default" option was not staying active by default
+Fix: On the Course Details page any language other than English was causing the “Last Updated” time to show incorrectly
+Fix: On the Enrolled Courses page under the “Completed Courses” tab, course blocks were showing incorrect button names in case of Restrict Content
+Fix: In Content Drip, in the “Content available after X days from enrolment" option, the number field to set days was too narrow
+Fix: On some websites, in the case of Lesson, the default "Featured Image" was not appearing on the Lesson's page in the Course Journey
+Fix: Video tab collapse was not working in the Course Builder
+Fix: The title and description of the “Quiz Attempts allowed” settings were wrong before. 
+Fix: Zoom meeting’s page was not being closed while clicking the cross icon.
 
 = 2.0.4 - May 13, 2022
 

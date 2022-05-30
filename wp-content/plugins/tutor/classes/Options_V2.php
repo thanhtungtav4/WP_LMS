@@ -430,6 +430,21 @@ class Options_V2
 						),
 					),
 					array(
+						'label'      => false,
+						'block_type' => 'uniform',
+						'slug'       => 'general-page',
+						'fields'     => array(
+							array(
+								'key'     => 'tutor_toc_page_id',
+								'type'    => 'select',
+								'label'   => __('Terms and Conditions Page', 'tutor'),
+								'default' => '0',
+								'options' => $pages,
+								'desc'    => __('This page will be used as the Terms and Conditions page', 'tutor'),
+							),
+						),
+					),
+					array(
 						'label'      => __('Others', 'tutor'),
 						'slug'       => 'others',
 						'block_type' => 'isolate',
@@ -488,22 +503,14 @@ class Options_V2
 						'slug'       => 'course',
 						'block_type' => 'uniform',
 						'fields'     => array(
-							/**
-							 * TODO
-							 *
-							 * This option will be implemented on future
-							 * release
-							 *
-							 * @since v2.0.0
-							 */
-							// array(
-							// 	'key'         => 'student_must_login_to_view_course',
-							// 	'type'        => 'toggle_switch',
-							// 	'label'       => __( 'Course Visibility', 'tutor' ),
-							// 	'label_title' => __( 'Logged Only', 'tutor' ),
-							// 	'default'     => 'off',
-							// 	'desc'        => __( 'Students must be logged in to view course', 'tutor' ),
-							// ),
+							array(
+							 	'key'         => 'student_must_login_to_view_course',
+							 	'type'        => 'toggle_switch',
+							 	'label'       => __( 'Course Visibility', 'tutor' ),
+							 	'label_title' => __( 'Logged Only', 'tutor' ),
+							 	'default'     => 'off',
+							 	'desc'        => __( 'Students must be logged in to view course', 'tutor' ),
+							 ),
 							array(
 								'key'         => 'course_content_access_for_ia',
 								'type'        => 'toggle_switch',
@@ -609,9 +616,9 @@ class Options_V2
 							array(
 								'key'     => 'quiz_attempts_allowed',
 								'type'    => 'number',
-								'label'   => __('Quiz Attempts allowed', 'tutor'),
+								'label'   => __('Default Quiz Attempt limit (when Retry Mode is enabled)', 'tutor'),
 								'default' => '10',
-								'desc'    => __('The highest number of attempts students are allowed to take for a quiz. 0 means unlimited attempts.', 'tutor'),
+								'desc'    => __('The highest number of attempts allowed for students to participate a quiz. 0 means unlimited. This will work as the default Quiz Attempt limit in case of Quiz Retry Mode.', 'tutor'),
 							),
 							array(
 								'key'     => 'quiz_previous_button_enabled',
@@ -678,6 +685,14 @@ class Options_V2
 								),
 								'default'        => 'free',
 								'desc'           => __('Select a monetization option to generate revenue by selling courses. Supports: WooCommerce, Easy Digital Downloads, Paid Memberships Pro', 'tutor'),
+							),
+							array(
+								'key'         => 'tutor_woocommerce_order_auto_complete',
+								'type'        => 'toggle_switch',
+								'label'       => __( 'Automatically Complete WooCommerce Orders', 'tutor' ),
+								'label_title' => __( '', 'tutor' ),
+								'default'     => 'off',
+								'desc'        => __( 'If enabled, in the case of Courses, WooCommerce Orders will get the "Completed" status .', 'tutor' ),
 							),
 							array(
 								'key'         => 'enable_revenue_sharing',
@@ -1398,10 +1413,10 @@ class Options_V2
 							array(
 								'key'         => 'hide_admin_bar_for_users',
 								'type'        => 'toggle_switch',
-								'label'       => __('Hide Frontend Admin Bar', 'tutor'),
+								'label'       => __('Hide Admin Bar and Restrict Access to WP Admin for Instructors', 'tutor'),
 								'label_title' => __('', 'tutor'),
 								'default'     => 'off',
-								'desc'        => __('Enable this to hide the WordPress admin bar from the frontend. It will still be visible to admins.', 'tutor'),
+								'desc'        => __('Enable this to hide the WordPress Admin Bar from Frontend site, and restrict access to the WP Admin panel.', 'tutor'),
 							),
 							array(
 								'key'         => 'delete_on_uninstall',
