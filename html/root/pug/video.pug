@@ -1,0 +1,58 @@
+extends _layout/default
+
+block vars
+  -title        = 'Top'
+  -description  = ''
+  -keywords     = ''
+  -pageID       = 'top'
+  -path         = ''
+block before_page
+  link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css")
+block after_page
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js")
+
+block container
+  .c-learn.blog.blog_video
+    .l-container
+      .c-learn_inner
+        ul
+          li.c-learn_item
+            .c-learn_img
+              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+            .c-learn_content
+              h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
+              
+          li.c-learn_item
+            .c-learn_img
+              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+            .c-learn_content
+              h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
+              
+          li.c-learn_item
+            .c-learn_img
+              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+            .c-learn_content
+              h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
+              
+          li.c-learn_item
+            .c-learn_img
+              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+            .c-learn_content
+              h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
+              
+          li.c-learn_item
+            .c-learn_img
+              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+            .c-learn_content
+              h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
+              
+          li.c-learn_item
+            .c-learn_img
+              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+            .c-learn_content
+              h4 Maketing Foundation
+
+        #modal.modal
+            .modal-content
+                iframe(width='100%' height='auto' src='https://www.youtube.com/embed/Nx3PcfW40A4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
+                a.close-modal(href='#') -          
