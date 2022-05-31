@@ -10,49 +10,60 @@ block before_page
   link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css")
 block after_page
   script(src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js")
-
+  script.
+    function getVideoClick(element)
+    {
+       let VideoUrl = element.getAttribute("data-url");
+       document.getElementById('youtubeID').src=VideoUrl;
+       modal.style.display = "block";
+    }
+    var modal = document.getElementById("myModal");
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
 block container
   .c-learn.blog.blog_video
     .l-container
-      .c-learn_inner
+      .c-learn_inner#videoList
         ul
-          li.c-learn_item
+          li.c-learn_item(onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o")
             .c-learn_img
-              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+              img.lazy(data-src=path+"assets/images/img03.jpg" src=path+"assets/images/img03.jpg" alt="")
             .c-learn_content
               h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
-              
-          li.c-learn_item
+
+          li.c-learn_item(onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/cOf6sjr6sk8")
             .c-learn_img
-              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+              img.lazy(data-src=path+"assets/images/img03.jpg" src=path+"assets/images/img03.jpg" alt="")
             .c-learn_content
               h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
-              
-          li.c-learn_item
+
+          li.c-learn_item(onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o2")
             .c-learn_img
-              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+              img.lazy(data-src=path+"assets/images/img03.jpg" src=path+"assets/images/img03.jpg" alt="")
             .c-learn_content
               h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
-              
-          li.c-learn_item
+
+          li.c-learn_item(onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o3")
             .c-learn_img
-              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+              img.lazy(data-src=path+"assets/images/img03.jpg" src=path+"assets/images/img03.jpg" alt="")
             .c-learn_content
               h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
-              
-          li.c-learn_item
+
+          li.c-learn_item(onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o4")
             .c-learn_img
-              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+              img.lazy(data-src=path+"assets/images/img03.jpg" src=path+"assets/images/img03.jpg" alt="")
             .c-learn_content
               h4 5 Steps to Create an Outstanding Marketing Plan [Free Templates]
-              
-          li.c-learn_item
+
+          li.c-learn_item(onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o45")
             .c-learn_img
-              img.lazy(data-src=path+"assets/images/img03.jpg", alt="")
+              img.lazy(data-src=path+"assets/images/img03.jpg" src=path+"assets/images/img03.jpg" alt="")
             .c-learn_content
               h4 Maketing Foundation
 
-        #modal.modal
+        #myModal.modal
             .modal-content
-                iframe(width='100%' height='auto' src='https://www.youtube.com/embed/Nx3PcfW40A4' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
-                a.close-modal(href='#') -          
+                iframe(id="youtubeID" width='100%' height='400px' src='' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')

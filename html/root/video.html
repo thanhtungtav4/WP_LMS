@@ -54,48 +54,48 @@
       <main class="l-main">
         <div class="c-learn blog blog_video">
           <div class="l-container">
-            <div class="c-learn_inner">
+            <div class="c-learn_inner" id="videoList">
               <ul>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" alt=""></div>
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o">
+                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" src="assets/images/img03.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>5 Steps to Create an Outstanding Marketing Plan [Free Templates]</h4>
                   </div>
                 </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" alt=""></div>
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/cOf6sjr6sk8">
+                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" src="assets/images/img03.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>5 Steps to Create an Outstanding Marketing Plan [Free Templates]</h4>
                   </div>
                 </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" alt=""></div>
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o2">
+                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" src="assets/images/img03.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>5 Steps to Create an Outstanding Marketing Plan [Free Templates]</h4>
                   </div>
                 </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" alt=""></div>
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o3">
+                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" src="assets/images/img03.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>5 Steps to Create an Outstanding Marketing Plan [Free Templates]</h4>
                   </div>
                 </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" alt=""></div>
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o4">
+                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" src="assets/images/img03.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>5 Steps to Create an Outstanding Marketing Plan [Free Templates]</h4>
                   </div>
                 </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" alt=""></div>
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o45">
+                  <div class="c-learn_img"><img class="lazy" data-src="assets/images/img03.jpg" src="assets/images/img03.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>Maketing Foundation</h4>
                   </div>
                 </li>
               </ul>
-              <div class="modal" id="modal">
+              <div class="modal" id="myModal">
                 <div class="modal-content">
-                  <iframe width="100%" height="auto" src="https://www.youtube.com/embed/Nx3PcfW40A4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe><a class="close-modal" href="#">-          </a>
+                  <iframe id="youtubeID" width="100%" height="400px" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                 </div>
               </div>
             </div>
@@ -138,5 +138,19 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/js/common.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+      function getVideoClick(element)
+      {
+         let VideoUrl = element.getAttribute("data-url");
+         document.getElementById('youtubeID').src=VideoUrl;
+         modal.style.display = "block";
+      }
+      var modal = document.getElementById("myModal");
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
   </body>
 </html>
