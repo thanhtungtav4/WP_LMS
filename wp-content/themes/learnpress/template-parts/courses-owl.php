@@ -3,7 +3,7 @@
             <div class="content"> <a href="http://">Completely Free & Online</a>
               <p class="ttl">All Courses and Certifications</p>
               <p class="des">Stay sharp . Learn the latest business trends from leading experts</p>
-              <p class="brand">THE FUTURE BRAND</p>
+              <a href="#" class="brand">Xem Ngay</a>
             </div>
           </div>
         </div>

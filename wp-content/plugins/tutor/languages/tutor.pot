@@ -2626,7 +2626,7 @@ msgstr ""
 
 #: classes/Utils.php:9394, templates/dashboard/purchase_history.php:76
 msgid "Order History"
-msgstr ""
+msgstr "Thông tin đơn hàng"
 
 #: classes/Utils.php:9398, templates/dashboard/question-answer.php:36, views/pages/question_answer.php:41, templates/single/course/enrolled/question_and_answer.php:22
 msgid "Question & Answer"

@@ -1,60 +1,72 @@
 <?php
-/**
- * The template for displaying 404 pages (not found)
- *
- * @link https://codex.wordpress.org/Creating_an_Error_404_Page
- *
- * @package learnpress
- */
-
-get_header();
-?>
-
-	<main id="primary" class="site-main">
-
-		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'learnpress' ); ?></h1>
-			</header><!-- .page-header -->
-
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'learnpress' ); ?></p>
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
-
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'learnpress' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
-
-					<?php
-					/* translators: %1$s: smiley */
-					$learnpress_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'learnpress' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$learnpress_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
-		</section><!-- .error-404 -->
-
-	</main><!-- #main -->
-
+   /**
+    * The template for displaying 404 pages (not found)
+    *
+    * @link https://codex.wordpress.org/Creating_an_Error_404_Page
+    *
+    * @package learnpress
+    */
+   
+   get_header();
+   ?>
+<main id="primary" class="l-main">
+   <section class="error-404 not-found">
+      <header class="page-header">
+      </header>
+      <!-- .page-header -->
+      <div class="page-content">
+         <section class="page_404">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 ">
+                     <div class="col-sm-10 col-sm-offset-1  text-center">
+                        <div class="four_zero_four_bg">
+                           <h1 class="text-center ">LỖI 404</h1>
+                        </div>
+                        <div class="contant_box_404">
+                           <h1 class="page-title">Rất tiếc, trang bạn tìm kiếm không tồn tại! </h1>
+                           <p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'learnpress' ); ?></p>
+                           <?php
+                              get_search_form();
+                              ?>
+                           <a href="/" class="link_404">Về Trang Chủ</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+      <!-- .page-content -->
+   </section>
+   <!-- .error-404 -->
+</main>
+<!-- #main -->
+<style>
+   /*======================
+   404 page
+   =======================*/
+   .page_404{ padding:40px 0; background:#fff;;
+   }
+   .page_404  img{ width:100%;}
+   .four_zero_four_bg{
+   background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+   height: 400px;
+   background-position: center;
+   }
+   .four_zero_four_bg h1{
+   font-size:80px;
+   }
+   .four_zero_four_bg h3{
+   font-size:80px;
+   }
+   .link_404{			 
+   color: #fff!important;
+   padding: 10px 20px;
+   background: #39ac31;
+   margin: 20px 0;
+   display: inline-block;}
+   .contant_box_404{ margin-top:-50px;}
+</style>
 <?php
 get_footer();
