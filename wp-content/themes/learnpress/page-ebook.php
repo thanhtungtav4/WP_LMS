@@ -42,12 +42,12 @@ $ebook_list = get_posts( array(
                       <h4><?php echo($item->post_title)  ?></h4>
                       <div class="c-learn_category">Ebook</div>
                       <p class="c-learn_icon">
-                        <img class="lazyload" loading="lazy"  width="24" height="24" data-src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg" src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg"  alt="">
+                        <img class="lazyload" loading="lazy"  width="24" height="24" data-src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg" src="<?php echo get_template_directory_uri();?>/assets/images/pin_fill.svg"  alt="<?php echo($item->post_title)  ?>">
                       </p>
                       <p class="ebook_excerpt"><?php echo get_the_excerpt($item->ID); ?></p>
                     </a>
                     <div class="c-btn">
-                      <a class="c-btn_ebook c-btn_dowload" href="<?php the_permalink($item->ID); ?>">Xem thêm bài viết</a>
+                      <a class="c-btn_ebook c-btn_dowload" href="<?php the_permalink($item->ID); ?>">Tải Xuống Ebook</a>
                     </div>
                   </div>
                 </li>
@@ -57,7 +57,7 @@ $ebook_list = get_posts( array(
                 }
               ?>
               </ul>
-              <div id="eload-more" class="c-btn"><a class="c-btn_ebook" href="#!">Xem thêm bài viết</a></div>
+              <div id="eload-more" class="c-btn"><a class="c-btn_ebook" href="#!">Xem thêm Ebook</a></div>
             </div>
           </div>
         </div>

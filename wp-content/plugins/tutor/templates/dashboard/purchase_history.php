@@ -73,7 +73,7 @@ $monetize_by  = tutor_utils()->get_option( 'monetize_by' );
 
 <div class="tutor-purchase-history"> 
     <?php if ( tutor_utils()->count( $orders ) ) : ?>
-        <div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-24"><?php esc_html_e( 'Order History', 'tutor' ); ?></div>
+        <div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-24"><?php esc_html_e( 'Đơn Hàng', 'tutor' ); ?></div>
         <div class="tutor-table-responsive">
             <table class="tutor-table">
                 <thead>

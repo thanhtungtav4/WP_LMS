@@ -25,7 +25,7 @@ $offset      = ( $per_page * $paged ) - $per_page;
     }
 ?>
 
-<div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-24"><?php esc_html_e( 'Order History', 'tutor' ); ?></div>
+<div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mb-24"><?php esc_html_e( 'Đơn Hàng', 'tutor' ); ?></div>
 <div class="tutor-purchase-history">
     <!--filter buttons tabs-->
     <?php

@@ -7,7 +7,7 @@ const del = require('del');
 
 // Clean style when build
 function clean() {
-  return del(['./root/assets/css/'], ['./root/**/*.html']);
+  return del(['./root/assets/css/'], ['../wp-content/themes/learnpress/assets/css'], ['./root/**/*.html']);
 }
 
 //compile scss into css

@@ -9391,7 +9391,7 @@ class Utils {
 				'icon'  => 'tutor-icon-quiz-attempt',
 			),
 			'purchase_history' => array(
-				'title' => __( 'Order History', 'tutor' ),
+				'title' => __( 'Đơn Hàng', 'tutor' ),
 				'icon'  => 'tutor-icon-cart-bold',
 			),
 			'question-answer'  => array(

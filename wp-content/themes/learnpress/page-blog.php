@@ -45,7 +45,7 @@ $i = 0;
                       <?php $thumbnail_src = wp_get_attachment_image_src(get_post_thumbnail_id($postbig->ID))[0];
                       ?>
                       <a class="c-banner_img" href="<?php the_permalink($postbig->ID); ?>">
-                        <img src="<?php $thumbnail_src ? print $thumbnail_src : print "https://picsum.photos/800/478" ?>" alt="" width="816" height="378" srcset="">
+                        <img src="<?php $thumbnail_src ? print $thumbnail_src : print "https://picsum.photos/800/478" ?>" alt="<?php echo($postbig->post_title); ?>" width="816" height="378">
                       </a>
                       <div class="c-banner_content">
                         <a class="tag_a" href="<?php the_permalink($postbig->ID); ?>">
