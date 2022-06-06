@@ -2,8 +2,7 @@
 	List
 ------------------------------------------------------------*/
 .c-step{
-	background-color: $color-main;
-	padding: 90px 0 100px;
+	padding: 10px 0 50px;
 	width: 100%;
 	@include sp{
 		padding: 50px 0;
@@ -12,10 +11,11 @@
 		text-align: center;
 		h3{
 			@include ttl3;
+			color: $color-main;
 		}
 		p{
 			margin-top: 26px;
-			color: white;
+			color: black;
 			font-size: 1.8rem;
 		}
 		ul{
@@ -36,6 +36,52 @@
 			  }
 			}
 		}
+	}
+}
+.c-master{
+	padding: 10px 0 80px;
+	width: 100%;
+	@include sp{
+		padding: 50px 0;
+	}
+	h3{
+		@include ttl3;
+		color: $color-main;
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+	.l-container{
+		@include flex-jbetween;
+		flex-wrap: wrap;
+		.item{
+			text-align: center;
+			width: 33.3%;
+			@include sp{
+				width: 100%;
+			}
+			img{
+				width: 208px;
+				height: 213px;
+			}
+			&_content{
+				margin-top: 2rem;
+				font-size: 1.6rem;
+			}
+		}
+	}
+}
+.c-lnew{
+	background: #F2F2F2;
+	padding: 2rem;
+	width: 100%;
+	h3{
+		@include ttl3;
+		color: $color-main;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	img{
+		margin-top: 2rem;
 	}
 }
 .c-brand{
