@@ -114,7 +114,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 				?>
 				<tr>
 					<td> </td>
-					<td class="flex_between"><strong>Tạm tính:</strong><span> <?php wc_cart_totals_subtotal_html(); ?></span></td>
+					<td class="flex_between"><strong>Thành Tièn:</strong><span> <?php wc_cart_totals_subtotal_html(); ?></span></td>
 				</tr>
 				<?php foreach ( WC()->cart->get_coupons() as $code => $coupon ) : ?>
 					<tr class="cart-discount coupon-<?php echo esc_attr( sanitize_title( $code ) ); ?>">

@@ -86,20 +86,22 @@
 		$is_membership = get_tutor_option( 'monetize_by' ) == 'pmpro' && tutor_utils()->has_pmpro();
 		if ( ! $is_membership && in_array( 'price_type', $supported_filters ) ) :
 	?>
-	<div class="tutor-widget tutor-widget-course-price tutor-mt-48">
-		<h3 class="tutor-widget-title">
-			<?php _e( 'Price', 'tutor' ); ?>
-		</h3>
+	<div class="tutor-widget tutor-widget-course-price tutor-mt-16">
+		<!-- <h3 class="tutor-widget-title">
+			<?php //_e( 'Price', 'tutor' ); ?>
+		</h3> -->
 
 		<div class="tutor-widget-content">
 			<ul class="tutor-list">
 			<?php foreach ( $filter_prices as $value => $title ) : ?>
+				<?php if($value == 'free') : ?>
 				<div class="tutor-list-item">
 					<label>
 						<input type="checkbox" class="tutor-form-check-input" id="<?php echo esc_html( $value ); ?>" name="tutor-course-filter-price" value="<?php echo esc_html( $value ); ?>"/>
 						<?php esc_html_e( $title ); ?>
 					</label>
 				</div>
+				<?php endif; ?>
 			<?php endforeach; ?>
 			</ul>
 		</div>

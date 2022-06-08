@@ -69,7 +69,11 @@ $footer_links = array(
 
 do_action('tutor_dashboard/before/wrap');
 ?>
-
+<style>
+	.tutor-dashboard-menu-reviews, .tutor-dashboard-menu-my-quiz-attempts, .tutor-dashboard-menu-withdraw, .tutor-dashboard-menu-quiz-attempts {
+		display:none;
+	}
+</style>
 <div class="tutor-wrap tutor-wrap-parent tutor-dashboard tutor-frontend-dashboard tutor-dashboard-student tutor-pb-80">
 	<div class="tutor-container">
 		<div class="tutor-row tutor-d-flex tutor-justify-between tutor-frontend-dashboard-header">
