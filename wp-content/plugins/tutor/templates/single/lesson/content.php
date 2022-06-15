@@ -47,6 +47,7 @@ if ( $best_watch_time > 0 ) {
 }
 
 $is_comment_enabled = tutor_utils()->get_option( 'enable_comment_for_lesson' ) && comments_open();
+
 ?>
 
 <?php do_action( 'tutor_lesson/single/before/content' ); ?>

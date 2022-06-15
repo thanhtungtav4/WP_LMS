@@ -70,7 +70,7 @@
       $next.trigger('click');
       }
     </script>
-    <?php if(!is_archive('courses')) : ?>
+    <?php if(!is_archive('courses') && is_page( 'enrolled-courses' )) : ?>
       <script>
         if ('loading' in HTMLImageElement.prototype) {
           const images = document.querySelectorAll('img[loading="lazy"]');

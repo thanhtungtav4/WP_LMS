@@ -33,6 +33,11 @@
                 }
             }
         }
+        &-box{
+            a.checkout-button.wc-forward{
+                font-size: 1.8rem;
+            }
+        }
     }
     form {
         .checkout_coupon, .login{
@@ -125,3 +130,8 @@
     padding: 15px 20px;
     width: calc(100% - 102px);
   }
+.set_width{
+    @include min(769px){
+        width: 180px;
+    }
+}

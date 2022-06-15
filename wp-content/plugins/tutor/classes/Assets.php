@@ -78,8 +78,11 @@ class Assets {
 		$post_type = get_post_type( $post_id );
 
 		$query_vars 	= $wp_query->query_vars;
-		$current_page 	= isset( $query_vars['tutor_dashboard_page'] ) ? $query_vars['tutor_dashboard_page'] : '';
-
+		if ( is_admin() && isset( $_GET['page'] ) ) {
+			$current_page = $_GET['page'];
+		} else {
+			$current_page 	= isset( $query_vars['tutor_dashboard_page'] ) ? $query_vars['tutor_dashboard_page'] : '';
+		}
 		return array(
 			'ajaxurl'                      => admin_url( 'admin-ajax.php' ),
 			'home_url'                     => get_home_url(),
@@ -161,6 +164,7 @@ class Assets {
 		 * Enabling Sorting, draggable, droppable...
 		 */
 		wp_enqueue_script( 'jquery-ui-sortable' );
+		wp_enqueue_script( 'jquery-touch-punch', array('jquery-ui-sortable') );
 		
 		// Plyr
 		if(is_single_course(true)) {

@@ -2,10 +2,7 @@
 	// Utility data
 	$is_enrolled           = apply_filters( 'tutor_alter_enroll_status', tutor_utils()->is_enrolled() );
 	$lesson_url            = tutor_utils()->get_course_first_lesson();
-	$is_administrator      = tutor_utils()->has_user_role( 'administrator' );
-	$is_instructor         = tutor_utils()->is_instructor_of_this_course();
-	$course_content_access = (bool) get_tutor_option( 'course_content_access_for_ia' );
-	$is_privileged_user    = $course_content_access && ( $is_administrator || $is_instructor );
+	$is_privileged_user    = tutor_utils()->has_user_course_content_access();
 	$tutor_course_sell_by  = apply_filters( 'tutor_course_sell_by', null );
 	$is_public             = get_post_meta( get_the_ID(), '_tutor_is_public_course', true ) == 'yes';
 
@@ -20,17 +17,17 @@
 		array(
 			'icon_class' => 'tutor-icon-mortarboard',
 			'label'      => __( 'Total Enrolled', 'tutor' ),
-			'value'      => tutor_utils()->get_option( 'enable_course_total_enrolled' ) ? tutor_utils()->count_enrolled_users_by_course() : null,
+			'value'      => tutor_utils()->get_option( 'enable_course_total_enrolled' ) ? tutor_utils()->count_enrolled_users_by_course() . ' ' . __("Total Enrolled", "tutor") : null,
 		),
 		array(
 			'icon_class' => 'tutor-icon-clock-line',
 			'label'      => __( 'Duration', 'tutor' ),
-			'value'      => get_tutor_option( 'enable_course_duration' ) ? get_tutor_course_duration_context() : null,
+			'value'      => get_tutor_option( 'enable_course_duration' ) ? ( get_tutor_course_duration_context() ? get_tutor_course_duration_context() . ' ' . __("Duration", "tutor") : false ) : null,
 		),
 		array(
 			'icon_class' => 'tutor-icon-refresh-o',
 			'label'      => __( 'Last Updated', 'tutor' ),
-			'value'      => get_tutor_option( 'enable_course_update_date' ) ? date_i18n( get_option( 'date_format' ), strtotime( get_the_modified_date() ) ) : null,
+			'value'      => get_tutor_option( 'enable_course_update_date' ) ? get_the_modified_date( get_option( 'date_format' ) ) . ' ' . __("Last Updated", "tutor") : null,
 		),
 	);
 
@@ -49,7 +46,6 @@
 ?>
 
 <div class="tutor-card tutor-card-md tutor-sidebar-card">
-	<!-- Course Entry -->
 	<div class="tutor-card-body">
 		<?php
 		if ( $is_enrolled || $is_privileged_user) {
@@ -149,7 +145,7 @@
 							<?php esc_html_e( 'You enrolled in this course on', 'tutor' ); ?>
 							<span class="tutor-fs-7 tutor-fw-bold tutor-color-success tutor-ml-4 tutor-enrolled-info-date">
 								<?php
-									echo esc_html( tutor_get_formated_date( get_option( 'date_format' ), $post_date ) );
+									echo esc_html( tutor_i18n_get_formated_date( $post_date, get_option( 'date_format' ) ) );
 								?>
 							</span>
 						</span>
@@ -232,18 +228,11 @@
 					continue;
 				}
 				?>
-				<li class="tutor-row tutor-align-center<?php echo $key > 0 ? ' tutor-mt-12' : ''; ?>">
-					<div class="tutor-col-6">
-						<span class="<?php echo esc_attr( $meta['icon_class'] ); ?> tutor-color-black"></span>
-						<span class="tutor-fs-7 tutor-color-muted tutor-ml-8">
-							<?php echo esc_html( $meta['label'] ); ?>
-						</span>
-					</div>
-					<div class="tutor-col-6">
-						<span class="tutor-fs-7 tutor-fw-medium tutor-color-black">
-							<?php echo wp_kses_post( $meta['value'] ); ?>
-						</span>
-					</div>
+				<li class="tutor-d-flex<?php echo $key > 0 ? ' tutor-mt-12' : ''; ?>">
+					<span class="<?php echo esc_attr( $meta['icon_class'] ); ?> tutor-color-black tutor-mt-4 tutor-mr-12" aria-labelledby="<?php echo esc_html( $meta['label'] ); ?>"></span>
+					<span class="tutor-fs-6 tutor-color-secondary">
+						<?php echo wp_kses_post( $meta['value'] ); ?>
+					</span>
 				</li>
 			<?php endforeach; ?>
 		</ul>

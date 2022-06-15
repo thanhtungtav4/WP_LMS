@@ -16,8 +16,6 @@ class Template extends Tutor_Base {
 	public function __construct() {
 		parent::__construct();
 
-		add_action( 'pre_get_posts', array( $this, 'limit_course_query_archive' ), 99 );
-
 		/**
 		 * Should Load Template Override
 		 * Integration for specially oxygen builder
@@ -41,6 +39,7 @@ class Template extends Tutor_Base {
 		add_filter( 'pre_get_document_title', array( $this, 'student_public_profile_title' ) );
 
 		add_filter( 'the_content', array( $this, 'convert_static_page_to_template' ) );
+		add_action( 'pre_get_posts', array( $this, 'limit_course_query_archive' ), 99 );
 
 		/**
 		 * Dummy template for Spotlight mode design. It will be removed once we adopt the design to core.
