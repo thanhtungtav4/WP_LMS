@@ -14,23 +14,33 @@ block after_page
     $('.owl-carousel').owlCarousel({
       loop: true,
       margin: 10,
-      nav: false,
-      navText: [
-        "<i class='fa fa-caret-left'></i>",
-        "<i class='fa fa-caret-right'></i>"
-      ],
+      nav: true,
       dot: false,
       autoplay: true,
       items: 1,
       autoplayHoverPause: true,
     })
-
+    var owl = $('.owl-carousel');
+    owl.owlCarousel();
+    $('#next').click(function() {
+        console.log(3);
+          owl.trigger('next.owl.carousel');
+      })
+    var $dots = $('.owl-dot');
+    function goToPrevCarouselPage() {    
+    var $next = $dots.filter('.active').prev();
+    if (!$next.length)
+        $next = $dots.first();
+    $next.trigger('click');
+    }
 block container
   .owl-carousel.owl-theme
-    .item
+    .item#next
       img(src=path+"assets/images/slider02.jpg", alt="", sizes="", srcset="")
-    .item
+    .item(onclick="goToPrevCarouselPage()")
       img(src=path+"assets/images/slider03.jpg", alt="", sizes="", srcset="")
+    .item
+      img(src=path+"assets/images/khoahoc.jpg", alt="", sizes="", srcset="")      
   .c-step
     .c-step_inner
       h3 Bước vào ngành Marketing cùng Tomorrow Marketers

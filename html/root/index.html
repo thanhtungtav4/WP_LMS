@@ -53,8 +53,9 @@
       </header>
       <main class="l-main">
         <div class="owl-carousel owl-theme">
-          <div class="item"><img src="assets/images/slider02.jpg" alt="" sizes="" srcset=""></div>
-          <div class="item"><img src="assets/images/slider03.jpg" alt="" sizes="" srcset=""></div>
+          <div class="item" id="next"><img src="assets/images/slider02.jpg" alt="" sizes="" srcset=""></div>
+          <div class="item" onclick="goToPrevCarouselPage()"><img src="assets/images/slider03.jpg" alt="" sizes="" srcset=""></div>
+          <div class="item"><img src="assets/images/khoahoc.jpg" alt="" sizes="" srcset=""></div>
         </div>
         <div class="c-step">
           <div class="c-step_inner">
@@ -211,17 +212,25 @@
       $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
-        navText: [
-          "<i class='fa fa-caret-left'></i>",
-          "<i class='fa fa-caret-right'></i>"
-        ],
+        nav: true,
         dot: false,
         autoplay: true,
         items: 1,
         autoplayHoverPause: true,
       })
-      
+      var owl = $('.owl-carousel');
+      owl.owlCarousel();
+      $('#next').click(function() {
+          console.log(3);
+            owl.trigger('next.owl.carousel');
+        })
+      var $dots = $('.owl-dot');
+      function goToPrevCarouselPage() {    
+      var $next = $dots.filter('.active').prev();
+      if (!$next.length)
+          $next = $dots.first();
+      $next.trigger('click');
+      }
     </script>
   </body>
 </html>
