@@ -1,8 +1,9 @@
 <?php get_header();?>
 <main class="l-main">
         <div class="owl-carousel owl-theme">
-          <div class="item"><img src="<?php echo get_template_directory_uri();?>/assets/images/slider02.jpg" alt="" sizes="" srcset=""></div>
-          <div class="item"><img src="<?php echo get_template_directory_uri();?>/assets/images/slider03.jpg" alt="" sizes="" srcset=""></div>
+          <div class="item" id="next"><img src="<?php echo get_template_directory_uri();?>/assets/images/slider02.jpg" alt="" sizes="" srcset=""></div>
+          <div class="item" onclick="goToPrevCarouselPage()"><img src="<?php echo get_template_directory_uri();?>/assets/images/slider03.jpg" alt="" sizes="" srcset=""></div>
+          <div class="item"><img src="<?php echo get_template_directory_uri();?>/assets/images/khoahoc.jpg" alt="" sizes="" srcset=""></div>
         </div>
         <div class="c-step">
           <div class="c-step_inner">
@@ -48,8 +49,11 @@
         </div>
         <div class="c-lnew">
           <div class="l-container">
-            <h3>KHÓA HỌC MỚI</h3>
-            <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><img loading="lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/lnew.jpg" alt="">
+            <div class="c-lnew_content">
+              <h3>KHÓA HỌC MỚI</h3>
+              <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="#">Nhận Ebook Tại Đây</a>
+            </div>
+            <div class="c-lnew_img"><img loading="lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" alt=""></div>
           </div>
         </div>
         <div class="c-info"> <a href="#"><img loading="lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" alt=""></a></div>

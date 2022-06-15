@@ -50,17 +50,25 @@
       $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
-        nav: false,
-        navText: [
-          "<i class='fa fa-caret-left'></i>",
-          "<i class='fa fa-caret-right'></i>"
-        ],
+        nav: true,
         dot: false,
         autoplay: true,
         items: 1,
         autoplayHoverPause: true,
       })
-
+      var owl = $('.owl-carousel');
+      owl.owlCarousel();
+      $('#next').click(function() {
+          console.log(3);
+            owl.trigger('next.owl.carousel');
+        })
+      var $dots = $('.owl-dot');
+      function goToPrevCarouselPage() {
+      var $next = $dots.filter('.active').prev();
+      if (!$next.length)
+          $next = $dots.first();
+      $next.trigger('click');
+      }
     </script>
     <?php if(!is_archive('courses')) : ?>
       <script>
