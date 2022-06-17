@@ -59,51 +59,42 @@
         <div class="c-info"> <a href="#"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" alt=""></a></div>
         <div class="c-learn">
           <div class="l-container">
-            <div class="c-learn_inner">
+            <div class="c-learn_inner"><br>
               <h3>CÁC KHÓA HỌC</h3>
               <ul>
-                <li class="c-learn_item">
+                <?php
+                  $query_args = array(
+                    'post_type' => 'courses',
+                    'post_status'   => 'publish',
+                    'order'         => 'desc',
+                    'posts_per_page'=> 2,
+                    'nopaging' => false
+                );
+                $Query = new WP_Query($query_args);
+                if ($Query->posts) {
+                  foreach ($Query->posts as $key => $isPost)  { ?>
+                  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $isPost->ID ), 'full' ); ?>
+
+                  <li class="c-learn_item">
+                    <div class="c-learn_img"><img loading="lazy" src="<?php echo $image[0] ?>" data-src="<?php echo $image[0] ?>" alt="<?php echo $isPost->post_title ?>"></div>
+                    <div class="c-learn_content">
+                      <h4><?php echo $isPost->post_title ?></h4>
+                      <p><?php echo $isPost->post_excerpt ?></p><a href="/courses/<?php echo $isPost->post_name?>">Xem Thêm</a>
+                    </div>
+                  </li>
+                 <?php }
+                }else{
+                    echo 'No results!';
+                }
+                ?>
+
+                <!-- <li class="c-learn_item">
                   <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
                   <div class="c-learn_content">
                     <h4>Maketing Foundation</h4>
                     <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
                   </div>
-                </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <h4>Maketing Foundation</h4>
-                    <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
-                  </div>
-                </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <h4>Maketing Foundation</h4>
-                    <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
-                  </div>
-                </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <h4>Maketing Foundation</h4>
-                    <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
-                  </div>
-                </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <h4>Maketing Foundation</h4>
-                    <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
-                  </div>
-                </li>
-                <li class="c-learn_item">
-                  <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <h4>Maketing Foundation</h4>
-                    <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
-                  </div>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
