@@ -26,7 +26,6 @@ get_header();?>
           <div class="l-container">
             <div class="c-learn_inner" id="videoList">
               <ul>
-
                 <?php if ( $video_list )
                 { foreach ( $video_list as $item ) : setup_postdata( $item ); ?>
                 <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o">
