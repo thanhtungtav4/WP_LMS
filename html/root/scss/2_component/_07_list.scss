@@ -647,9 +647,11 @@
 					background-image: url(../../assets/images/play.svg);
 					left: calc(100% / 2 - 80px);
 					background-size: 28px;
+					background-repeat: no-repeat;
+					background-position: center;
 					width: 28px;
 					height: 28px;
-					top: 16px;
+					top: 12px;
 				 }
 			}
 		}
