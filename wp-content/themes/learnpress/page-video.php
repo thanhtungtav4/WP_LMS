@@ -28,7 +28,7 @@ get_header();?>
               <ul>
                 <?php if ( $video_list )
                 { foreach ( $video_list as $item ) : setup_postdata( $item ); ?>
-                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="https://www.youtube.com/embed/9_V2q7C910o">
+                <li class="c-learn_item" onclick="getVideoClick(this)" data-url="<?php echo get_field('video_url', $item->ID) ?>">
                   <div class="c-learn_img">
                   <img class="lazyload" loading="lazy" width="320" height="223"  data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($item->ID))[0] ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($item->ID))[0] ?>" alt="<?php echo($item->post_title)  ?>">
                   </div>
