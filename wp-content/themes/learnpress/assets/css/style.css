@@ -426,7 +426,8 @@ article {
           border-radius: 7px;
           min-width: 240px;
           background-color: white;
-          min-height: 180px; }
+          min-height: 180px;
+          box-shadow: 5px 5px 12px rgba(52, 166, 6, 0.24), -5px -5px 12px rgba(52, 166, 6, 0.2); }
 
 .c-master {
   padding: 10px 0 80px;
