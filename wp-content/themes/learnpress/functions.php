@@ -4,6 +4,7 @@ require_once( get_stylesheet_directory() . '/functions/taxonomy.php' );
 require_once( get_stylesheet_directory() . '/functions/acf.php' );
 require_once( get_stylesheet_directory() . '/functions/woo.php' );
 require_once( get_stylesheet_directory() . '/functions/lang.php' );
+require_once( get_stylesheet_directory() . '/functions/smtp.php' );
 /**
  * learnpress functions and definitions
  *

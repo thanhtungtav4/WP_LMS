@@ -30,3 +30,13 @@ Stack trace:
 #3 {main}
   thrown in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\page-blog.php on line 99
 
+2022-07-05T03:50:35+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\WP_LMS\wp-includes\Requests\IRI.php lúc line 66
+
+2022-07-05T04:15:18+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF) in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\archive.php lúc line 44
+
+2022-07-05T04:46:43+00:00 CRITICAL syntax error, unexpected ';', expecting ':' in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\archive.php lúc line 27
+
+2022-07-05T04:46:50+00:00 CRITICAL syntax error, unexpected ';', expecting ':' in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\archive.php lúc line 27
+
+2022-07-05T04:46:56+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\archive.php lúc line 51
+

@@ -61,7 +61,21 @@ function my_custom_translations( $strings ) {
   'Material Includes' =>  'Khóa học bao gồm',
   'What Will You Learn?' => 'Bạn sẽ học gì?',
   'Last Updated' => 'Cập nhật lúc',
-  'Intermediate' => 'Trung gian'
+  'Intermediate' => 'Trung bình',
+  'View Cart' =>'Xem giỏ hàng',
+  'An account is already registered with your email address' => 'Một tài khoản đã được đăng ký với địa chỉ email của bạn',
+  'Please log in' => 'Hãy đăng nhập',
+  'Your Progress' => 'Tiến trình của bạn',
+  'Overview' => 'Tổng quan',
+  'Mark as' => 'Đánh dấu',
+  'Show Less' => 'Ẩn bớt',
+  'Free' =>'Miễn phí',
+  'Enroll now' => 'Đăng ký ngay bây giờ',
+  'access this' => 'truy cập',
+  'You' => 'Bạn',
+  'in this' => '',
+  'on' => 'lúc',
+  'No data supplied.'=> 'Không tìm thấy dữ liệu'
   );
   $strings = str_ireplace( array_keys( $text ), $text, $strings );
   return $strings;

@@ -8,3 +8,9 @@
 .tutor-course-details-widget{
   margin-top: 2rem;
 }
+.bg_white{
+  background-color: white !important;
+}
+.c-learn_inner ul{
+  justify-content: center !important;
+}
