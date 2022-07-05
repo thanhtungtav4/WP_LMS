@@ -74,8 +74,8 @@ function my_custom_translations( $strings ) {
   'access this' => 'truy cập',
   'You' => 'Bạn',
   'in this' => '',
-  'on' => 'lúc',
-  'No data supplied.'=> 'Không tìm thấy dữ liệu'
+  'No data supplied.'=> 'Không tìm thấy dữ liệu',
+  'About' => 'Thông tin'
   );
   $strings = str_ireplace( array_keys( $text ), $text, $strings );
   return $strings;
