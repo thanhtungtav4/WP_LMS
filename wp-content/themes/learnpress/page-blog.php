@@ -42,7 +42,7 @@ $i = 0;
               <?php if ( $bigpost )
                 { foreach ( $bigpost as $postbig ) : setup_postdata( $postbig ); ?>
                     <div class="c-banner_big">
-                      <?php $thumbnail_src = wp_get_attachment_image_src(get_post_thumbnail_id($postbig->ID))[0];
+                      <?php $thumbnail_src = wp_get_attachment_image_src(get_post_thumbnail_id($postbig->ID), 'full')[0];
                       ?>
                       <a class="c-banner_img" href="<?php the_permalink($postbig->ID); ?>">
                         <img src="<?php $thumbnail_src ? print $thumbnail_src : print "https://picsum.photos/800/478" ?>" alt="<?php echo($postbig->post_title); ?>" width="816" height="378">
@@ -65,7 +65,7 @@ $i = 0;
                 <ul>
                   <?php if ( $myposts )
                     { foreach ( $myposts as $post ) : setup_postdata( $post ); $i++; ?>
-                     <?php if ( $i >=2 && $i <=6 ) :?>
+                     <?php if ( $i >=2 && $i <=5 ) :?>
                       <li>
                         <?php $time = get_field('time_read', $post->ID); ?>
                         <a href="<?php the_permalink(); ?>">
@@ -94,7 +94,7 @@ $i = 0;
                 { foreach ( $post_list as $post_item ) : setup_postdata( $post_item ); ?>
                     <li class="c-learn_item">
                       <div class="c-learn_img">
-                        <img class="lazyload" width="320" height="223" loading="lazy" data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID))[0] ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID))[0] ?>" alt=""></div>
+                        <img class="lazyload" width="320" height="223" loading="lazy" data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID), 'full')[0]; ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID), 'full')[0]; ?>" alt="<?php echo($post_item->post_title)  ?>"></div>
                       <div class="c-learn_content">
                         <a class="tag_a" href="<?php the_permalink($post_item->ID); ?>">
                           <p class="c-learn_category"><?php echo get_the_category($post_item->ID)[0]->name; ?></p>

@@ -36,7 +36,7 @@ $ebook_list = get_posts( array(
                 { foreach ( $ebook_list as $item ) : setup_postdata( $item ); ?>
                 <li class="c-learn_item">
                   <div class="c-learn_img">
-                    <img class="lazyload" loading="lazy" width="320" height="223"  data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($item->ID))[0] ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($item->ID))[0] ?>" alt=""></div>
+                    <img class="lazyload" loading="lazy" width="320" height="223"  data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item->ID), 'full')[0]; ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($item->ID), 'full')[0]; ?>" alt="<?php echo($item->post_title)  ?>" alt="<?php echo($item->post_title)  ?>"></div>
                   <div class="c-learn_content">
                     <a class="tag_a" href="<?php the_permalink($item->ID); ?>">
                       <h4><?php echo($item->post_title)  ?></h4>

@@ -2,3 +2,9 @@
 	--tutor-color-primary: #34A606;
   --plyr-color-main:#4cdf16b3;
 }
+.home .c-learn_inner ul li a:not(.tag_a)::after{
+  top: 7px;
+}
+.tutor-course-details-widget{
+  margin-top: 2rem;
+}
