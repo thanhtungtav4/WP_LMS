@@ -14,3 +14,29 @@
 .c-learn_inner ul{
   justify-content: center !important;
 }
+.tutor-course-single-content-wrapper .tutor-course-single-sidebar-title {
+  height: 30px;
+}
+.tutor-course-single-sidebar-wrapper .tutor-course-topic-item a {
+  width: auto;
+}
+.tutor-course-single-content-wrapper #tutor-single-entry-content .tutor-course-topic-single-header {
+  height: 31px;
+}
+.tutor-alert-warning li{
+  color: red;
+}
+.c-learn {
+  background-color: unset;
+}
+.c-learn.blog {
+  margin: 0 !important;
+  padding: 3rem 0;
+  background-color: white !important;
+}
+@media only screen and (min-width: 768px) {
+  .c-learn_inner ul.courses-list li{
+    width: calc(33.3% - 40px);
+    margin: 20px 20px 30px;
+  }
+}

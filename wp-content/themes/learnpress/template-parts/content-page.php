@@ -22,7 +22,7 @@
 
 		wp_link_pages(
 			array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'learnpress' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Trang:', 'learnpress' ),
 				'after'  => '</div>',
 			)
 		);

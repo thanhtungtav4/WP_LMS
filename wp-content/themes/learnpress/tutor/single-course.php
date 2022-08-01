@@ -67,6 +67,49 @@ do_action('tutor_course/single/before/wrap');
 </div>
 
 <?php do_action('tutor_course/single/after/wrap'); ?>
+<div class="l-container">
+    <div class="c-learn_inner">
+        <h3>Khóa học liên quan</h3>
+        <ul class="courses-list">
+        <?php
+                if(get_field('chon_khoa_hoc_lien_quan')){
+                    $query_args = array(
+                        'post_type' => 'courses',
+                        'post_status'   => 'publish',
+                        'order'         => 'desc',
+                        'posts_per_page'=> 3,
+                        'nopaging' => false,
+                        'post__in'=> get_field('chon_khoa_hoc_lien_quan'),
+                    );
+                }
+                else{
+                    $query_args = array(
+                        'post_type' => 'courses',
+                        'post_status'   => 'publish',
+                        'order'         => 'desc',
+                        'posts_per_page'=> 3,
+                        'nopaging' => false
+                    );
+                }
+                $Query = new WP_Query($query_args);
+                if ($Query->posts) {
+                  foreach ($Query->posts as $key => $isPost)  { ?>
+                  <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $isPost->ID ), 'full' ); ?>
 
+                  <li class="c-learn_item">
+                    <div class="c-learn_img"><img loading="lazy" src="<?php echo $image[0] ?>" data-src="<?php echo $image[0] ?>" alt="<?php echo $isPost->post_title ?>"></div>
+                    <div class="c-learn_content">
+                      <h4><?php echo $isPost->post_title ?></h4>
+                      <p><?php echo $isPost->post_excerpt ?></p><a href="/courses/<?php echo $isPost->post_name?>">Xem Thêm</a>
+                    </div>
+                  </li>
+                 <?php }
+                }else{
+                    echo 'No results!';
+                }
+                ?>
+        </ul>
+    </div>
+</div>
 <?php
 tutor_utils()->tutor_custom_footer();

@@ -29,9 +29,18 @@ $post_list = get_posts( array(
   'post_type' => array('post'),
   'post_status' => 'publish',
   'posts_per_page' => 6,
+  'category_name'         => 'kien-thuc-branding',
   'orderby'	=> 'post_date',
 	'order'         => 'DESC',
-  'paged'         => $paged
+) );
+
+$post_list02 = get_posts( array(
+  'post_type' => array('post'),
+  'post_status' => 'publish',
+  'posts_per_page' => 6,
+  'category_name'         => 'kien-thuc-marketing',
+  'orderby'	=> 'post_date',
+	'order'         => 'DESC',
 ) );
 $i = 0;
 ?>
@@ -88,8 +97,8 @@ $i = 0;
         <div class="c-learn blog">
           <div class="l-container">
             <div class="c-learn_inner">
-              <h3>New Posts</h3>
-              <ul class="publication-list">
+              <h3>Kiến thức Branding</h3>
+              <ul class="publication-list courses-list">
               <?php if ( $post_list )
                 { foreach ( $post_list as $post_item ) : setup_postdata( $post_item ); ?>
                     <li class="c-learn_item">
@@ -109,7 +118,29 @@ $i = 0;
                 }
               ?>
               </ul>
-              <div id="load-more" class="c-btn"><a class="c-btn_ebook" href="#!">Xem thêm bài viết</a></div>
+              <div id="load-more" class="c-btn"><a class="c-btn_ebook" href="/category/kien-thuc-marketing/">Xem thêm bài viết</a></div>
+              <h3>Kiến thức Branding</h3>
+              <ul class="publication-list courses-list">
+              <?php if ( $post_list02 )
+                { foreach ( $post_list02 as $post_item02 ) : setup_postdata( $post_item02 ); ?>
+                    <li class="c-learn_item">
+                      <div class="c-learn_img">
+                        <img class="lazyload" width="320" height="223" loading="lazy" data-src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item02->ID), 'full')[0]; ?>" src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($post_item02->ID), 'full')[0]; ?>" alt="<?php echo($post_item02->post_title)  ?>"></div>
+                      <div class="c-learn_content">
+                        <a class="tag_a" href="<?php the_permalink($post_item02->ID); ?>">
+                          <p class="c-learn_category"><?php echo get_the_category($post_item02->ID)[0]->name; ?></p>
+                          <h4><?php echo($post_item02->post_title)  ?></h4>
+                          <p class="c-learn_view"><?php echo getCrunchifyPostViews($post_item02->ID); ?></p>
+                        </a>
+                      </div>
+                    </li>
+              <?php
+                endforeach;
+                wp_reset_postdata();
+                }
+              ?>
+              </ul>
+              <div id="load-more" class="c-btn"><a class="c-btn_ebook" href="/category/kien-thuc-branding/">Xem thêm bài viết</a></div>
             </div>
           </div>
         </div>

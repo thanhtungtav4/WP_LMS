@@ -29,13 +29,13 @@ tutor_utils()->tutor_custom_header();
                 <div class="tutor-card">
                     <div class="tutor-px-40 tutor-py-64 tutor-text-center">
                         <div class="tutor-svg-img">
-                            <img src="<?php echo esc_url( tutor()->url.'assets/images/permission-denied.svg' ); ?>" alt="<?php _e("Permission Denied", "tutor"); ?>">    
+                            <img src="<?php echo esc_url( tutor()->url.'assets/images/permission-denied.svg' ); ?>" alt="<?php _e("Permission Denied", "tutor"); ?>">
                         </div>
 
-                        <div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mt-n32 tutor-mb-12"><?php echo isset($message) ? $message : __( 'You don\'t have permission to access this page', 'tutor' ); ?></div>
-                        <div class="tutor-fs-6 tutor-color-muted tutor-mb-36"><?php echo isset($description) ? $description : __('Please make sure you are logged in to correct account if the content needs authorization.', 'tutor'); ?></div>
+                        <div class="tutor-fs-5 tutor-fw-medium tutor-color-black tutor-mt-n32 tutor-mb-12"><?php echo isset($message) ? $message : __( 'Bạn không có quyền truy cập trang này', 'tutor' ); ?></div>
+                        <div class="tutor-fs-6 tutor-color-muted tutor-mb-36"><?php echo isset($description) ? $description : __('Hãy đảm bảo rằng bạn đã đăng nhập để sửa tài khoản nếu nội dung cần được ủy quyền.', 'tutor'); ?></div>
 
-                        <?php 
+                        <?php
                             if(!isset($button)) {
                                 $button = array(
                                     'url' => get_home_url(),
