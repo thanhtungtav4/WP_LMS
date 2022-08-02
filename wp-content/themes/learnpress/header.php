@@ -34,12 +34,12 @@ $txtLogin ="Đăng nhập";
               <h1>FUTURE BRAND VIETNAM</h1></a></div>
           <nav>
             <ul class="nav-menu">
-              <li class="nav-menu_item is_active"><a href="#">Về Chúng Tôi</a></li>
-              <li class="nav-menu_item"><a href="/courses/">Khóa Học</a></li>
-              <li class="nav-menu_item"><a href="/blog">Blog</a></li>
-              <li class="nav-menu_item"><a href="/ebook">Ebook</a></li>
-              <li class="nav-menu_item"><a href="/video">Video</a></li>
-              <li class="nav-menu_item"><a href="/dashboard-page/">
+              <li class="nav-menu_item "><a href="#">Về Chúng Tôi</a></li>
+              <li class="nav-menu_item <?php (get_queried_object()->name ==  'courses') ? print 'is_active' : '' ?>"><a href="/courses/">Khóa Học</a></li>
+              <li class="nav-menu_item <?php (basename(get_permalink()) ==  'blog') ? print 'is_active' : '' ?>"><a href="/blog">Blog</a></li>
+              <li class="nav-menu_item <?php (basename(get_permalink()) ==  'ebook') ? print 'is_active' : '' ?>"><a href="/ebook">Ebook</a></li>
+              <li class="nav-menu_item <?php (basename(get_permalink()) ==  'video') ? print 'is_active' : '' ?>"><a href="/video">Video</a></li>
+              <li class="nav-menu_item <?php (basename(get_permalink()) ==  'dashboard-page') ? print 'is_active' : '' ?>"><a href="/dashboard-page/">
               <?php
                 if($user){
                   echo $user->display_name;
@@ -83,14 +83,5 @@ $txtLogin ="Đăng nhập";
           </nav>
         </div>
       </header>
-
-<!doctype html>
-<html <?php language_attributes(); ?>>
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-
-	<?php wp_head(); ?>
-</head>
+      <?php wp_head(); ?>
 

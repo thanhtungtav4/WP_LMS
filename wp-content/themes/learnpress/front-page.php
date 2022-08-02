@@ -51,13 +51,13 @@
           <div class="l-container">
             <div class="c-lnew_content">
               <h3>KHÓA HỌC MỚI</h3>
-              <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="#">Nhận Ebook Tại Đây</a>
+              <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="/courses/">Khám phá các khóa học</a>
             </div>
             <div class="c-lnew_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" alt=""></div>
           </div>
         </div>
-        <div class="c-info"> <a href="#"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" alt=""></a></div>
-        <div class="c-learn">
+        <div class="c-info"> <a href="/ve-chung-toi/"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" alt=""></a></div>
+        <div class="c-learn blog">
           <div class="l-container">
             <div class="c-learn_inner"><br>
               <h3>CÁC KHÓA HỌC</h3>
@@ -105,7 +105,7 @@
               <div class="image"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/union.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/union.jpg" alt=""></div>
               <div class="content">
                 <h3>KHÁM PHÁ THẾ GIỚI MARKETING</h3>
-                <p>Adobe illustrator CC 2015 là phiên bản thiết kế đồ hoạ Ai thấp nhất phù hợp với cấu hình PC của mọi loại máy và dành cho người mới bắt đầu. Adobe illustrator CC</p><a href="#">KHÁM PHÁ BLOG</a>
+                <p>Adobe illustrator CC 2015 là phiên bản thiết kế đồ hoạ Ai thấp nhất phù hợp với cấu hình PC của mọi loại máy và dành cho người mới bắt đầu. Adobe illustrator CC</p><a href="/blog/">KHÁM PHÁ BLOG</a>
               </div>
             </div>
           </div>

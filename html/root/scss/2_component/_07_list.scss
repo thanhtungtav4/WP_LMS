@@ -42,8 +42,10 @@
 .c-master{
 	padding: 10px 0 80px;
 	width: 100%;
+	margin: 4rem 0 2rem;
 	@include sp{
 		padding: 50px 0;
+		margin: 2rem 0 2rem;
 	}
 	h3{
 		@include ttl3;
@@ -73,6 +75,7 @@
 }
 .c-lnew{
 	padding: 2rem;
+	margin: 2rem 0 3rem;
 	.l-container{
 		width: 100%;
 		@include flex-jbetween;

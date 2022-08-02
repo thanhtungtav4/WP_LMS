@@ -23,16 +23,17 @@
           </dl>
           <dl>
             <dt>Danh mục</dt>
-            <dd><a href="#">Khóa học</a></dd>
-            <dd><a href="#">Blog Brannding</a></dd>
-            <dd><a href="#">Blog Marketing</a></dd>
-            <dd><a href="#">Ebook</a></dd>
+            <dd><a href="/courses/">Khóa học</a></dd>
+            <dd><a href="/category/kien-thuc-branding/">Blog Brannding</a></dd>
+            <dd><a href="/category/kien-thuc-marketing/">Blog Marketing</a></dd>
+            <dd><a href="/ebook/">Ebook</a></dd>
+            <dd><a href="/video/">Video</a></dd>
           </dl>
           <dl>
             <dt>Trợ giúp</dt>
-            <dd><a href="#">Đăng ký tài khoản</a></dd>
-            <dd><a href="#">Điều khoản sử dụng</a></dd>
-            <dd><a href="#">Quyền riêng tư</a></dd>
+            <dd><a href="/dang-ky-tai-khoan">Đăng ký tài khoản</a></dd>
+            <dd><a href="/dieu-khoan-xu-dung">Điều khoản sử dụng</a></dd>
+            <dd><a href="/quyen-rieng-tu">Quyền riêng tư</a></dd>
           </dl>
           <dl>
             <dt>Liên hệ</dt>

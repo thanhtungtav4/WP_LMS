@@ -1,0 +1,11 @@
+2022-08-02T02:30:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\header.php on line 38 and at least 1 expected in D:\xampp\htdocs\WP_LMS\wp-includes\category.php:91
+Stack trace:
+#0 D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\header.php(38): get_category()
+#1 D:\xampp\htdocs\WP_LMS\wp-includes\template.php(770): require_once('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\WP_LMS\wp-includes\template.php(716): load_template('D:\\xampp\\htdocs...', true, Array)
+#3 D:\xampp\htdocs\WP_LMS\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 D:\xampp\htdocs\WP_LMS\wp-content\plugins\tutor\classes\Utils.php(9455): get_header()
+#5 D:\xampp\htdocs\WP_LMS\wp-content\themes\learnpress\tutor\archive-course.php(14): TUTOR\Utils->tutor_custom_header()
+#6 D:\xampp\htdocs\WP_LMS\wp-includes\template-loader.php(106): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\WP_LMS\wp-blog-header.php(19): require_once('D:\\xampp in D:\xampp\htdocs\WP_LMS\wp-includes\category.php on line 91
+
