@@ -543,7 +543,7 @@
 	width: 100%;
 }
 .c-detail{
-	margin-bottom: 3rem;
+	margin-bottom: 4rem;
 	h1{
 		font-weight: 700;
 		font-size: 3.5rem;
@@ -569,6 +569,16 @@
 			height: 100%;
 			-o-object-fit: cover;
 			object-fit: cover;
+		}
+		&::before{
+			right: 0;
+			bottom: -17px;
+			width: 200px;
+			height: 34px;
+			background-color: #4db125;
+			position: absolute;
+			content: '';
+			z-index: 2;
 		}
 	}
 }

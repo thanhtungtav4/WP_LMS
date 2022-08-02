@@ -894,7 +894,7 @@ article {
   width: 100%; }
 
 .c-detail {
-  margin-bottom: 3rem; }
+  margin-bottom: 4rem; }
   .c-detail h1 {
     font-weight: 700;
     font-size: 3.5rem;
@@ -918,6 +918,15 @@ article {
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover; }
+    .c-detail_img::before {
+      right: 0;
+      bottom: -17px;
+      width: 200px;
+      height: 34px;
+      background-color: #4db125;
+      position: absolute;
+      content: '';
+      z-index: 2; }
 
 .c-avd {
   margin: 3rem 0 4rem;

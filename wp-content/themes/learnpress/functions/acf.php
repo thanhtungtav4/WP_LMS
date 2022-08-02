@@ -146,4 +146,113 @@ if( function_exists('acf_add_local_field_group') ):
 		'description' => '',
 		'show_in_rest' => 0,
 	));
+	acf_add_local_field_group(array(
+		'key' => 'group_62e76dc914c76',
+		'title' => 'Khóa Học Liên Quan',
+		'fields' => array(
+			array(
+				'key' => 'field_62e76e0d3fc29',
+				'label' => 'Chọn Khóa học liên quan',
+				'name' => 'chon_khoa_hoc_lien_quan',
+				'type' => 'post_object',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'post_type' => array(
+					0 => 'courses',
+				),
+				'taxonomy' => '',
+				'allow_null' => 0,
+				'multiple' => 1,
+				'return_format' => 'id',
+				'ui' => 1,
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'courses',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'top',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => '',
+		'show_in_rest' => 0,
+	));
+
+	acf_add_local_field_group(array(
+		'key' => 'group_62e89c838db96',
+		'title' => 'Quản lý dự án quảng cáo',
+		'fields' => array(
+			array(
+				'key' => 'field_62e89caa83c55',
+				'label' => 'Link Đăng ký',
+				'name' => 'link_dang_ky',
+				'type' => 'text',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'maxlength' => '',
+			),
+			array(
+				'key' => 'field_62e89ccc83c56',
+				'label' => 'Link Trailer',
+				'name' => 'link_trailer',
+				'type' => 'text',
+				'instructions' => '',
+				'required' => 0,
+				'conditional_logic' => 0,
+				'wrapper' => array(
+					'width' => '',
+					'class' => '',
+					'id' => '',
+				),
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'maxlength' => '',
+			),
+		),
+		'location' => array(
+			array(
+				array(
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'post',
+				),
+			),
+		),
+		'menu_order' => 0,
+		'position' => 'normal',
+		'style' => 'default',
+		'label_placement' => 'top',
+		'instruction_placement' => 'label',
+		'hide_on_screen' => '',
+		'active' => true,
+		'description' => '',
+		'show_in_rest' => 0,
+	));
 	endif;
