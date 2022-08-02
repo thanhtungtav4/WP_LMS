@@ -23,8 +23,8 @@
               <div class="c-avd_content">
                 <h3>Quản lý dự án quảng cáo</h3>
                 <div class="c-avd_area">
-                  <div class="c-avd_btn"><a class="shop" href="#">Đăng ký</a></div>
-                  <div class="c-avd_btn"><a class="play" href="#">Trailer</a></div>
+                  <div class="c-avd_btn"><a class="shop" target="_blank" href="<?php the_field('link_dang_ky') ?>">Đăng ký</a></div>
+                  <div class="c-avd_btn"><a class="play" target="_blank" href="<?php the_field('link_trailer') ?>">Trailer</a></div>
                 </div>
               </div>
             </div>

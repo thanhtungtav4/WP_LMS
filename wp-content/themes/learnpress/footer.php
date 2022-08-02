@@ -39,7 +39,7 @@
             <dt>Liên hệ</dt>
             <dd>177 Nguyễn Thị Sáu, Thành Lộc, quận 12, thành phố Hồ Chí Minh</dd>
             <dd>Điện thoại: 0795263260</dd>
-            <dd>Email: futurebrandvn@gmail.com</dd>
+            <dd><a href="mailto='futurebrandvn@gmail.com">Email: futurebrandvn@gmail.com</a></dd>
           </dl>
         </div>
       </footer>
