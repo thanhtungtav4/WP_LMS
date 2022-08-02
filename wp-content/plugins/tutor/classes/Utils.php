@@ -27,7 +27,8 @@ class Utils {
 	 */
 	public function __call( $method, $args ) {
 		$classes = array(
-			'Tutor\Models\Course'
+			'Tutor\Models\CourseModel',
+			'Tutor\Models\WithdrawModel'
 		);
 
 		foreach( $classes as $class ) {
@@ -578,83 +579,6 @@ class Utils {
 	}
 
 	/**
-	 * @param array $excludes
-	 *
-	 * @return array|null|object
-	 *
-	 * Get courses
-	 *
-	 * @since v.1.0.0
-	 */
-	public function get_courses( $excludes = array(), $post_status = array( 'publish' ) ) {
-		global $wpdb;
-
-		$excludes      = (array) $excludes;
-		$exclude_query = '';
-
-		if ( count( $excludes ) ) {
-			$exclude_query = implode( "','", $excludes );
-		}
-
-		$post_status = array_map(
-			function ( $element ) {
-				return "'" . $element . "'";
-			},
-			$post_status
-		);
-
-		$post_status      = implode( ',', $post_status );
-		$course_post_type = tutor()->course_post_type;
-
-		$query = $wpdb->get_results(
-			$wpdb->prepare(
-				"SELECT ID,
-					post_author,
-					post_title,
-					post_name,
-					post_status,
-					menu_order
-			FROM 	{$wpdb->posts}
-			WHERE 	post_status IN ({$post_status})
-					AND ID NOT IN('$exclude_query')
-					AND post_type = %s;
-			",
-				$course_post_type
-			)
-		);
-
-		return $query;
-	}
-
-	/**
-	 * @param int $instructor_id
-	 *
-	 * @return array|null|object
-	 *
-	 * Get courses for instructors
-	 *
-	 * @since v.1.0.0
-	 */
-	public function get_courses_for_instructors( $instructor_id = 0 ) {
-		global $wpdb;
-
-		$instructor_id    = $this->get_user_id( $instructor_id );
-		$course_post_type = tutor()->course_post_type;
-
-		global $current_user;
-		$courses = get_posts(
-			array(
-				'post_type'      => $course_post_type,
-				'author'         => $instructor_id,
-				'post_status'    => array( 'publish', 'pending' ),
-				'posts_per_page' => 5,
-			)
-		);
-
-		return $courses;
-	}
-
-	/**
 	 * @param $instructor_id
 	 *
 	 * @return null|string
@@ -719,69 +643,22 @@ class Utils {
 		$query = $wpdb->prepare(
 			"SELECT $select_col
 			FROM 	$wpdb->posts
-			INNER JOIN {$wpdb->usermeta}
+			LEFT JOIN {$wpdb->usermeta}
 					ON $wpdb->usermeta.user_id = %d
 					AND $wpdb->usermeta.meta_key = %s
 					AND $wpdb->usermeta.meta_value = $wpdb->posts.ID
 			WHERE	1 = 1 {$where_post_status}
 				AND $wpdb->posts.post_type = %s
+				AND ($wpdb->posts.post_author = %d OR $wpdb->usermeta.user_id = %d)
 			ORDER BY $wpdb->posts.post_date DESC $limit_offset",
 			$instructor_id,
 			'_tutor_instructor_course_id',
-			$course_post_type
+			$course_post_type,
+			$instructor_id,
+			$instructor_id
 		);
 
 		return $count_only ? $wpdb->get_var($query) : $wpdb->get_results($query, OBJECT);
-	}
-
-	public function get_publish_courses_by_instructor() {
-		global $wp_query;
-		return $wp_query->post_count;
-	}
-
-	public function get_pending_course_by_instructor() {
-		global $wp_query;
-		return $wp_query->post_count;
-	}
-
-
-	/**
-	 * @return mixed
-	 *
-	 * Get archive page course count
-	 *
-	 * @since v.1.0.0
-	 */
-	public function get_archive_page_course_count() {
-		global $wp_query;
-		return $wp_query->post_count;
-	}
-
-	/**
-	 * @return null|string
-	 *
-	 * Get course count
-	 *
-	 * @since v.1.0.0
-	 */
-	public function get_course_count() {
-		global $wpdb;
-
-		$course_post_type = tutor()->course_post_type;
-
-		$count = $wpdb->get_var(
-			$wpdb->prepare(
-				"SELECT COUNT(ID)
-			FROM 	{$wpdb->posts}
-			WHERE	post_status = %s
-					AND post_type = %s;
-			",
-				'publish',
-				$course_post_type
-			)
-		);
-
-		return $count;
 	}
 
 	/**
@@ -1165,8 +1042,11 @@ class Utils {
 		$product_id = $this->get_course_product_id( $course_id );
 		if ( $product_id ) {
 			if ( $monetize_by === 'wc' && $this->has_wc() ) {
-				$prices['regular_price'] = get_post_meta( $product_id, '_regular_price', true );
-				$prices['sale_price']    = get_post_meta( $product_id, '_sale_price', true );
+				$product  = wc_get_product( $product_id );
+				if ( $product ) {
+					$prices['regular_price'] = $product->get_regular_price();
+					$prices['sale_price']    = $product->get_sale_price();
+				}
 			} elseif ( $monetize_by === 'edd' && $this->has_edd() ) {
 				$prices['regular_price'] = get_post_meta( $product_id, 'edd_price', true );
 				$prices['sale_price']    = get_post_meta( $product_id, 'edd_price', true );
@@ -1635,6 +1515,39 @@ class Utils {
 
 		return $sign . ( $H ? $H . 'h ' : '' ) . ( $H ? str_pad( $M, 2, '0', STR_PAD_LEFT ) : intval( $M ) ) . 'm ' . str_pad( $S, 2, 0, STR_PAD_LEFT ) . 's';
 	}
+
+	/**
+     * Get human readable time
+     *
+     * @param string $from                  date time string value. Example: 2022-06-24 22:00:00
+     * @param string $to                    (optional) date time string value. Default value is current.
+     * @param string $format                format you want to print. Default: '%ad %hh %im %ss' Help: https://www.php.net/manual/en/dateinterval.format.php
+     * @param bool   $show_postfix_text     show postfix text like 'ago', 'left'
+     * @return string
+     * 
+     * @since 2.0.7
+     */
+    public function get_human_readable_time( $from, $to = null, $format = null, $show_postfix_text = true ) {
+        $postfix_text   = '';
+		$wp_tz 			= new \DateTimeZone( wp_timezone_string() );
+        $fromDateTime   = new \DateTime( $from, $wp_tz );
+        $toDateTime     = $to === null ? new \DateTime( 'now', $wp_tz ) : new \DateTime( $to, $wp_tz );
+		$format			= $format === null ? '%ad %hh %im %ss' : $format;
+        
+        if ( $toDateTime > $fromDateTime ) 
+        {
+            $postfix_text = __( ' ago', 'tutor' );
+        }
+        else
+        {
+            $postfix_text = __( ' left', 'tutor' );
+        }
+
+        $timeSpan       = $toDateTime->diff( $fromDateTime );
+        $postfix_text   = $show_postfix_text === true ? $postfix_text : '';
+
+        return $timeSpan->format( $format ) . $postfix_text;
+    }
 
 	/**
 	 * @param int $lesson_id
@@ -3181,7 +3094,7 @@ class Utils {
 					tutor_job_title.meta_value AS tutor_profile_job_title,
 					tutor_bio.meta_value AS tutor_profile_bio,
 					tutor_photo.meta_value AS tutor_profile_photo
-			FROM	{$wpdb->users} _user
+				FROM {$wpdb->users} _user
 					INNER JOIN {$wpdb->usermeta} get_course
 							ON ID = get_course.user_id
 						   AND get_course.meta_key = %s
@@ -3203,12 +3116,46 @@ class Utils {
 				'_tutor_profile_photo'
 			)
 		);
-
+		// Get main instructor.
+		$main_instructor = $wpdb->get_results(
+			$wpdb->prepare(
+				"SELECT _user.ID,
+					display_name,
+					_user.user_email,
+					course.ID AS taught_course_id,
+					tutor_job_title.meta_value AS tutor_profile_job_title,
+					tutor_bio.meta_value AS tutor_profile_bio,
+					tutor_photo.meta_value AS tutor_profile_photo
+				FROM {$wpdb->users} _user
+					INNER JOIN {$wpdb->posts} course
+							ON _user.ID = course.post_author
+						   AND course.ID = %d
+					LEFT  JOIN {$wpdb->usermeta} tutor_job_title
+						    ON _user.ID = tutor_job_title.user_id
+						   AND tutor_job_title.meta_key = %s
+					LEFT  JOIN {$wpdb->usermeta} tutor_bio
+						    ON _user.ID = tutor_bio.user_id
+						   AND tutor_bio.meta_key = %s
+					LEFT  JOIN {$wpdb->usermeta} tutor_photo
+						    ON _user.ID = tutor_photo.user_id
+						   AND tutor_photo.meta_key = %s
+			",
+				$course_id,
+				'_tutor_profile_job_title',
+				'_tutor_profile_bio',
+				'_tutor_profile_photo'
+			)
+		);
 		if ( is_array( $instructors ) && count( $instructors ) ) {
-			return $instructors;
+			// Exclude instructor if already in main instructor.
+			$instructors = array_filter( $instructors , function($instructor) use( $main_instructor ) {
+				if ( $instructor->ID !== $main_instructor[0]->ID ) {
+					return true;
+				}
+			});
+			return array_merge( $main_instructor, $instructors );
 		}
-
-		return false;
+		return $main_instructor;
 	}
 
 	/**
@@ -6410,126 +6357,6 @@ class Utils {
 	}
 
 	/**
-	 * @param int $user_id
-	 *
-	 * @return bool|mixed
-	 *
-	 * Get withdraw method for a specific
-	 */
-	public function get_user_withdraw_method( $user_id = 0 ) {
-		$user_id = $this->get_user_id( $user_id );
-		$account = get_user_meta( $user_id, '_tutor_withdraw_method_data', true );
-
-		if ( $account ) {
-			return maybe_unserialize( $account );
-		}
-
-		return false;
-	}
-
-	/**
-	 * @param int   $user_id | optional.
-	 * @param array $filter | ex:
-	 * array('status' => '','date' => '', 'order' => '', 'start' => 10, 'per_page' => 10,'search' => '')
-	 * get withdrawal history
-	 *
-	 * @return object
-	 */
-	public function get_withdrawals_history( $user_id = 0, $filter = array(), $start=0, $limit=20 ) {
-		global $wpdb;
-
-		$filter = (array) $filter;
-		extract( $filter );
-
-		$query_by_status_sql = '';
-		$query_by_user_sql   = '';
-
-		if ( ! empty( $status ) ) {
-			$status = (array) $status;
-			$status = "'" . implode( "','", $status ) . "'";
-
-			$query_by_status_sql = " AND status IN({$status}) ";
-		}
-
-		if ( $user_id ) {
-			$query_by_user_sql = " AND user_id = {$user_id} ";
-		}
-
-		// Order query @since v2.0.0
-		$order_query = '';
-		if ( isset( $order ) && '' !== $order ) {
-			$order_query = "ORDER BY  	created_at {$order}";
-		} else {
-			$order_query = 'ORDER BY  	created_at DESC';
-		}
-
-		// Date query @since v.2.0.0
-		$date_query = '';
-		if ( isset( $date ) && '' !== $date ) {
-			$date_query = "AND DATE(created_at) = CAST( '$date' AS DATE )";
-		}
-
-		// Search query @since v.2.0.0
-		$search_term_raw = empty($search) ? '' : $search;
-		$search_query = '%%';
-		if ( !empty( $search_term_raw ) ) {
-			$search_query = '%' . $wpdb->esc_like( $search_term_raw ) . '%';
-		}
-
-		$count = (int) $wpdb->get_var(
-			$wpdb->prepare(
-				"SELECT COUNT(withdraw_id)
-			FROM 	{$wpdb->prefix}tutor_withdraws  withdraw_tbl
-					INNER JOIN {$wpdb->users} user_tbl
-						ON withdraw_tbl.user_id = user_tbl.ID
-			WHERE 	1 = 1
-					{$query_by_user_sql}
-					{$query_by_status_sql}
-					{$date_query}
-					AND (user_tbl.display_name LIKE %s OR user_tbl.user_login LIKE %s OR user_tbl.user_nicename LIKE %s OR user_tbl.user_email = %s)
-			",
-				$search_query,
-				$search_query,
-				$search_query,
-				$search_term_raw
-			)
-		);
-
-		$results = $wpdb->get_results(
-			$wpdb->prepare(
-				"SELECT 	withdraw_tbl.*,
-					user_tbl.display_name AS user_name,
-					user_tbl.user_email
-				FROM {$wpdb->prefix}tutor_withdraws withdraw_tbl
-					INNER JOIN {$wpdb->users} user_tbl
-							ON withdraw_tbl.user_id = user_tbl.ID
-				WHERE 1 = 1
-					{$query_by_user_sql}
-					{$query_by_status_sql}
-					{$date_query}
-
-					AND (user_tbl.display_name LIKE %s OR user_tbl.user_login LIKE %s OR user_tbl.user_nicename LIKE %s OR user_tbl.user_email = %s)
-				{$order_query}
-				LIMIT %d, %d
-			",
-				$search_query,
-				$search_query,
-				$search_query,
-				$search_term_raw,
-				$start,
-				$limit
-			)
-		);
-
-		$withdraw_history = array(
-			'count'   => $count ? $count : 0,
-			'results' => is_array($results) ? $results : array(),
-		);
-
-		return (object) $withdraw_history;
-	}
-
-	/**
 	 * @param int $instructor_id
 	 *
 	 * Add Instructor role to any user by user iD
@@ -9412,7 +9239,7 @@ class Utils {
 		$category = isset( $_GET['category'] ) ? true : false;
 		$text     = array(
 			'normal' => __( 'No Data Available in this Section', 'tutor' ),
-			'filter' => __( 'No Data Found from your Search/Filter' ),
+			'filter' => __( 'No Data Found from your Search/Filter', 'tutor' ),
 		);
 
 		if ( $course || $date || $search || $category ) {

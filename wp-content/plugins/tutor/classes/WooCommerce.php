@@ -38,7 +38,7 @@ class WooCommerce extends Tutor_Base {
 		add_filter( 'product_type_options', array( $this, 'add_tutor_type_in_wc_product' ) );
 
 		add_action( 'add_meta_boxes', array( $this, 'register_meta_box' ) );
-		add_action( 'save_post_' . $this->course_post_type, array( $this, 'save_course_meta' ) );
+		add_action( 'save_post_' . $this->course_post_type, array( $this, 'save_course_meta' ), 10, 2 );
 		add_action( 'save_post_product', array( $this, 'save_wc_product_meta' ) );
 
 		add_action( 'tutor_course/single/before/enroll', 'wc_print_notices' );
@@ -93,6 +93,30 @@ class WooCommerce extends Tutor_Base {
 		add_filter( 'woocommerce_cart_item_permalink', array( $this, 'tutor_update_product_url' ), 10, 2 );
 		add_filter( 'woocommerce_order_item_permalink', array( $this, 'filter_order_item_permalink_callback' ), 10, 3 );
 
+		/**
+		 * on WC product delete clear course linked product
+		 * 
+		 * @since 2.0.7
+		 */
+		add_action( 'delete_post', array( $this, 'clear_course_linked_product' ) );
+
+	}
+
+	/**
+	 * On WC product delete, clear course linked product 
+	 *
+	 * @param int $post_id
+	 * @return void
+	 * 
+	 * @since 2.0.7
+	 */
+	public function clear_course_linked_product( $post_id ) {
+		if ( get_post_type( $post_id ) === 'product' ) {
+			global $wpdb;
+			$wpdb->query(
+				$wpdb->prepare( "DELETE FROM {$wpdb->postmeta} WHERE meta_key=%s AND meta_value=%d", '_tutor_course_product_id', $post_id )
+			);			
+		}
 	}
 
 	function filter_order_item_permalink_callback( $product_permalink, $item, $order ) {
@@ -181,20 +205,15 @@ class WooCommerce extends Tutor_Base {
 	}
 
 	/**
-	 * @param $post_ID
-	 *
-	 * Save course meta for attaching product
+	 * Save course meta for attaching WC product
+	 * 
+	 * @param int $post_ID		this is course ID
+	 * @param mixed $post		course details
+	 * 
+	 * @return void
 	 */
-	public function save_course_meta( $post_ID ) {
-		$product_id = (int) tutor_utils()->avalue_dot( '_tutor_course_product_id', $_POST, 0 );
-		if ( $product_id === -1 ) {
-			delete_post_meta( $post_ID, '_tutor_course_product_id' );
-		} elseif ( $product_id ) {
-			update_post_meta( $post_ID, '_tutor_course_product_id', $product_id );
-			// Mark product for woocommerce
-			update_post_meta( $product_id, '_virtual', 'yes' );
-			update_post_meta( $product_id, '_tutor_product', 'yes' );
-		}
+	public function save_course_meta( $post_ID, $post ) {
+		do_action( 'save_tutor_course', $post_ID, $post );
 	}
 
 	public function register_meta_box() {

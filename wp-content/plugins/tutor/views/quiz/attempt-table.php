@@ -3,6 +3,7 @@
 	
 	$page_key      = 'attempt-table';
 	$table_columns = include __DIR__ . '/contexts.php';
+	$enabled_hide_quiz_details = tutor_utils()->get_option( 'hide_quiz_details' );
 
 	if ( $context == 'course-single-previous-attempts' && is_array( $attempt_list ) && count( $attempt_list ) ) {
 		// Provide the attempt data from the first attempt
@@ -13,11 +14,21 @@
 ?>
 
 <?php if ( is_array( $attempt_list ) && count( $attempt_list ) ): ?>
-	<div class="tutor-table-responsive tutor-mt-24">
+	<div class="tutor-table-responsive tutor-my-24">
 		<table class="tutor-table tutor-table-quiz-attempts">
 			<thead>
 				<tr>
 					<?php foreach ( $table_columns as $key => $column ) : ?>
+						<?php
+						/**
+						 * Pro feature: Only for frontend
+						 * @since 2.07
+						 */
+						if ( $key === 'details' && ! is_admin() && ! current_user_can( 'tutor_instructor') && true === $enabled_hide_quiz_details ) {
+							continue;
+						}
+						?>
+							
 						<th style="<?php echo $key == 'quiz_info' ? 'width: 30%;' : ''; ?>"><?php echo $column; ?></th>
 					<?php endforeach; ?>
 				</tr>
@@ -57,6 +68,15 @@
 					?>
 					<tr>
 						<?php foreach ( $table_columns as $key => $column ) : ?>
+							<?php
+							/**
+							 * Pro feature: Only for frontend
+							 * @since 2.07
+							 */
+							if (  $key === 'details' && ! is_admin() && ! current_user_can( 'tutor_instructor') && true === $enabled_hide_quiz_details ) {
+								continue;
+							}
+							?>
 							<td>
 								<?php if ( $key == "checkbox" ) : ?>
 									<div class="tutor-d-flex">
@@ -70,7 +90,23 @@
 											<?php echo date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $attempt->attempt_ended_at ) ); ?>
 										</div>
 										<div class="tutor-mt-8">
-											<?php echo get_the_title( $attempt->course_id ); ?>
+											<?php
+												// For admin panel
+												if ( is_admin() ) {
+													esc_html_e( get_the_title( $attempt->quiz_id ) );
+												} else {
+													// For frontend
+													esc_html_e( get_the_title( $attempt->quiz_id ) );
+													?>
+													<div class="tooltip-wrap tooltip-icon-custom" >
+														<i class="tutor-icon-circle-info-o tutor-color-muted tutor-ml-4 tutor-fs-7"></i>
+														<span class="tooltip-txt tooltip-right">
+															<?php esc_html_e( get_the_title( $attempt->course_id ) ) ?>
+														</span>
+													</div>
+													<?php
+												}
+											?>
 										</div>
 										<div class="tutor-fs-7 tutor-mt-8">
 											<?php
@@ -83,7 +119,7 @@
 										<?php do_action( 'tutor_quiz/table/after/course_title', $attempt, $context ); ?>
 									</div>
 								<?php elseif ( $key == "course" ) : ?>
-									<?php echo get_the_title( $attempt->course_id ); ?>
+									<?php esc_html_e( get_the_title( $attempt->course_id ) ); ?>
 								<?php elseif ( $key == "question" ) : ?>
 									<?php echo count( $answers ); ?>
 								<?php elseif ( $key == "total_marks" ) : ?>

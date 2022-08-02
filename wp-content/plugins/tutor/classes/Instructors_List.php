@@ -427,4 +427,5 @@ class Instructors_List {
 		$instructor->remove_role( tutor()->instructor_role );
 		do_action( 'tutor_after_blocked_instructor', $instructor_id );
 	}
+
 }

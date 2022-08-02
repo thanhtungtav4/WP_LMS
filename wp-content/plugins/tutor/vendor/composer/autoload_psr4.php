@@ -7,5 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Tutor\\Models\\' => array($baseDir . '/models'),
+    'Tutor\\Helpers\\' => array($baseDir . '/helpers'),
     'Tutor\\Cache\\' => array($baseDir . '/cache'),
 );

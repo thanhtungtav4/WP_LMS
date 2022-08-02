@@ -3,9 +3,9 @@ Contributors: themeum
 Donate link: https://www.themeum.com
 Tags: lms, course, elearning, education, learning management system
 Requires at least: 5.3
-Tested up to: 6.0
+Tested up to: 6.0.1
 Requires PHP: 7.0
-Stable tag: 2.0.6
+Stable tag: 2.0.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -224,6 +224,43 @@ Looking for the best LMS for WordPress? Get Tutor and start your e-learning webs
 31. Mobile Responsive: Highly responsive UI designed for quality user experience
 
 == Changelog ==
+
+= 2.0.8 - July 25, 2022
+
+Fix: Settings was not being saved in some specific cases
+Fix: Settings was throwing a console error regarding TinyMCE
+Fix: Settings was being saved in other cases,  but the "Save" button was not being marked as saved
+
+= 2.0.7 - July 21, 2022
+
+New: Admin will be able to change the Main Instructor for a Course
+New: Next and Previous button is introduced for the Quiz page once a Quiz is Completed
+New: Instructor/Admin will be able to set "Sale Price" (Discounted Price) in the Course Builder
+New: Once a Course is created from WP Admin, it will create an associated WooCommerce Product as well
+New: "Minimum Days Before Balance is Available" settings is introduced for Balance Withdrawal time management
+New: Admin will be able to hide Quiz Details from "My Quiz Attempts" page
+New: On all lesson completion, the course will be Completed automatically, Admin can enable it from Settings
+New: Tutor Calendar will now highlight the Zoom Meeting Event Days
+Fix: In WP Dashboard, the Quiz Attempts page was showing Course information under the "Quiz Info" column
+Fix: Zoom Meeting page was showing an error if Meeting Title or Description would contain Single Quote
+Fix: Admin was not being able to Enable/Disable the Course Sorting option from WP Admin or Shortcode
+Fix: Email Footer Customization was not working
+Fix: The "Reply" boxes were remaining uncollapsed when the "Load More" button is clicked on a Single Course page under the "Q/A" Tab
+Fix: On the "Completed A Course" email the Certificate Download link was appearing outside the Email Body
+Fix: An unnecessary alert message was appearing on the "Become an Instructor" page
+Fix: When strict mode is on, it was showing Wrong Alert Text
+Fix: The Empty Data Alert Message on the Course Analytics page was not translatable
+Fix: The "Assignment Submitted" date-time was showing as per GMT but not Site's Time on the Assignment Details page of WP Admin
+Fix: Enrolled users were able to see all the plans when Paid Membership Pro is Enable
+Fix: Course Content Access option for Admin and Instructor was not working with Paid Membership Pro
+Fix: Other roles except Admin (like Editor) were not being able to access WP Admin when Hide Admin Bar is enabled
+Fix: Copied Course Assignments were not deletable from the Assignments page on the Front-site
+Fix: In a Course, the General Zoom Meeting List was not appearing on the Course Edit page for Admin and Instructors
+Fix: On the new Tutor LMS installations, the Preset Color default setting was being "Custom" instead of "Default"
+Fix: Share Percentage setting was appearing even when Revenue Sharing is disabled
+Fix: Unwanted link was appearing in the WP Dashboard Page
+Fix: Search was not working while manually enrolling someone from the Modal
+Fix: The "Reply" boxes were remaining uncollapsed when the "Load More" button is clicked on a Single Course page under the "Q/A" Tab
 
 = 2.0.6 - June 13, 2022
 
