@@ -448,13 +448,16 @@ article {
   .c-master .l-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
     .c-master .l-container .item {
       text-align: center;
-      width: 33.3%; }
+      width: 33.3%;
+      margin: 30px 0; }
       @media screen and (max-width: 767px) {
         .c-master .l-container .item {
-          width: 100%; } }
+          width: 100%;
+          margin: 20px 0; } }
       .c-master .l-container .item img {
         width: 208px;
         height: 213px; }

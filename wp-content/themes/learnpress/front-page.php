@@ -24,34 +24,16 @@
             <?php if( have_rows('dien_gia', 'option') ): ?>
               <?php while( have_rows('dien_gia', 'option') ) : the_row(); ?>
               <div class="item">
-              <div class="item_img"><img loading="lazy"  src="<?php echo get_template_directory_uri();?>/assets/images/master.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/master.png"></div>
+              <div class="item_img">
+                <img loading="lazy"  src="<?php (get_sub_field('anh') != null) ? print get_sub_field('anh') : print get_template_directory_uri() .'/assets/images/master.png' ?>" data-src="<?php (get_sub_field('anh') != null) ? print get_sub_field('anh') : print get_template_directory_uri() .'/assets/images/master.png' ?>"></div>
               <div class="item_content">
-                <h4>Nguyễn Duy Anh</h4>
+                <h4> <?php echo get_sub_field('ten'); ?></h4>
                 <p>
-                   Founder <br>@FutureBandVietNam</p>
+                <?php echo get_sub_field('chức_vụ'); ?> <br><?php echo get_sub_field('extra'); ?></p>
               </div>
             </div>
-              
-          
               <?php endwhile; ?>
           <?php endif; ?>
-           
-            <div class="item">
-              <div class="item_img"><img loading="lazy"  src="<?php echo get_template_directory_uri();?>/assets/images/master.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/master.png"></div>
-              <div class="item_content">
-                <h4>Nguyễn Duy Anh</h4>
-                <p>
-                   Founder <br>@FutureBandVietNam</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="item_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/master.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/master.png"></div>
-              <div class="item_content">
-                <h4>Nguyễn Duy Anh</h4>
-                <p>
-                   Founder <br>@FutureBandVietNam</p>
-              </div>
-            </div>
           </div>
         </div>
         <div class="c-lnew">
@@ -94,14 +76,6 @@
                     echo 'No results!';
                 }
                 ?>
-
-                <!-- <li class="c-learn_item">
-                  <div class="c-learn_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/item_home.jpg" alt=""></div>
-                  <div class="c-learn_content">
-                    <h4>Maketing Foundation</h4>
-                    <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="http://">Xem Thêm</a>
-                  </div>
-                </li> -->
               </ul>
             </div>
           </div>
