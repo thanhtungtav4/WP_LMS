@@ -21,7 +21,9 @@
         <div class="c-master">
           <h3>Diễn Giả</h3>
           <div class="l-container">
-            <div class="item">
+            <?php if( have_rows('dien_gia', 'option') ): ?>
+              <?php while( have_rows('dien_gia', 'option') ) : the_row(); ?>
+              <div class="item">
               <div class="item_img"><img loading="lazy"  src="<?php echo get_template_directory_uri();?>/assets/images/master.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/master.png"></div>
               <div class="item_content">
                 <h4>Nguyễn Duy Anh</h4>
@@ -29,6 +31,11 @@
                    Founder <br>@FutureBandVietNam</p>
               </div>
             </div>
+              
+          
+              <?php endwhile; ?>
+          <?php endif; ?>
+           
             <div class="item">
               <div class="item_img"><img loading="lazy"  src="<?php echo get_template_directory_uri();?>/assets/images/master.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/master.png"></div>
               <div class="item_content">

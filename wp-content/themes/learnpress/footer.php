@@ -31,7 +31,7 @@
           </dl>
           <dl>
             <dt>Trợ giúp</dt>
-            <dd><a href="/dang-ky-tai-khoan">Đăng ký tài khoản</a></dd>
+            <dd><a href="/student-registration/">Đăng ký tài khoản</a></dd>
             <dd><a href="/dieu-khoan-xu-dung">Điều khoản sử dụng</a></dd>
             <dd><a href="/quyen-rieng-tu">Quyền riêng tư</a></dd>
           </dl>

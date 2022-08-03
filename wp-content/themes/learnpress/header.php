@@ -34,7 +34,7 @@ $txtLogin ="Đăng nhập";
               <h1>FUTURE BRAND VIETNAM</h1></a></div>
           <nav>
             <ul class="nav-menu">
-              <li class="nav-menu_item "><a href="#">Về Chúng Tôi</a></li>
+              <li class="nav-menu_item <?php (basename(get_permalink()) ==  've-chung-toi') ? print 'is_active' : '' ?>"><a href="/ve-chung-toi/">Về Chúng Tôi</a></li>
               <li class="nav-menu_item <?php (get_queried_object()->name ==  'courses') ? print 'is_active' : '' ?>"><a href="/courses/">Khóa Học</a></li>
               <li class="nav-menu_item <?php (basename(get_permalink()) ==  'blog') ? print 'is_active' : '' ?>"><a href="/blog">Blog</a></li>
               <li class="nav-menu_item <?php (basename(get_permalink()) ==  'ebook') ? print 'is_active' : '' ?>"><a href="/ebook">Ebook</a></li>
