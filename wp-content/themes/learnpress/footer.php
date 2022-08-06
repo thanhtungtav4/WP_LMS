@@ -55,7 +55,8 @@
         dot: false,
         autoplay: true,
         items: 1,
-        autoplayHoverPause: true,
+        autoplayTimeout:4000,
+        autoplayHoverPause: false,
       })
       var owl = $('.owl-carousel');
       owl.owlCarousel();

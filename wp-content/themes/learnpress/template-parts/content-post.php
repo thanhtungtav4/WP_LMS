@@ -17,11 +17,12 @@
             <?php the_content() ?>
             </div>
           </div>
+          <?php if(get_field('is_show') == 1) :?>
           <div class="c-avd">
             <div class="c-avd_inner">
-              <div class="c-avd_img"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/img02.png" src="<?php echo get_template_directory_uri();?>/assets/images/img02.png"></div>
+              <div class="c-avd_img"><img class="lazy-loaded-image lazy" data-src="<?php (get_field('image')) ? print the_field('image') : print get_template_directory_uri().'/assets/images/img02.png' ?>" src="<?php (get_field('image')) ? print the_field('image') : print get_template_directory_uri().'/assets/images/img02.png' ?>"></div>
               <div class="c-avd_content">
-                <h3>Quản lý dự án quảng cáo</h3>
+                <h3><?php echo the_field('tieu_de') ?></h3>
                 <div class="c-avd_area">
                   <div class="c-avd_btn"><a class="shop" target="_blank" href="<?php the_field('link_dang_ky') ?>">Đăng ký</a></div>
                   <div class="c-avd_btn"><a class="play" target="_blank" href="<?php the_field('link_trailer') ?>">Trailer</a></div>
@@ -29,6 +30,19 @@
               </div>
             </div>
           </div>
+          <?php endif; ?>
+          
+          <?php if(get_field('is_show_main')) : ?>
+            <div class="l-container">
+              <div class="c-detail">
+                <div class="c-detail_img">
+                  <a  href="<?php the_field('link_to_main') ?>" taget="_blank">
+                    <img src="<?php the_field('image_main') ?>" data-src="<?php the_field('image_main') ?>">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <?php endif; ?>
         </div>
         <div class="c-learn blog">
           <div class="l-container">
