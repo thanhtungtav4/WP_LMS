@@ -317,7 +317,7 @@ if( function_exists('acf_add_local_field_group') ):
 		'description' => '',
 		'show_in_rest' => 0,
 	));
-	
+
 	acf_add_local_field_group(array(
 		'key' => 'group_62ed5837eb81f',
 		'title' => 'Quản lý Poster Bài Viết',
@@ -366,9 +366,9 @@ if( function_exists('acf_add_local_field_group') ):
 				'maxlength' => '',
 			),
 			array(
-				'key' => 'field_62ed61bf2daff',
-				'label' => 'Show',
-				'name' => 'is_show_main',
+				'key' => 'field_62ed61e836287',
+				'label' => 'show',
+				'name' => 'is_show',
 				'type' => 'true_false',
 				'instructions' => '',
 				'required' => 0,
@@ -378,9 +378,9 @@ if( function_exists('acf_add_local_field_group') ):
 					'class' => '',
 					'id' => '',
 				),
-				'message' => '',
-				'default_value' => 0,
-				'ui' => 0,
+				'message' => 'Bạn có muốn hiển thị',
+				'default_value' => 1,
+				'ui' => 1,
 				'ui_on_text' => '',
 				'ui_off_text' => '',
 			),
