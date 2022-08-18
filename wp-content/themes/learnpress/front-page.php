@@ -7,13 +7,17 @@
         </div>
         <div class="c-step">
           <div class="c-step_inner">
-            <h3>Bước vào ngành Marketing cùng Tomorrow Marketers</h3>
-            <p>Chúng tôi nỗ lực giúp các bạn trẻ yêu thích Marketing có một bước khởi đầu hoàn hảo vào <br>ngành Marketing chuyên nghiệp, thông qua:</p>
+            <h3><?php the_field('tieu_de', 'option'); ?></h3>
+            <p><?php the_field('mo_ta', 'option'); ?></p>
             <div class="l-container">
               <ul>
-                <li><img loading="lazy" src="https://picsum.photos/400/300" data-src="https://picsum.photos/400/300" alt=""></li>
-                <li><img loading="lazy" src="https://picsum.photos/400/300" data-src="https://picsum.photos/400/300" alt=""></li>
-                <li><img loading="lazy" src="https://picsum.photos/400/300" data-src="https://picsum.photos/400/300" alt=""></li>
+              <?php if( have_rows('image', 'option') ): ?>
+                <?php while( have_rows('image', 'option') ) : the_row(); ?>
+                  <li>
+                    <img loading="lazy"  src="<?php (get_sub_field('image_child') != null) ? print get_sub_field('image_child') : print 'https://picsum.photos/400/300'?>" data-src="<?php (get_sub_field('image_child') != null) ? print get_sub_field('image_child') : print 'https://picsum.photos/400/300'?>">
+                  </li>
+                <?php endwhile; ?>
+              <?php endif; ?>
               </ul>
             </div>
           </div>
@@ -25,7 +29,8 @@
               <?php while( have_rows('dien_gia', 'option') ) : the_row(); ?>
               <div class="item">
               <div class="item_img">
-                <img loading="lazy"  src="<?php (get_sub_field('anh') != null) ? print get_sub_field('anh') : print get_template_directory_uri() .'/assets/images/master.png' ?>" data-src="<?php (get_sub_field('anh') != null) ? print get_sub_field('anh') : print get_template_directory_uri() .'/assets/images/master.png' ?>"></div>
+                <img loading="lazy"  src="<?php (get_sub_field('anh') != null) ? print get_sub_field('anh') : print get_template_directory_uri() .'/assets/images/master.png' ?>" data-src="<?php (get_sub_field('anh') != null) ? print get_sub_field('anh') : print get_template_directory_uri() .'/assets/images/master.png' ?>">
+              </div>
               <div class="item_content">
                 <h4> <?php echo get_sub_field('ten'); ?></h4>
                 <p>
@@ -39,8 +44,8 @@
         <div class="c-lnew">
           <div class="l-container">
             <div class="c-lnew_content">
-              <h3>KHÓA HỌC MỚI</h3>
-              <p>Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.Khoá học cung cấp tư duy marketing nền tảng dành cho người mới bắt đầu, giúp hệ thống hoá kiến thức chuyên môn và định hướng lộ trình phát triển nghề nghiệp.</p><a href="/courses/">Khám phá các khóa học</a>
+              <h3><?php the_field('tieu_de_khoa_học', 'option'); ?></h3>
+              <p><?php the_field('mo_ta_khoa_học', 'option'); ?></p><a href="/courses/">Khám phá các khóa học</a>
             </div>
             <div class="c-lnew_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" alt=""></div>
           </div>
@@ -85,8 +90,8 @@
             <div class="c-ebook_inner">
               <div class="image"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/union.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/union.jpg" alt=""></div>
               <div class="content">
-                <h3>KHÁM PHÁ THẾ GIỚI MARKETING</h3>
-                <p>Adobe illustrator CC 2015 là phiên bản thiết kế đồ hoạ Ai thấp nhất phù hợp với cấu hình PC của mọi loại máy và dành cho người mới bắt đầu. Adobe illustrator CC</p><a href="/blog/">KHÁM PHÁ BLOG</a>
+                <h3><?php the_field('kham_pha_the_gioi_marketing', 'option'); ?></h3>
+                <p><?php the_field('mo_ta_the_gioi_marketing', 'option'); ?></p><a href="/blog/">KHÁM PHÁ BLOG</a>
               </div>
             </div>
           </div>

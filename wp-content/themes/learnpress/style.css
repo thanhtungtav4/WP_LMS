@@ -37,6 +37,29 @@
 .tutor-topbar-mark-btn {
   display: none;
 }
+.single-post h1{
+  color: #34A606;
+}
+.block_flex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block_flex img{
+  width: 394px;
+}
+.block_flex .content{
+  width: calc(100% - 420px);
+}
+.c-content h2, .c-content h3, .c-content h4{
+  text-align: left !important;
+}
+@media only screen and (max-width: 768px) {
+  .block_flex .content{
+    width: 100%;
+    margin: 2rem 0;
+  }
+}
 @media only screen and (min-width: 768px) {
   .c-learn_inner ul.courses-list li{
     width: calc(33.3% - 40px);

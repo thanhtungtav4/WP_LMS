@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 6.0.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-16 16:23:07+0000\n"
+"PO-Revision-Date: 2022-08-03 10:48:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -285,6 +285,28 @@ msgstr "Tháng Một"
 msgid "Uncategorized"
 msgstr "Chưa phân loại"
 
+#: wp-includes/theme.php:3824
+msgid "Whether a theme uses block-based templates."
+msgstr "Giao diện sử dụng template hỗ trợ block."
+
+#: wp-includes/option.php:2250
+msgid "The ID of the page that should display the latest posts"
+msgstr "ID của trang nên hiển thị những bài viết mới nhất"
+
+#: wp-includes/option.php:2240
+msgid "The ID of the page that should be displayed on the front page"
+msgstr "ID của trang sẽ được hiển thị trên trang chủ"
+
+#: wp-includes/option.php:2230
+msgid "What to show on the front page"
+msgstr "Chọn mục hiển thị ở trang chủ"
+
+#. translators: 1: PHP function name, 2: Version number, 3: Alternative
+#. function name.
+#: wp-includes/functions.php:5374
+msgid "Function %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
+msgstr "Hàm %1$s hiện tại <strong>không dùng nữa</strong> từ phiên bản %2$s! Sử dụng %3$s để thay thế."
+
 #: wp-includes/blocks/read-more/block.json
 msgctxt "block description"
 msgid "Displays the link of a post, page, or any other content-type."
@@ -363,7 +385,7 @@ msgstr "Một khối nâng cao cho phép hiển thị nhận xét của bài vi�
 #: wp-includes/blocks/comments-query-loop/block.json
 msgctxt "block title"
 msgid "Comments Query Loop"
-msgstr "Vòng lặp Truy vấn Bình luận"
+msgstr "Block danh sách bình luận"
 
 #: wp-includes/blocks/comments-pagination/block.json
 msgctxt "block description"
@@ -450,6 +472,11 @@ msgctxt "block title"
 msgid "Avatar"
 msgstr "Ảnh đại diện"
 
+#: wp-includes/js/dist/block-library.js:31319
+#: wp-includes/js/dist/block-library.js:31360 wp-admin/includes/upgrade.php:273
+msgid "A WordPress Commenter"
+msgstr "Một người bình luận WordPress"
+
 #. translators: %s: Post title.
 #: wp-includes/blocks/comments-title.php:69
 #: wp-includes/js/dist/block-library.js:9614
@@ -506,6 +533,11 @@ msgstr "Không thể chọn cơ sở dữ liệu"
 #: wp-includes/widgets/class-wp-widget-media.php:501
 msgid "That file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
 msgstr "Không tìm thấy file. Kiểm tra <a href=\"%s\">thư viện media</a> và chắc chắn rằng nó không bị xóa."
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-image.php:44
+msgid "That image cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "Không tìm thấy ảnh này. Kiểm tra <a href=\"%s\">thư viện</a>và xác nhận nó chưa xoá."
 
 #: wp-includes/script-loader.php:3223
 msgid "Webfont font weight must be a properly formatted string or integer."
@@ -586,6 +618,11 @@ msgstr "ZB"
 msgctxt "unit symbol"
 msgid "YB"
 msgstr "YB"
+
+#: wp-includes/class-wp-theme.php:993
+msgctxt "color scheme"
+msgid "Light"
+msgstr "Sáng"
 
 #: wp-includes/class-wp-theme.php:992
 msgctxt "color scheme"
@@ -825,6 +862,26 @@ msgstr "Trình soạn thảo (beta)"
 msgid "Confirm"
 msgstr "Xác nhận"
 
+#. translators: 1: 'wp-edit-post', 2: 'wp-edit-widgets', 3:
+#. 'wp-customize-widgets'.
+#: wp-includes/widgets.php:2098
+msgid "\"%1$s\" style should not be enqueued together with the new widgets editor (%2$s or %3$s)."
+msgstr "Style \"%1$s\" không nên được gọi cùng với style cho trình sửa widget (%2$s hoặc %3$s)."
+
+#. translators: 1: 'wp-editor', 2: 'wp-edit-widgets', 3:
+#. 'wp-customize-widgets'.
+#: wp-includes/widgets.php:2085
+msgid "\"%1$s\" script should not be enqueued together with the new widgets editor (%2$s or %3$s)."
+msgstr "Script\"%1$s\" không nên được gọi cùng với script cho trình sửa widget (%2$s hoặc %3$s)."
+
+#: wp-includes/class-wp-taxonomy.php:609
+msgid "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band."
+msgstr "Chỉ định một chuyên mục cha để tạo đa cấp. Chẳng hạn, chuyên mục Nhạc sẽ là chuyên mục cha của Hiphop và Jazz."
+
+#: wp-includes/class-wp-taxonomy.php:608
+msgid "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens."
+msgstr "&#8220;slug&#8221; là đường dẫn thân thiện của tên. Nó thường chỉ bao gồm kí tự viết thường, số và dấu gạch ngang, không dùng tiếng Việt."
+
 #: wp-includes/taxonomy.php:215
 msgid "Template Part Area"
 msgstr "Vùng chứa thành phần của mẫu"
@@ -849,6 +906,26 @@ msgstr "Không tìm thấy URL. Phản hồi trả lại mã trạng thái khôn
 msgid "Invalid URL"
 msgstr "URL không hợp lệ"
 
+#. translators: 1: HTML meta tag, 2: HTML meta tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:111
+msgid "The Open Graph image link of the %1$s or %2$s element from the URL."
+msgstr "Link ảnh Open Graph của thẻ %1$s hoặc %2$s từ URL."
+
+#. translators: %s: HTML meta tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:101
+msgid "The content of the %s element from the URL."
+msgstr "Nội dung từ thẻ %s từ URL."
+
+#. translators: %s: HTML link tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:90
+msgid "The favicon image link of the %s element from the URL."
+msgstr "Liên kết ảnh favicon cho thẻ %s từ URL."
+
+#. translators: %s: HTML title tag.
+#: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:80
+msgid "The contents of the %s element from the URL."
+msgstr "Nội dung cho thẻ %s từ URL."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-url-details-controller.php:46
 msgid "The URL to process."
 msgstr "URL xử lý."
@@ -872,6 +949,26 @@ msgstr "Kiểu bài viết sẽ được nhận mẫu."
 #: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:744
 msgid "Limit to the specified template part area."
 msgstr "Giới hạn vùng chứa thành phần mẫu cụ thể."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:377
+msgid "REST namespace route for the taxonomy."
+msgstr "Namespace REST route cho taxonomy."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:371
+msgid "Whether to make the post type available for selection in navigation menus."
+msgstr "Thêm giao diện hiển thị mặc định để chọn liên kết trong menu."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:367
+msgid "Whether to generate a default UI for managing this post type."
+msgstr "Thêm giao diện hiển thị mặc định để quản lý loại bài đăng này."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:361
+msgid "The visibility settings for the post type."
+msgstr "Cài đặt hiển thị cho loại bài viết."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:355
+msgid "REST route's namespace for the post type."
+msgstr "Route REST namespace cho loại bài viết."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-menus-controller.php:561
 msgid "Whether to automatically add top level pages to this menu."
@@ -933,6 +1030,14 @@ msgstr "Nhãn đơn được sử dụng để mô tả loại menu này."
 msgid "The target attribute of the link element for this menu item."
 msgstr "Thuộc tính đích của phần tử liên kết cho mục menu này."
 
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:828
+msgid "The database ID of the original object this menu item represents, for example the ID for posts or the term_id for categories."
+msgstr "ID cơ sở dữ liệu của đối tượng ban đầu mà mục menu này đại diện, ví dụ: ID cho các bài viết và term_id cho các chuyên mục."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:819
+msgid "The type of object originally represented, such as \"category\", \"post\", or \"attachment\"."
+msgstr "Loại đối tượng được đại diện, chẳng hạn như \"chuyên mục\", \"bài viết\" hoặc \"file đính kèm\"."
+
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:811
 msgid "The DB ID of the nav_menu_item that is this item's menu parent, if any, otherwise 0."
 msgstr "ID DB của nav_menu_item là nguồn gốc menu của mục này, nếu có, nếu không thì là 0."
@@ -976,6 +1081,14 @@ msgstr "Tiêu đề cho đối tượng, như nó đã tồn tại trong cơ s�
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:690
 msgid "Get linked object."
 msgstr "Lấy đối tượng đã liên kết."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:454
+msgid "The url is required when using a custom menu item type."
+msgstr "URL bắt buộc khi sử dụng menu với link riêng."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:451
+msgid "The title is required when using a custom menu item type."
+msgstr "Tiêu đề bắt buộc khi sử dụng menu link riêng."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-menu-items-controller.php:288
@@ -1028,6 +1141,22 @@ msgstr "Người xác định chủ đề"
 #: wp-includes/rest-api/endpoints/class-wp-rest-edit-site-export-controller.php:62
 msgid "Sorry, you are not allowed to export templates and template parts."
 msgstr "Rất tiếc, bạn không được phép xuất mẫu và thành phần của mẫu."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:545
+msgid "Public facing and editor style handle."
+msgstr "Public facing and editor style handle."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-types-controller.php:524
+msgid "Public facing and editor script handle."
+msgstr "Public facing and editor script handle."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-block-directory-controller.php:277
+msgid "The date when the block was last updated."
+msgstr "Thời gian block được cập nhật."
+
+#: wp-includes/post.php:504
+msgid "Navigation menus that can be inserted into your site."
+msgstr "Menu có thể được thêm vào website của bạn."
 
 #: wp-includes/post.php:502
 msgid "Navigation Menus list"
@@ -1089,6 +1218,15 @@ msgstr "Thêm Menu điều hướng mới"
 msgctxt "Navigation Menu"
 msgid "Add New"
 msgstr "Thêm mới"
+
+#: wp-includes/post.php:457
+msgid "Global styles to include in themes."
+msgstr "Style chung được bao gồm trong giao diện."
+
+#: wp-includes/post.php:456
+msgctxt "post type general name"
+msgid "Global Styles"
+msgstr "Style chung"
 
 #: wp-includes/post.php:417
 msgid "Template parts to include in your templates."
@@ -1160,6 +1298,26 @@ msgctxt "Template Part"
 msgid "Add New"
 msgstr "Tạo mới"
 
+#: wp-includes/post.php:399
+msgctxt "post type singular name"
+msgid "Template Part"
+msgstr "Template Part"
+
+#: wp-includes/post.php:398
+msgctxt "post type general name"
+msgid "Template Parts"
+msgstr "Template Part"
+
+#: wp-includes/post.php:339
+msgctxt "post type singular name"
+msgid "Template"
+msgstr "Template"
+
+#: wp-includes/post.php:338
+msgctxt "post type general name"
+msgid "Templates"
+msgstr "Template"
+
 #. translators: 1: Path to the JSON file, 2: Error message.
 #: wp-includes/functions.php:4546
 msgid "Error when decoding a JSON file at path %1$s: %2$s"
@@ -1174,6 +1332,12 @@ msgstr "Tập tin %s không tồn tại!"
 #: wp-includes/js/dist/media-utils.js:609 wp-admin/includes/file.php:934
 msgid "Sorry, you are not allowed to upload this file type."
 msgstr "Rất tiếc, bạn không được phép tải lên định dạng tập tin này."
+
+#. translators: %s: URL to the themes page (also it activates the theme).
+#: wp-includes/customize/class-wp-customize-theme-control.php:267
+#: wp-admin/includes/theme.php:1017
+msgid "However, you can still <a href=\"%s\">activate this theme</a>, and use the Site Editor to customize it."
+msgstr "Tuy vậy, bạn vẫn có thể <a href=\"%s\">kích hoạt giao diện</a>, và sử dụng Trình sửa Trang để tuỳ chỉnh nó."
 
 #. translators: %s: Template part slug.
 #. translators: %s: Template part slug

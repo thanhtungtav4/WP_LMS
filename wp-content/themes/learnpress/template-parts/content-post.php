@@ -7,7 +7,14 @@
               <li><a href="#"><?php echo get_the_category()[0]->name ?></a></li>
             </ul>
             <h1><?php the_title() ?></h1>
-            <div class="c-detail_img"><img src="<?php wp_get_attachment_image_src( get_post_thumbnail_id(), 'large')[0] ? print wp_get_attachment_image_src( get_post_thumbnail_id(), 'large')[0] : 'https://picsum.photos/1900/578' ?>"></div>
+            <div class="block_flex">
+              <div class="img">
+                <img src="<?php wp_get_attachment_image_src( get_post_thumbnail_id(), 'medium')[0] ? print wp_get_attachment_image_src( get_post_thumbnail_id(), 'medium')[0] : 'https://picsum.photos/1900/578' ?>">
+              </div>
+              <div class="content">
+                <?php the_excerpt() ?>
+              </div>
+            </div>
             <dl class="c-footer_social">
               <dd><a  target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png" src="<?php echo get_template_directory_uri();?>/assets/images/facebook.png"></a></dd>
               <dd><a target="_blank" href="https://twitter.com/intent/tweet?text=<?php the_permalink() ?>"><img class="lazy-loaded-image lazy" data-src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png" src="<?php echo get_template_directory_uri();?>/assets/images/twitter.png"></a></dd>
@@ -31,7 +38,7 @@
             </div>
           </div>
           <?php endif; ?>
-          
+
           <?php if(get_field('is_show_main')) : ?>
             <div class="l-container">
               <div class="c-detail">
@@ -41,7 +48,7 @@
                   </a>
                 </div>
               </div>
-              <?php //comments_template(); ?> 
+              <?php //comments_template(); ?>
             </div>
             <?php endif; ?>
         </div>
