@@ -65,4 +65,7 @@
     width: calc(33.3% - 40px);
     margin: 20px 20px 30px;
   }
+  .tutor-course-single-content-wrapper {
+    overflow: hidden !important;
+}
 }
