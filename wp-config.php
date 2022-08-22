@@ -47,7 +47,7 @@ define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'wp_lms') );
 define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'root') );
 
 /** Database password */
-define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', 'mysql') );
+define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', '') );
 
 /**
  * Docker image fallback values above are sourced from the official WordPress installation wizard:
@@ -107,8 +107,8 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', 'true') );
-
+//define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', 'true') );
+define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact

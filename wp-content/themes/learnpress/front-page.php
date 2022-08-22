@@ -14,7 +14,10 @@
               <?php if( have_rows('image', 'option') ): ?>
                 <?php while( have_rows('image', 'option') ) : the_row(); ?>
                   <li>
+                  <figure>
                     <img loading="lazy"  src="<?php (get_sub_field('image_child') != null) ? print get_sub_field('image_child') : print 'https://picsum.photos/400/300'?>" data-src="<?php (get_sub_field('image_child') != null) ? print get_sub_field('image_child') : print 'https://picsum.photos/400/300'?>">
+                    <figcaption><?php print get_sub_field('name_child') ?></figcaption>
+                  <figure>
                   </li>
                 <?php endwhile; ?>
               <?php endif; ?>
