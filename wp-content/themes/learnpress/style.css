@@ -69,6 +69,12 @@
   font-size: 1.5rem;
   line-height: 1.7;
 }
+figcaption{
+  padding: 10px;
+  color: #50575e;
+  font-size: 1.6rem;
+  font-style: italic;
+}
 #ez-toc-container.counter-decimal ul.ez-toc-list li a::before, .ez-toc-widget-container.counter-decimal ul.ez-toc-list li a::before {
   content: url(./assets/images/up-next.svg);
   transform: scale(.8) translateY(6px);
