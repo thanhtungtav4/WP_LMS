@@ -24,7 +24,7 @@
             <?php the_content() ?>
             </div>
           </div>
-          <?php if(get_field('is_show') == 1) :?>
+          <?php if(get_field('is_show')) :?>
           <div class="c-avd">
             <div class="c-avd_inner">
               <div class="c-avd_img"><img class="lazy-loaded-image lazy" data-src="<?php (get_field('image')) ? print the_field('image') : print get_template_directory_uri().'/assets/images/img02.png' ?>" src="<?php (get_field('image')) ? print the_field('image') : print get_template_directory_uri().'/assets/images/img02.png' ?>"></div>
@@ -39,7 +39,7 @@
           </div>
           <?php endif; ?>
 
-          <?php if(get_field('is_show_main')) : ?>
+          <?php if(get_field('show_ads')) : ?>
             <div class="l-container">
               <div class="c-detail">
                 <div class="c-detail_img">
@@ -48,13 +48,13 @@
                   </a>
                 </div>
               </div>
-              <?php //comments_template(); ?>
             </div>
             <?php endif; ?>
         </div>
         <div class="c-learn blog">
           <div class="l-container">
             <div class="c-learn_inner">
+              <h3>Bài viết liên quan</h3>
               <ul class="publication-list courses-list">
               <?php
               if(get_field('bai_viet_lien_quan')){
