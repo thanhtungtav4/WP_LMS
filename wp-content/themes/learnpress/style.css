@@ -54,6 +54,14 @@
 .c-content h2, .c-content h3, .c-content h4{
   text-align: left !important;
 }
+.c-content a{
+  color: #34A606;
+}
+#ez-toc-container{
+    background: unset;
+    border: 0;
+    box-shadow: unset
+}
 @media only screen and (max-width: 768px) {
   .block_flex .content{
     width: 100%;
