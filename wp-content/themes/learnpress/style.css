@@ -113,6 +113,13 @@ figcaption{
   margin: 0 auto;
   border-top: 2px solid #34a606;
 }
+.c-detail ul li{
+  line-height: 1.8;
+  font-weight: 400;
+}
+.c-detail ul{
+  margin-left: 1.5rem;
+}
 .c-detail ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #34a606; /* Change the color */
@@ -121,10 +128,26 @@ figcaption{
   width: 1.2em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
+.tutor-btn-md {
+  padding: 6px 6px;
+}
+.tutor-card-footer {
+  padding: 16px 10px;
+}
+.woocommerce-Price-amount{
+  font-size: 1.7rem;
+  color: #34a606;
+}
+.tutor-dashboard #tutor-dashboard-footer-mobile {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .block_flex .content{
     width: 100%;
     margin: 2rem 0;
+  }
+  .tutor-table{
+    min-width: unset;
   }
 }
 @media only screen and (min-width: 768px) {
