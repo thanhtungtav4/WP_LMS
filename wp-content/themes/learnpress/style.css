@@ -150,8 +150,8 @@ figcaption{
     min-width: unset;
   }
   .woocommerce .coupon_box button.button {
-    font-size: 1.4rem;
-    padding: 15px 10px;
+    font-size: 1.4rem !important;
+    padding: 15px 10px !important;
 }
 }
 @media only screen and (min-width: 768px) {
