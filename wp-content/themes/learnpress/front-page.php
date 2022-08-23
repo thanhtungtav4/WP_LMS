@@ -53,7 +53,7 @@
             <div class="c-lnew_img"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" data-src="<?php echo get_template_directory_uri();?>/assets/images/new_courser.png" alt=""></div>
           </div>
         </div>
-        <div class="c-info"> <a href="/ve-chung-toi/"><img loading="lazy" src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" data-src="<?php echo get_template_directory_uri();?>/assets/images/img_info.jpg" alt=""></a></div>
+        <div class="c-info"> <a href="/ve-chung-toi/"><img loading="lazy" src="<?php the_field('image', 'option'); ?>" data-src="<?php the_field('image', 'option'); ?>" alt=""></a></div>
         <div class="c-learn blog">
           <div class="l-container">
             <div class="c-learn_inner"><br>
