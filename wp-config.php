@@ -47,7 +47,7 @@ define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'wp_lms') );
 define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'root') );
 
 /** Database password */
-define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', 'mysql') );
+define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', '') );
 
 /**
  * Docker image fallback values above are sourced from the official WordPress installation wizard:
