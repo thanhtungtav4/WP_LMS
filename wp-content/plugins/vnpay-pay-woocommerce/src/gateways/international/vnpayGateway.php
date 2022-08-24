@@ -119,6 +119,7 @@ class vnpayGateway extends \WC_Payment_Gateway {
     }
 
     public function redirect($order_id) {
+        date_default_timezone_set('Asia/Ho_Chi_Minh');
         $order = new \WC_Order($order_id);
         $order->update_status('on-hold');
         $order->add_order_note(__('Giao dịch chờ thanh toán hoặc chưa hoàn tất', 'woocommerce'));
