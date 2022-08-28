@@ -47,17 +47,17 @@ function custom_remove_woo_checkout_fields( $fields ) {
 // ! custom_remove_woo_checkout_fields
 
 // control order status if vnpay succes pay
-add_action( 'woocommerce_thankyou', 'bbloomer_thankyou_change_order_status' );
-function bbloomer_thankyou_change_order_status( $order_id ){
-   if( ! $order_id ) return;
-   $order = wc_get_order( $order_id );
-	 $is_payment = $order->get_payment_method();
-	 if($is_payment == 'vnpay'){
-			$order->update_status( 'wc-processing' );
-	 	}
-	 else{
-		$order->update_status( 'wc-processing' );
-	 }
-}
+// add_action( 'woocommerce_thankyou', 'bbloomer_thankyou_change_order_status' );
+// function bbloomer_thankyou_change_order_status( $order_id ){
+//    if( ! $order_id ) return;
+//    $order = wc_get_order( $order_id );
+// 	 $is_payment = $order->get_payment_method();
+// 	 if($is_payment == 'vnpay'){
+// 			$order->update_status( 'wc-processing' );
+// 	 	}
+// 	 else{
+// 		$order->update_status( 'wc-processing' );
+// 	 }
+// }
 
 // !control order status if vnpay succes pay
