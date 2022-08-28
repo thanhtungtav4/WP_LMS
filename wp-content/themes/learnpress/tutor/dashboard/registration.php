@@ -83,7 +83,7 @@
                         <?php _e('E-Mail', 'tutor'); ?>
                     </label>
 
-                    <input type="text" name="email" value="<?php esc_attr_e(tutor_utils()->input_old('email')); ?>" placeholder="<?php _e('E-Mail', 'tutor'); ?>" required autocomplete="email">
+                    <input type="email" name="email" value="<?php esc_attr_e(tutor_utils()->input_old('email')); ?>" placeholder="<?php _e('E-Mail', 'tutor'); ?>" required autocomplete="email">
                 </div>
             </div>
 
