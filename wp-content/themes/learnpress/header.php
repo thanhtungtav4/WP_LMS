@@ -39,7 +39,7 @@ $txtLogin ="Đăng nhập";
               <li class="nav-menu_item <?php (basename(get_permalink()) ==  'blog') ? print 'is_active' : '' ?>"><a href="/blog">Blog</a></li>
               <li class="nav-menu_item <?php (basename(get_permalink()) ==  'ebook') ? print 'is_active' : '' ?>"><a href="/ebook">Ebook</a></li>
               <li class="nav-menu_item <?php (basename(get_permalink()) ==  'video') ? print 'is_active' : '' ?>"><a href="/video">Video</a></li>
-              <li class="nav-menu_item <?php (basename(get_permalink()) ==  'dashboard-page') ? print 'is_active' : '' ?>"><a href="/dashboard-page/">
+              <li class="nav-menu_item <?php (basename(get_permalink()) ==  'dashboard-page') ? print 'is_active' : '' ?>"><a href="/dashboard-page/"> 
               <?php
                 if($user){
                   echo $user->display_name;
@@ -48,7 +48,13 @@ $txtLogin ="Đăng nhập";
                   echo $txtLogin;
                 }
               ?>
-              </a></li>
+              </a>
+              </li>
+              <?php if(wp_is_mobile() && is_user_logged_in()): ?>
+                  <li class="nav-menu_item">
+                    <a href="/dashboard-page/logout">Đăng Xuất </a>
+                  </li>
+              <?php endif; ?>  
               <li class="nav-menu_item nav-menu_item__card">
                 <div onclick="toggleCart()">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

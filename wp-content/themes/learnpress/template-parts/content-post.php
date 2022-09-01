@@ -1,11 +1,18 @@
 <main class="l-main">
         <div class="l-container">
           <div class="c-detail">
-            <ul class="c-breadcrumb">
-              <li><a href="/"><img src="<?php echo get_template_directory_uri();?>/assets/images/home.svg"></a></li>
+            <!-- <ul class="c-breadcrumb">
+              <li><a href="/"><img src="<?php //echo get_template_directory_uri();?>/assets/images/home.svg"></a></li>
               <li><a href="/blog">BLOG</a></li>
-              <li><a href="#"><?php echo get_the_category()[0]->name ?></a></li>
-            </ul>
+              <li><a href="#"><?php //echo get_the_category()[0]->name ?></a></li>
+            </ul> -->
+            <ul class="c-breadcrumb">
+            <?php
+              if ( function_exists('yoast_breadcrumb') ) {
+               yoast_breadcrumb( '</p><p id=“breadcrumbs”>','</p><p>' );
+              }
+              ?>
+            </ul> 
             <h1><?php the_title() ?></h1>
             <div class="block_flex">
               <div class="img">
