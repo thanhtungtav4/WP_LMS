@@ -7469,7 +7469,7 @@ msgid "oEmbed Responses"
 msgstr "Phản hồi oEmbed"
 
 #. translators: %s: Post custom field name.
-#: wp-includes/post-template.php:1109
+#: wp-includes/post-template.php:1110
 msgctxt "Post custom field name"
 msgid "%s:"
 msgstr "%s:"
@@ -9829,7 +9829,7 @@ msgstr "Thuộc tính tập tin đính kèm"
 
 #. translators: Post revision title. 1: Author avatar, 2: Author name, 3: Time
 #. ago, 4: Date.
-#: wp-includes/post-template.php:1891
+#: wp-includes/post-template.php:1892
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, %3$s (%4$s)"
 
@@ -10558,7 +10558,7 @@ msgctxt "post status"
 msgid "Published"
 msgstr "Đã xuất bản"
 
-#: wp-includes/post-template.php:1728
+#: wp-includes/post-template.php:1729
 msgctxt "post password form"
 msgid "Enter"
 msgstr "Nhập"
@@ -11971,7 +11971,7 @@ msgstr "Độ dài của tên post type phải ở trong khoảng từ 1 đến 
 
 #. translators: Revision date format, see
 #. https://www.php.net/manual/datetime.format.php
-#: wp-includes/post-template.php:1837 wp-includes/post-template.php:1879
+#: wp-includes/post-template.php:1838 wp-includes/post-template.php:1880
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "Ngày j F, Y @ H:i:s"
@@ -13629,7 +13629,7 @@ msgctxt "Comma-separated list of search stopwords in your language"
 msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
 msgstr "đây,đã,đến,ở,bởi,của,cho,dưới,gì,kia,là,một,nào,như,sẽ,sau,tại,tới,từ,trên,trước,trong,vài,về,với"
 
-#: wp-includes/post-template.php:1727
+#: wp-includes/post-template.php:1728
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "Nội dung này được bảo mật. Hãy nhập mật khẩu để xem tiếp:"
 
@@ -13714,7 +13714,7 @@ msgstr[0] "%s tuần"
 msgid "#%d (no title)"
 msgstr "#%d (không đề)"
 
-#: wp-includes/post-template.php:1964
+#: wp-includes/post-template.php:1965
 msgid "JavaScript must be enabled to use this feature."
 msgstr "Để sử dụng tính năng này, bạn cần bật hỗ trợ JavaScript của trình duyệt."
 
@@ -16389,18 +16389,18 @@ msgstr "Bản thảo"
 
 #. translators: %s: Revision date.
 #. translators: %s: Revision date with author avatar.
-#: wp-includes/post-template.php:1841 wp-includes/post-template.php:1901
+#: wp-includes/post-template.php:1842 wp-includes/post-template.php:1902
 msgid "%s [Current Revision]"
 msgstr "%s [Bản hiện tại]"
 
 #. translators: %s: Revision date.
 #. translators: %s: Revision date with author avatar.
-#: wp-includes/post-template.php:1839 wp-includes/post-template.php:1899
+#: wp-includes/post-template.php:1840 wp-includes/post-template.php:1900
 msgid "%s [Autosave]"
 msgstr "%1$s [Tự động lưu]"
 
 #. translators: 'Home' as in a website's home page.
-#: wp-includes/post-template.php:1438
+#: wp-includes/post-template.php:1439
 #: wp-includes/js/dist/block-library.js:19407
 #: wp-includes/js/dist/block-library.js:27331 wp-admin/menu.php:26
 #: wp-admin/network/menu.php:13
@@ -17251,7 +17251,7 @@ msgstr "Bình luận cho %s"
 msgid "Comments for %1$s searching on %2$s"
 msgstr "Phản hồi cho %1$s tìm trên %2$s"
 
-#: wp-includes/deprecated.php:1872 wp-includes/post-template.php:1620
+#: wp-includes/deprecated.php:1872 wp-includes/post-template.php:1621
 msgid "Missing Attachment"
 msgstr "Thiếu tập tin đính kèm"
 
@@ -17921,7 +17921,7 @@ msgstr "Chọn"
 msgid "Close"
 msgstr "Đóng"
 
-#: wp-includes/post-template.php:1274 wp-includes/theme-compat/sidebar.php:117
+#: wp-includes/post-template.php:1275 wp-includes/theme-compat/sidebar.php:117
 #: wp-includes/widgets/class-wp-widget-pages.php:31
 #: wp-includes/widgets/class-wp-widget-pages.php:44 wp-admin/export.php:237
 msgid "Pages"
@@ -18765,7 +18765,7 @@ msgstr "Tiêu đề"
 msgid "No posts found."
 msgstr "Không tìm thấy bài viết nào."
 
-#: wp-activate.php:183 wp-includes/post-template.php:1728
+#: wp-activate.php:183 wp-includes/post-template.php:1729
 #: wp-admin/includes/meta-boxes.php:203
 msgid "Password:"
 msgstr "Mật khẩu:"
